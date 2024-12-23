@@ -1,0 +1,14 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./attachments",
+  "newFileFolderPath": "Inbox",
+  "newFileLocation": "folder",
+  "newLinkFormat": "relative",
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "Templates/"
+  ],
+  "useTab": true
+}

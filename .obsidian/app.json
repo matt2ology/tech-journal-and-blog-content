@@ -6,6 +6,7 @@
   "newLinkFormat": "relative",
   "readableLineLength": true,
   "showLineNumber": true,
+  "trashOption": "none",
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "Templates/"

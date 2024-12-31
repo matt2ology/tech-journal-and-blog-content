@@ -1,0 +1,47 @@
+name: Lint and Format Markdown
+
+on:
+  push:
+    branches:
+      - "main" # Run only on pushes targeting the main branch
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest # Specifies the virtual environment to run the job
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # Action to check out the repository code to the runner
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3 # Action to set up the Node.js environment
+        with:
+          node-version: "16" # Specifies the Node.js version to use
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli2 # Installs the CLI tool for linting Markdown files globally
+
+      - name: Lint Markdown files
+        run: markdownlint-cli2 "**/*.md" # Runs markdownlint on all Markdown files in the repository
+
+      - name: Install Prettier
+        run: npm install -g prettier # Installs Prettier globally for formatting files
+
+      - name: Format Markdown files
+        run: prettier --write "**/*.md" # Formats all Markdown files in the repository
+
+      # Configures Git username for commits
+      # Configures Git email for commits
+      # Stages all changes
+      # Commits changes if there are any
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" 
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Linted and formatted Markdown files"
+
+      # Pushes the committed changes back to the repository
+      - name: Push changes
+        run: |
+          git push origin HEAD

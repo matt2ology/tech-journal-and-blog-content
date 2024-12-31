@@ -18,8 +18,8 @@ title: Literature - {{title}}
 **Link to reference note:**
 
 ## Key Ideas
-<!-- Idea 1: Key point or insights written in your own words -->
--
+
+## <!-- Idea 1: Key point or insights written in your own words -->
 
 ## Related Literature Notes or Atomic Notes
 

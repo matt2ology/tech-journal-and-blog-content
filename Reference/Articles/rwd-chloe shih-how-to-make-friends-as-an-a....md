@@ -1,7 +1,7 @@
 ---
 authors:
   - Chloe Shih
-categories: 
+categories:
 date: 2024-12-23
 draft: false
 source-url: https://youtube.com/shorts/gf7udt3tODk?si=gBKkUSSHrCoHcIRy
@@ -13,6 +13,7 @@ tags:
   - consumed
 title: Reference - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 ---
+
 ## How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 
 ![rw-book-cover](https://i.ytimg.com/vi/gf7udt3tODk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AG2CIACgA-KAgwIABABGGUgWyhbMA8=&rs=AOn4CLCc8APrRChdvWVWzoCVYIYiY-eFXw)
@@ -22,6 +23,7 @@ published-date: 2024-12-16
 **Link:** [How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30](https://youtube.com/shorts/gf7udt3tODk?si=gBKkUSSHrCoHcIRy)
 
 ## Highlights
+
 ### id827476955
 
 > When you move to a new city, start a new job, it feels like the very first day of freshman year — terrifying if you hardly know anyone.
@@ -45,7 +47,7 @@ published-date: 2024-12-16
 ### id827477209
 
 > You can talk about all of
->   these.
+> these.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpk5v3eq1kmzfcyqm5nvatb)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpk5v3eq1kmzfcyqm5nvatb)
@@ -64,12 +66,10 @@ Goals, hobbies, life stories, interests...
 ### id827477350
 
 > if hosting isn't for you, attend local events.
->   Through Eventbrite, Facebook events, and meetup.com, I found events near me, like the Cherry Blossom Festival. I always ran into people there, and sometimes it led to, "Hey, do you want to grab dinner after this?"
+> Through Eventbrite, Facebook events, and meetup.com, I found events near me, like the Cherry Blossom Festival. I always ran into people there, and sometimes it led to, "Hey, do you want to grab dinner after this?"
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpk9980ebetv85kev1ymwr5)
 
 ### id827477380
 
 > Making friends is hard, but it's very doable. Remember to follow through, don't overthink it, give it time, make an effort, and you just might be surprised.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpka1q15z3smqkxrhnjz74t)
-
-

@@ -29,43 +29,43 @@ Inspired from: [Scott Kelby’s SLIM (Simplified Lightroom Image Management) Sys
 ### Adobe Lightroom Collection Set Topography
 
 1. Events
-    - **Celebrations:** (Deprecated should be tied to family, friends, or work events)
-    - **Concerts and Performances:** artistic performances, dance, live music, or theater.
-    - **Culinary and Nightlife:**
-    - **Cultural Social and Political:** fairs, festivals tied to cultural/social themes, marches, or parades.
-    - **Exhibition Conventions and Conferences:** conferences, expos, fan conventions, or trade shows.
-    - **School and University:** club activities, college events, competitions, showcases.
-    - **Work and Corporate:** business trips, corporate milestones, professional conferences, team gatherings, or work celebrations.
+   - **Celebrations:** (Deprecated should be tied to family, friends, or work events)
+   - **Concerts and Performances:** artistic performances, dance, live music, or theater.
+   - **Culinary and Nightlife:**
+   - **Cultural Social and Political:** fairs, festivals tied to cultural/social themes, marches, or parades.
+   - **Exhibition Conventions and Conferences:** conferences, expos, fan conventions, or trade shows.
+   - **School and University:** club activities, college events, competitions, showcases.
+   - **Work and Corporate:** business trips, corporate milestones, professional conferences, team gatherings, or work celebrations.
 2. Family
-    - **Celebrations:** special milestones or events with friends, distinct from casual hangouts.
-    - **Day-to-Day:** casual gatherings or unique personal moments.
-    - **Holidays and Traditions:** celebrations like Christmas, Thanksgiving, or Lunar New Year.
-    - **Milestones:** significant achievement marking progress in a structured activity. Important moments such as reunions, new additions to the family, or memorials.
-    - **Vacations:** Self-explained.
+   - **Celebrations:** special milestones or events with friends, distinct from casual hangouts.
+   - **Day-to-Day:** casual gatherings or unique personal moments.
+   - **Holidays and Traditions:** celebrations like Christmas, Thanksgiving, or Lunar New Year.
+   - **Milestones:** significant achievement marking progress in a structured activity. Important moments such as reunions, new additions to the family, or memorials.
+   - **Vacations:** Self-explained.
 3. Friends
-    - **Celebrations:** special milestones or events with friends, distinct from casual hangouts.
-    - **Close Relations:** your partner, their family, or other significant individuals.
-    - **Couples Hangouts:** specific outings with another couple or mutual friends of you and your partner (e.g. Dinner or movie nights with another couple; or, joint trips with friends and their partners).
-    - **Group Gatherings:** photos from larger, planned meetups or parties with multiple friends or groups (Holiday parties like Friendsgiving and Board game nights or house parties).
-    - **Hangouts:** day trips, dinners, game nights, or informal gatherings; also, includes casual outing with friends or a significant other.
-    - **Milestones:** important life moments for friends that don’t fit under your own celebrations (e.g. a friend’s job promotion party; or, sending off a friend moving to another city).
-    - **Reunions:** special occasions reconnecting with friends.
+   - **Celebrations:** special milestones or events with friends, distinct from casual hangouts.
+   - **Close Relations:** your partner, their family, or other significant individuals.
+   - **Couples Hangouts:** specific outings with another couple or mutual friends of you and your partner (e.g. Dinner or movie nights with another couple; or, joint trips with friends and their partners).
+   - **Group Gatherings:** photos from larger, planned meetups or parties with multiple friends or groups (Holiday parties like Friendsgiving and Board game nights or house parties).
+   - **Hangouts:** day trips, dinners, game nights, or informal gatherings; also, includes casual outing with friends or a significant other.
+   - **Milestones:** important life moments for friends that don’t fit under your own celebrations (e.g. a friend’s job promotion party; or, sending off a friend moving to another city).
+   - **Reunions:** special occasions reconnecting with friends.
 4. Miscellaneous
-    - **Miscellaneous Projects:** small or experimental photo collections.
-    - **Products:** items photographed for reference, purchase, or creative purposes.
-    - **Random Moments:** unplanned shots with no specific theme.
+   - **Miscellaneous Projects:** small or experimental photo collections.
+   - **Products:** items photographed for reference, purchase, or creative purposes.
+   - **Random Moments:** unplanned shots with no specific theme.
 5. People
-    - **Friends and Colleagues:** photos of or with specific people from your network.
-    - **Portraiture:** formal or creative portraits not tied to an event.
+   - **Friends and Colleagues:** photos of or with specific people from your network.
+   - **Portraiture:** formal or creative portraits not tied to an event.
 6. Projects
-    - **Candid Photography:** aimed at documenting unscripted moments as an artistic or observational endeavor, often exploring human behavior or storytelling through everyday interactions.
-    - **Experimentation:** playing with styles, techniques, or equipment (e.g., macro shots).
-    - **Flâneur Photography:** an unstructured wandering photowalk but is more introspective.
-    - **Photowalks:** a semi-structured (route planned) photowalk.
+   - **Candid Photography:** aimed at documenting unscripted moments as an artistic or observational endeavor, often exploring human behavior or storytelling through everyday interactions.
+   - **Experimentation:** playing with styles, techniques, or equipment (e.g., macro shots).
+   - **Flâneur Photography:** an unstructured wandering photowalk but is more introspective.
+   - **Photowalks:** a semi-structured (route planned) photowalk.
 7. Travel
-    - **National Travel:** trips within the country (e.g., to other states or cities) away from "home" at the time of travel.
-    - **International Travel:** trips outside the country.
-    - **Local Adventures:** day trips or regional exploration close to "home" at the time of travel.
+   - **National Travel:** trips within the country (e.g., to other states or cities) away from "home" at the time of travel.
+   - **International Travel:** trips outside the country.
+   - **Local Adventures:** day trips or regional exploration close to "home" at the time of travel.
 
 ### Thematic Directory Folder Structure and Possible Sub-Themes
 

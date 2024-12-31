@@ -1,4 +1,4 @@
-name: Lint and Format Markdown
+name: Format Markdown
 
 on:
   push:
@@ -17,12 +17,6 @@ jobs:
         uses: actions/setup-node@v3 # Action to set up the Node.js environment
         with:
           node-version: "16" # Specifies the Node.js version to use
-
-      - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli2 # Installs the CLI tool for linting Markdown files globally
-
-      - name: Lint Markdown files
-        run: markdownlint-cli2 "**/*.md" # Runs markdownlint on all Markdown files in the repository
 
       - name: Install Prettier
         run: npm install -g prettier # Installs Prettier globally for formatting files

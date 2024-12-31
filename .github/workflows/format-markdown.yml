@@ -1,4 +1,4 @@
-name: Lint and Format Markdown
+name: Format Markdown
 
 on:
   push:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3 # Action to check out the repository code to the runner
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3 # Action to set up the Node.js environment
@@ -42,6 +44,8 @@ jobs:
       # Debugging the PAT injection
       - name: Debug PAT (Sensitive info hidden)
         run: echo $GH_PAT | cut -c1-4 && echo "***"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
 
       # Pushes the committed changes back to the repository
       - name: Push changes

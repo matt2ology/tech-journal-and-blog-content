@@ -35,6 +35,14 @@ jobs:
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Linted and formatted Markdown files"
 
+      # Debugging the remote URL
+      - name: Debug remote URL
+        run: git remote -v
+
+      # Debugging the PAT injection
+      - name: Debug PAT (Sensitive info hidden)
+        run: echo $GH_PAT | cut -c1-4 && echo "***"
+
       # Pushes the committed changes back to the repository
       - name: Push changes
         env:

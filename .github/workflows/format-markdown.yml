@@ -1,5 +1,12 @@
 name: Format Markdown
 
+# If stop working maybe it's time to regenerate the Personal access token
+# 1. Settings / Developer Settings / Personal access tokens / Tokens (classic)
+# 2. Regenerate the token
+# 3. Copy secret value
+# 4. Go to repo's settings > Secrets and variables > Actions > Repo secrets (edit)
+# 5. Paste the secret value and hit update
+
 on:
   push:
     branches:

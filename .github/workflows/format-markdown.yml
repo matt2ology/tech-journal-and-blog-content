@@ -1,4 +1,4 @@
-name: Format Markdown
+name: Lint and Format Markdown
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "main" # Run only on pushes targeting the main branch
 
 jobs:
-  markdown-lint:
+  markdown-format:
     runs-on: ubuntu-latest # Specifies the virtual environment to run the job
 
     steps:
@@ -37,5 +37,8 @@ jobs:
 
       # Pushes the committed changes back to the repository
       - name: Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
           git push origin HEAD

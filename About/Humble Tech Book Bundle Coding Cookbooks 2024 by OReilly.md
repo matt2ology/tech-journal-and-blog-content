@@ -1,11 +1,11 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: 2025-01-01T18:59:07-08:00
 draft: true
 notes: general
-tags: 
+tags:
 title: Humble Tech Book Bundle Coding Cookbooks 2024 by OReilly
 ---
 

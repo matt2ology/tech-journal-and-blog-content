@@ -1,11 +1,11 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: 2025-01-01T19:45:11-08:00
 draft: true
 notes: general
-tags: 
+tags:
 title: Humble Tech Book Bundle Windows Sysadmin and DevOps by Packt
 ---
 

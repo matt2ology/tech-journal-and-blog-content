@@ -11,6 +11,7 @@
   "userIgnoreFilters": [
     "Templates/"
   ],
-  "useTab": true,
-  "vimMode": true
+  "useTab": false,
+  "vimMode": true,
+  "tabSize": 4
 }

@@ -31,7 +31,7 @@ title: Humble Tech Book Bundle Programming MEGA Bundle 2024 by Packt
 
 - Julia High Performance: Optimizations, distributed computing, multithreading, and GPU programming with Julia 1.0 and beyond, 2nd Edition; Avik Sengupta (Author)
 
-- Learn C Programming: A beginner's guide to learning the most powerful and general-purpose programming language with ease, 2nd Edition; Jeff Szuhay (Author) 
+- Learn C Programming: A beginner's guide to learning the most powerful and general-purpose programming language with ease, 2nd Edition; Jeff Szuhay (Author)
 
 - Learn Java with Projects: A concise practical guide to learning everything a Java professional really needs to know; Dr. Seán Kennedy (Author), Maaike van Putten (Author)
 
@@ -49,6 +49,6 @@ title: Humble Tech Book Bundle Programming MEGA Bundle 2024 by Packt
 
 - Software Testing Strategies: A testing guide for the 2020s; Matthew Heusser (Author), Michael Larsen (Author)
 
-- System Design Guide for Software Professionals: Build scalable solutions – from fundamental concepts to cracking top tech company interviews 1st Edition; Dhirendra Sinha (Author), Tejas Chopra (Author) 
+- System Design Guide for Software Professionals: Build scalable solutions – from fundamental concepts to cracking top tech company interviews 1st Edition; Dhirendra Sinha (Author), Tejas Chopra (Author)
 
 - System Programming Essentials with Go: System calls, networking, efficiency, and security practices with practical projects in Golang; Alex Rios (Author)

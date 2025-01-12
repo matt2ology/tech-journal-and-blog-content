@@ -1,16 +1,15 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: 2025-01-09T23:31:49-08:00
 draft: true
 notes: general
-tags: 
+tags:
 title: Humble Tech Book Bundle Machine Learning Engineer Masterclass by Packt
 ---
 
 ## Humble Tech Book Bundle Machine Learning Engineer Masterclass by Packt
-
 
 - Machine Learning Engineering with Python - Second Edition: Manage the lifecycle of machine learning models using MLOps with practical examples 2nd ed. Edition; Andrew McMahon (Author)
 

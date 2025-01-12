@@ -1,7 +1,7 @@
 ---
 authors:
   - UnityCoin
-categories: 
+categories:
 date: 2024-12-23
 draft: true
 source-url: https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj
@@ -13,6 +13,7 @@ tags:
   - consumed
 title: Reference - Clean Code - Uncle Bob / Lesson 1
 ---
+
 ## Clean Code - Uncle Bob / Lesson 1
 
 ![rw-book-cover](https://i.ytimg.com/vi/7EmboKQH8lM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWCheMA8=&rs=AOn4CLDKQ2ugSLGr1Q8cqPI4il8SmG6uBA)
@@ -22,6 +23,7 @@ published-date: 2019-08-09
 **Link:** [Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 
 ## Highlights
+
 ### id827116386
 
 > This is a cartoon I found in a magazine several years ago, and I thought it was particularly poignant. The only valid measurement of code quality is WTFs per minute coming out from behind the door where the code review is taking place. And you look at the code, the door on the left, and you realize that's probably pretty good code, because there aren't that many WTFs coming out from behind that door. On the other hand, that door on the right must have some pretty bad code behind it, because there's a whole bunch of WTFs coming out from behind that door.
@@ -45,13 +47,13 @@ published-date: 2019-08-09
 ### id827117267
 
 > they will legislate, they will regulate, they will tell us what languages we can use, and what platforms we have to write on, and what courses we have to take and what books we have to read.
->   They will dictate what processes we have to follow and what signatures we have to get
+> They will dictate what processes we have to follow and what signatures we have to get
 > \- [(View Highlight)](https://read.readwise.io/read/01jfkw507tzhs8p04zk3h261ax)
 
 ### id827117306
 
 > get there first by establishing the ethics of software development.
->   What are our ethics? Do we have a stated set of ethics? Do we have a set of standards, a set of moral standards that all programmers follow? Do programmers take an oath to uphold a set of standards, a set of ethics? We don't have that.
+> What are our ethics? Do we have a stated set of ethics? Do we have a set of standards, a set of moral standards that all programmers follow? Do programmers take an oath to uphold a set of standards, a set of ethics? We don't have that.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfkw6ctry3egffyrvne2dwwe)
 
 ### id827117352
@@ -62,7 +64,7 @@ published-date: 2019-08-09
 ### id827117694
 
 > the morals that we adhere to. These are the ethics that we claim to profess.
->   If we can say that to the politicians of the world, then when the politicians of the world decide to regulate us, they will know how to do it because they will simply take the rules that we've already invented and turned them into law. This is what's happened to doctors; it's what happened to lawyers; it's what happened to architects. So it happened to everybody. It's going to have to happen to us as well.
+> If we can say that to the politicians of the world, then when the politicians of the world decide to regulate us, they will know how to do it because they will simply take the rules that we've already invented and turned them into law. This is what's happened to doctors; it's what happened to lawyers; it's what happened to architects. So it happened to everybody. It's going to have to happen to us as well.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfkwakjwbwk31v2sanc9qa59)
 
 ### id827118484
@@ -187,14 +189,21 @@ According to Robert Cecil Martin (Uncle Bob)
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnqjg8aq3044gqk4315ej72)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfnqjg8aq3044gqk4315ej72)
+
 1. Same Level of Abstraction:
+
 - A function's lines should all operate at a similar conceptual level (e.g., high-level logic, low-level details, or a specific domain task).
 - Mixing high-level reasoning with low-level implementation details in the same function can confuse the reader and make the function harder to understand or maintain.
+
 2. One Level Below the Name:
+
 - The function's name should represent what it does at a high level. The lines of code in the function should implement the "how" of the function at one level lower in detail.
+
 3. Why It Matters:
+
 - It ensures clarity and readability by aligning the implementation with the function's intent.
 - It makes the function easier to understand, refactor, and test.
+
 ```python
 def process_data(data):
 filtered_data = filter_positive_values(data)
@@ -226,7 +235,7 @@ Fixing via refactoring written code. Don't change functionality, but restructuri
 ### id827370023
 
 > to write a paper. The rules for writing an article or writing a paper are very, very simple. You start with the title, the headline, the title.
->   Right, then you have a paragraph, usually called the synopsis or the abstract. It’s usually one paragraph and it describes everything in the paper in high-level terms. Then, the next paragraph down is slightly more detailed. The paragraph after that is a little more detailed than that, and as you read downwards, the detail increases until you get to the bottom where there’s all the names and dates and guilty parties and everything like that.
+> Right, then you have a paragraph, usually called the synopsis or the abstract. It’s usually one paragraph and it describes everything in the paper in high-level terms. Then, the next paragraph down is slightly more detailed. The paragraph after that is a little more detailed than that, and as you read downwards, the detail increases until you get to the bottom where there’s all the names and dates and guilty parties and everything like that.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnrk31xg9bq3046jp2tyj7e)
 
 ### id827370044
@@ -242,13 +251,13 @@ Fixing via refactoring written code. Don't change functionality, but restructuri
 ### id827370189
 
 > the first rule of functions. The first rule is that they should be small.
->   The second rule is, they should be smaller than that. I want to turn the knob up on this really high. I want the function small, really small.
+> The second rule is, they should be smaller than that. I want to turn the knob up on this really high. I want the function small, really small.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnrsk07r7mnc9cr5vg883tx)
 
 ### id827370241
 
 > there was a time we didn't have screens. We wrote our code on paper in the early days of programming.
->   Programmers did not know how to type. We had no keyboard skills. We wrote the code in pencil and we had other people enter it into punch cards for us. But then eventually we got screens and we started typing ourselves. That was in the 80s, and those screens were a typical screen of 24 lines by 72 columns.
+> Programmers did not know how to type. We had no keyboard skills. We wrote the code in pencil and we had other people enter it into punch cards for us. But then eventually we got screens and we started typing ourselves. That was in the 80s, and those screens were a typical screen of 24 lines by 72 columns.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnrvqtw1cypxrfsbayn1qws)
 
 ### id827370476
@@ -269,7 +278,7 @@ Fixing via refactoring written code. Don't change functionality, but restructuri
 ### id827370806
 
 > you will not drown in a sea of tiny little functions, and there's a simple reason why you're not going to drown in a sea of
->   little functions, and that's you're going to have to give those functions names.
+> little functions, and that's you're going to have to give those functions names.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfns34hra5s5cdqa9fwj283f)
 
 ### id827370843
@@ -361,7 +370,7 @@ He - James Gosling back in 1992/1993 he developed the early version of Java (Oak
 ### id827373221
 
 > What types of arguments should you never pass into a function?
->   Booleans.
+> Booleans.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfntd5jtdrh0mvpg3s60cahb)
 
 ### id827373630
@@ -435,7 +444,7 @@ The "Make Master" ensures the development workflow is smooth, reliable, and effi
 ### id827375752
 
 > the longest-running effort there was the link. The link took forever. And why did the link take forever? Because disks were slow, and we didn't have a lot of memory in those days. But as we got into the 90s, that really got faster. The disks got smaller, faster, and
->   much more reliable, and link time started to shrink like crazy.
+> much more reliable, and link time started to shrink like crazy.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnve9ezkcnx2hyvfzspe398)
 
 ### id827376123
@@ -550,7 +559,7 @@ Garbage collection: the hack solution to remedy manually coding and managing sid
 ### id827382668
 
 > command query separation. A function that returns void must have a side effect.
->   If it doesn’t have a side effect, there’s no point in calling it. So a function that returns a value should not have a side effect. This is a convention that we like to follow called command and query separation.
+> If it doesn’t have a side effect, there’s no point in calling it. So a function that returns a value should not have a side effect. This is a convention that we like to follow called command and query separation.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnxgmxh19ckmeambp4cjvvr)
 
 ### id827382698
@@ -566,7 +575,7 @@ Garbage collection: the hack solution to remedy manually coding and managing sid
 ### id827382762
 
 > It is better to use an exception than to return an error code. I’m not going to belabor that point, but I will make another point. When I write a try block, the only thing in that function that has the try block is.
->   The try block
+> The try block
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnxmabvd09c3zfp0v8kzvha)
 
 ### id827382827
@@ -581,6 +590,7 @@ Garbage collection: the hack solution to remedy manually coding and managing sid
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfnxqxfws2xx0sfysqzrbmz0)
 This structure keeps error processing isolated, makes the code easy to read, and adheres to best practices. An example:
+
 ```python
 def process_file(file_path):
 try:
@@ -624,6 +634,7 @@ process_file("example.txt")
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfny2q9v9kp2bhd7k087h5rg)
 Refactored Code (After Applying DRY):
+
 ```python
 def calculate_area_and_perimeter(shape, *dimensions):
 area, perimeter = compute_area_and_perimeter(shape, *dimensions)
@@ -645,7 +656,9 @@ return area, perimeter
 calculate_area_and_perimeter("rectangle", 5, 3)
 calculate_area_and_perimeter("circle", 4)
 ```
+
 Code with Duplication (Before Refactoring):
+
 ```python
 def calculate_area_and_perimeter_rectangle(length, width):
 # Duplicate logic for area and perimeter
@@ -668,6 +681,7 @@ print(f"Circle Perimeter: {perimeter}")
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfnycty7772pggxrszfpdzkp)
 Before Refactoring (Repetition of Nested Loops and Processing Code):
+
 ```python
 def process_users(config):
 for group in config["groups"]:
@@ -759,7 +773,7 @@ print(f"Processing high-priority task: {task['name']}")
 ### id827387104
 
 > Science is a set of conjectures and hypotheses that cannot be proven correct. Experiments can prove them false, but never true; you and I risk.
->   Our lives every day depend on things that are not proven correct.
+> Our lives every day depend on things that are not proven correct.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfnzqn48z0kthws6dgksavc6)
 
 ### id827387159
@@ -791,6 +805,3 @@ print(f"Processing high-priority task: {task['name']}")
 
 > you might say, "Okay, well, I'm testing the whole system." Yes, but are you testing the individual lines that you wrote?
 > \- [(View Highlight)](https://read.readwise.io/read/01jfp018wg9dpwsvv72wcf56ps)
-
-
-

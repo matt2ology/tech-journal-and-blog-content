@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - Creating a Free Blog or Static Content Website With Hugo and GitHub Pages With Custom Domain and Ads
 ---
+
 ## Creating a Free Blog or Static Content Website With Hugo and GitHub Pages With Custom Domain and Ads
 
 ![rw-book-cover](https://i.ytimg.com/vi/LSJ5S8VG5aU/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2022-07-21
 **Link:** [Creating a Free Blog or Static Content Website With Hugo and GitHub Pages With Custom Domain and Ads](https://www.youtube.com/watch?v=LSJ5S8VG5aU)
 
 ## Highlights
+
 ### id827457597
 
 > I'm going to show you how to create a blog and host it using GitHub Pages for free. I'll also show you how to add a custom domain and Google Ads.
@@ -41,8 +43,7 @@ This repo will be `username.github.io` the GitHub Pages repository. This will ho
 
 ### id827459714
 
-> go ahead and install Hugo, so you can run the command `brew install hugo`
-> \- [(View Highlight)](https://read.readwise.io/read/01jfpb1a31mgm422nndfjaskqs)
+> go ahead and install Hugo, so you can run the command `brew install hugo` > \- [(View Highlight)](https://read.readwise.io/read/01jfpb1a31mgm422nndfjaskqs)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpb1a31mgm422nndfjaskqs)
 On MacOS
@@ -83,6 +84,7 @@ On MacOS
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpb597y2bqkf72r2tgqhgs8)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpb597y2bqkf72r2tgqhgs8)
+
 > $ git remote add origin https://github.com/username/username.github.io
 
 ### id827460470
@@ -93,6 +95,7 @@ On MacOS
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpb71c5xg2y54h5qy6axhyv)
 [Toptail site - `.gitignore`](https://www.toptal.com/developers/gitignore)
 `.gitignore` for [Hugo](https://gohugo.io/)
+
 ```plaintext
 # Created by https://www.toptal.com/developers/gitignore/api/hugo
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo
@@ -110,7 +113,9 @@ hugo.linux
 /.hugo_build.lock
 # End of https://www.toptal.com/developers/gitignore/api/hugo
 ```
+
 `.gitignore` for [Microsoft's Visual Studio Code](https://code.visualstudio.com/)
+
 ```plaintext
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
@@ -149,12 +154,13 @@ hugo.linux
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpc5wmhr4b06bbjszvb0v3r)
 To use the "Blist" theme you'd have to do the following:
 Configuring theme to a Hugo website
+
 1. Copy `package.json` and `package-lock.json` to the root folder of your website
 2. Run `npm install` to install required packages for theme
 3. Run `npm i -g postcss-cli` to use PostCSS with Hugo build
 4. Set `theme = 'blist`' in the root directory's config.toml
 5. Run `npm start` to start your local server
-Make sure to commit the above changes to your repository.
+   Make sure to commit the above changes to your repository.
 
 ### id827463270
 
@@ -187,7 +193,7 @@ Make sure to commit the above changes to your repository.
 ### id827463810
 
 > You’ve got a few different parameters. You’ve got like whether you want to enable dark mode toggling, whether you want to enable search, the copyright message, um, your fav icon if you have one, and just some other different color.
->   Configs and you've also got some social media configs as well, so you can configure your different Instagram, YouTube accounts, whatever you want to sort of show.
+> Configs and you've also got some social media configs as well, so you can configure your different Instagram, YouTube accounts, whatever you want to sort of show.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpcmpzekzrc43sw5nscrwkt)
 
 ### id827463828
@@ -201,6 +207,7 @@ Make sure to commit the above changes to your repository.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpcpc54ehm4w77xwbnktdy3)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpcpc54ehm4w77xwbnktdy3)
+
 > $ hugo server
 
 ### id827463916
@@ -211,7 +218,7 @@ Make sure to commit the above changes to your repository.
 ### id827463950
 
 > I'm just going to also exclude node modules in the git ignore and I’m just going to do some cleanup there, just so that node modules isn’t checked in because.
->   It's not really good to do that.
+> It's not really good to do that.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpcs0hhx3sqsj0ma95kqw9c)
 
 ### id827464007
@@ -221,6 +228,7 @@ Make sure to commit the above changes to your repository.
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpctdvg8a2zdb8pc00a630b)
 In the directory/repo that has their Hugo framework they'll add the following as a submodule:
+
 ```sh
 git submodule add https://github.com/username/username.github.io public
 ```
@@ -228,11 +236,12 @@ git submodule add https://github.com/username/username.github.io public
 ### id827464160
 
 > it's ignored by the git ignore.
->   So it's telling me that, um, I have to use -f if I want to force this add. I'm just going to force it through using the force command with that -f. Okay, so another issue happened; the public folder already exists because it was generated by Hugo. But if I go ahead and delete it, I should be able to add it.
+> So it's telling me that, um, I have to use -f if I want to force this add. I'm just going to force it through using the force command with that -f. Okay, so another issue happened; the public folder already exists because it was generated by Hugo. But if I go ahead and delete it, I should be able to add it.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpcyznfj0zfkeydtjgs5tzx)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpcyznfj0zfkeydtjgs5tzx)
 Ignored from the [Toptal suggested `.gitignore` template](https://www.toptal.com/developers/gitignore) that was added earlier.
+
 ```sh
 git submodule add -f https://github.com/username/username.github.io public
 ```
@@ -243,16 +252,18 @@ git submodule add -f https://github.com/username/username.github.io public
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpd8egb5hr538gw0v51etjg)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpd8egb5hr538gw0v51etjg)
+
 ```plaintext
 hugo -t blist
 ```
 
 ### id827464606
 
-> To add pages, you go *hugo new* and then specify the path to the page. I'm going to add a hello world markdown file to the blog directory
+> To add pages, you go _hugo new_ and then specify the path to the page. I'm going to add a hello world markdown file to the blog directory
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpdbm3mvs1jt4j492e9mfms)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpdbm3mvs1jt4j492e9mfms)
+
 ```plaintext
 hugo new blog/hello_world.md
 ```
@@ -263,6 +274,7 @@ hugo new blog/hello_world.md
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpddc0zqy6yxhxnngca21as)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpddc0zqy6yxhxnngca21as)
+
 ```plaintext
 hugo new page/about.md
 ```
@@ -275,6 +287,7 @@ hugo new page/about.md
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpdhgx7zdxdt91vyc14ntm8)
 Images go into the `./static` folder.
 Then update the `config.toml` file with the path of the `introPhoto`.
+
 ```toml
 [languages.en.params]
 introTitle = "Hey! I'm me"
@@ -287,6 +300,7 @@ introPhoto = "me.jpg"
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpds8zd7d3h979yv48hnd24)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpds8zd7d3h979yv48hnd24)
+
 ```sh
 hugo -t blist
 ```
@@ -294,10 +308,11 @@ hugo -t blist
 ### id827465976
 
 > now that’s done, I'm just going to do.
->   A change directory and set public folder, and I'm going to add the files and commit them.
+> A change directory and set public folder, and I'm going to add the files and commit them.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpdtnj28pkbmjvxwt896rgb)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpdtnj28pkbmjvxwt896rgb)
+
 ```sh
 cd public
 git add .
@@ -308,17 +323,18 @@ git push
 ### id827466045
 
 > But what if we want to add a subdomain?
->   Well, you can just specify it here. It's really that simple. So I've got my own website, tripwiretech.com, and I want to add a subdomain called "miscoding tripwire." If I hit save, it's going to add a CNAME file into this GitHub Pages repo, and then I need to go to my DNS provider and configure it because it hasn't been configured yet. So I'm just going to copy that URL because that's where I want my CNAME record to point to.
+> Well, you can just specify it here. It's really that simple. So I've got my own website, tripwiretech.com, and I want to add a subdomain called "miscoding tripwire." If I hit save, it's going to add a CNAME file into this GitHub Pages repo, and then I need to go to my DNS provider and configure it because it hasn't been configured yet. So I'm just going to copy that URL because that's where I want my CNAME record to point to.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpdynts7j3w080qmxwrtrey)
 
 ### id827466271
 
 > the theme isn’t showing. So that’s what I mentioned earlier, and that you need to update that base URL here.
->   So I’m going to update this base URL to be miscoding.tripwiretech.com. And once I’ve done that, I can just go ahead and I can commit that to my blog.
->   Repo and my GitHub Pages repo. So once that's done, I'm going to go ahead and push those changes.
+> So I’m going to update this base URL to be miscoding.tripwiretech.com. And once I’ve done that, I can just go ahead and I can commit that to my blog.
+> Repo and my GitHub Pages repo. So once that's done, I'm going to go ahead and push those changes.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpe1tzq0qxance8tvwyp4qa)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpe1tzq0qxance8tvwyp4qa)
+
 ```toml
 baseURL = "https://name.website.com/"
 ```
@@ -335,7 +351,7 @@ and then again in the Hugo framework directory/repo (i.e. the level above the `p
 ### id827467115
 
 > I'm going to show you how to add Google Ads. You're going to need to go to Google.
->   AdSense allows you to add your domain, and then you can specify that you want to add a sub domain. You can see this madden subdomain option. I’m just going to add misscoding.tripwiretech.com. You might want to note that it says my site isn’t ready to show ads; that’s because my main domain doesn’t have anything at the moment. So Google’s not able to sort of do its thing and check.
+> AdSense allows you to add your domain, and then you can specify that you want to add a sub domain. You can see this madden subdomain option. I’m just going to add misscoding.tripwiretech.com. You might want to note that it says my site isn’t ready to show ads; that’s because my main domain doesn’t have anything at the moment. So Google’s not able to sort of do its thing and check.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpehcjaytv4vx53dbgaa7mn)
 
 ### id827467180
@@ -346,7 +362,7 @@ and then again in the Hugo framework directory/repo (i.e. the level above the `p
 ### id827467233
 
 > If you’re adding this, you would typically want to actually parameterize it because you obviously don’t want everyone using your ad ID and publisher ID. So yes, this is my ads.html file.
->   This is what I've added as a file so that I can edit inside the header.
+> This is what I've added as a file so that I can edit inside the header.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpemgszveq326b838s862em)
 
 ### id827467272
@@ -357,15 +373,18 @@ and then again in the Hugo framework directory/repo (i.e. the level above the `p
 ### id827467333
 
 > When you're referencing your partial HTML, you should be putting it in quotes. There.
->   And so once I go and generate this again, my static pages should actually have that script included for the Google Ads.
+> And so once I go and generate this again, my static pages should actually have that script included for the Google Ads.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpepvq2zm2darn2wawhfe6h)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpepvq2zm2darn2wawhfe6h)
 Put the script that Google Ad Sense provided into a partial; for example, `ads.html` within your "partials folder (i.e. `./layouts/partials/ads.html`).
+
 ```html
 {{ partial "ads" . }}
 ```
+
 and then you can generate your site
+
 ```sh
 hugo -t blist
 ```
@@ -379,6 +398,3 @@ hugo -t blist
 
 > inspect the page, you're going to see the script that indicates that you would have Google Ads. So you can see ads by Google, ads by Google and a few different other scripts that indicate that Google Ads have been included.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpf0qetmwh2b20y2vkc79z4)
-
-
-

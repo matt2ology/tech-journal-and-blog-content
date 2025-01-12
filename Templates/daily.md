@@ -10,4 +10,4 @@ title: Daily - {{title}}
 
 ## Daily Log for {{date:dddd, MMMM D, YYYY}}
 
-## <!-- Key observations and quick task for the day -->
+<!-- Key observations and quick task for the day -->

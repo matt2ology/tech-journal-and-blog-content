@@ -1,19 +1,19 @@
 ---
-authors: []
-categories:
+authors: 
+categories: 
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
-mediums:
+mediums: 
 notes: literature
 tags:
   - literature/article
   - literature/book
   - literature/podcast
   - literature/video
-title: Literature - {{title}}
+title: Literature - {{name}}
 ---
 
-## {{title}}
+## {{name}}
 
 **Link to reference note:**
 

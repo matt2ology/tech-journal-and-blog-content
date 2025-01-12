@@ -19,4 +19,4 @@ title: Reference - {{title}}
 
 ## Key Highlights
 
-## <!-- Highlights of direct quotes, key points, or insights from the source content -->
+<!-- Highlights of direct quotes, key points, or insights from the source content -->

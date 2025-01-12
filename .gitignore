@@ -6,3 +6,6 @@
 # Don't ignore the following plug-in configurations
 !.obsidian/plugins/quickadd/data.json
 
+# Exclude "bad" names
+null*
+Untitled*

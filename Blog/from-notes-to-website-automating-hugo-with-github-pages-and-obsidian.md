@@ -6,7 +6,7 @@ categories:
 date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog
-tags: 
+tags:
 title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 
@@ -22,58 +22,57 @@ To set up and automate deployment for a static website using Hugo, with Obsidian
 ### Prerequisites
 
 - Install [Git](https://git-scm.com/downloads)
-    - `git --version`
+  - `git --version`
 - Install [Hugo](https://gohugo.io/installation/)
-    - `hugo version`
+  - `hugo version`
 - Install [Obsidian](https://obsidian.md/download)
 
 ### 1. Repository Structure
 
 1. **Main Repository**: Host the [Hugo](https://gohugo.io/) project (`hugo-site`).
-    - Repository: `hugo-site`
+   - Repository: `hugo-site`
 2. **Content Submodule**: Use [Obsidian notes](https://obsidian.md/) for managing content (`obsidian-notes-repo`).
-    - Submodule: A separate repository containing Markdown files for your notes.
+   - Submodule: A separate repository containing Markdown files for your notes.
 3. **Public Submodule**: Use the [GitHub Pages](https://pages.github.com/) repository (`username.github.io`) to deploy the generated static site.
-    - Submodule: A separate repository for the generated static site.
+   - Submodule: A separate repository for the generated static site.
 
 ### 2. Initial Setup
 
 1. **Content Repository**: Set up an Obsidian vault (i.e. a folder on your local file system where Obsidian stores your notes) and initialize a Git repository there.
 
-    ```bash
-    git init obsidian-notes-repo
-    ```
+   ```bash
+   git init obsidian-notes-repo
+   ```
 
 2. **Public Repository**: [Create the `username.github.io` repository on GitHub](https://pages.github.com/).
 3. **Hugo Repository**: Create the folder that will house the static site generator framework
 
-    Using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) or Bash:
-    
-    ```bash
-    git init hugo-site && cd hugo-site
-    ```
-    
-    Using [Windows Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) (i.e. cmd.exe)
-    
-    ```cmd
-    mkdir hugo-site && cd hugo-site && git init
-    ```
+   Using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) or Bash:
+
+   ```bash
+   git init hugo-site && cd hugo-site
+   ```
+
+   Using [Windows Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) (i.e. cmd.exe)
+
+   ```cmd
+   mkdir hugo-site && cd hugo-site && git init
+   ```
 
 #### Add Submodules
 
 1. **Add Obsidian Notes Submodule**:
    ```bash
-git submodule add https://github.com/username/obsidian-notes-repo content
+   git submodule add https://github.com/username/obsidian-notes-repo content
    ```
 2. **Add Public Deployment Submodule**:
    ```bash
    git submodule add -b main https://github.com/username/username.github.io public
-    ```
+   ```
 
 #### Checkpoint - Verify Directory Structure
 
 Following the steps listed so far should result in the following directory structure
-
 
 ```plaintext
 C:.
@@ -94,8 +93,9 @@ C:.
 hugo new site . --force
 ```
 
->Without `--force` you'll get the following prompt:
->> Error: C:\Users\username\projects\hugo-site already exists and is not empty. See --force.
+> Without `--force` you'll get the following prompt:
+>
+> > Error: C:\Users\username\projects\hugo-site already exists and is not empty. See --force.
 
 #### Set up `.gitmodules`
 
@@ -135,7 +135,7 @@ on:
       - main # Trigger the workflow when code is pushed to the 'main' branch
   workflow_dispatch: # Allow manual triggering of the workflow via the GitHub Actions UI
   schedule:
-    - cron: '0 0 */14 * *' # Run every 14 days at midnight UTC
+    - cron: "0 0 */14 * *" # Run every 14 days at midnight UTC
 
 jobs:
   deploy:
@@ -143,60 +143,60 @@ jobs:
     # Specify the OS environment where the workflow will run
 
     steps:
-    # Clone the repository and ensure any submodules are cloned recursively
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-      with:
-        submodules: recursive
+      # Clone the repository and ensure any submodules are cloned recursively
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
-    # Install the latest version of Hugo to generate the static site
-    - name: Set Up Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
+      # Install the latest version of Hugo to generate the static site
+      - name: Set Up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
 
-    # Commit submodule changes if there are updates, otherwise continue
-    - name: Update Content Submodule
-      run: |
-        git submodule update --remote --merge content # Update the specified submodule to its latest remote version and merge changes
-        git add content # Stage changes in the submodule
-        git commit -m "Update content submodule" || echo "No changes to commit"
+      # Commit submodule changes if there are updates, otherwise continue
+      - name: Update Content Submodule
+        run: |
+          git submodule update --remote --merge content # Update the specified submodule to its latest remote version and merge changes
+          git add content # Stage changes in the submodule
+          git commit -m "Update content submodule" || echo "No changes to commit"
 
-    # Generate the static site using Hugo, with minified output for optimized performance
-    - name: Build Hugo Site
-      run: hugo --minify
+      # Generate the static site using Hugo, with minified output for optimized performance
+      - name: Build Hugo Site
+        run: hugo --minify
 
-    # Authenticate using the GitHub token to push changes
-    # Specify the directory containing the built static site to deploy to GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GH_PAT_HUGO }}
-        publish_dir: ./public
+      # Authenticate using the GitHub token to push changes
+      # Specify the directory containing the built static site to deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT_HUGO }}
+          publish_dir: ./public
 ```
 
 ### 4. Workflow Explained
 
 1. **Checkout Repository**:
-    - Ensures the Hugo repository and its submodules are cloned.
+   - Ensures the Hugo repository and its submodules are cloned.
 2. **Set Up Hugo**:
-    - Installs Hugo for the build process.
+   - Installs Hugo for the build process.
 3. **Update Content Submodule**:
-    - Updates the `content` submodule to pull the latest changes from the Obsidian notes repository.
-    - Commits the updated submodule reference.
+   - Updates the `content` submodule to pull the latest changes from the Obsidian notes repository.
+   - Commits the updated submodule reference.
 4. **Build Hugo Site**:
-    - Runs Hugo to generate the static website in the `public` directory.
+   - Runs Hugo to generate the static website in the `public` directory.
 5. **Deploy to GitHub Pages**:
-    - Deploys the contents of the `public` directory (a submodule) to the `username.github.io` repository.
+   - Deploys the contents of the `public` directory (a submodule) to the `username.github.io` repository.
 
 ### 5. Maintain Your Workflow
 
 1. **Obsidian Workflow**:
-    - Update your notes and push changes to the `obsidian-notes-repo` repository.
+   - Update your notes and push changes to the `obsidian-notes-repo` repository.
 2. **Trigger GitHub Actions**:
-    - Push changes to the `main` branch of the `hugo-site` repository to trigger the deployment workflow.
+   - Push changes to the `main` branch of the `hugo-site` repository to trigger the deployment workflow.
 3. **Monitor Submodules**:
-    - Periodically ensure that the `public` and `content` submodules are synchronized with their respective remote repositories.
+   - Periodically ensure that the `public` and `content` submodules are synchronized with their respective remote repositories.
 
 ### 6. Ignore Obsidian Markdown Templates
 
@@ -205,8 +205,9 @@ creating notes. For this reason your Obsidian Markdown templates front matter ma
 adhere to what Hugo expects.
 
 > You may get issues like the following:
+>
 > > ERROR the "date" front matter field is not a parsable date: see C:\Users\username\projects\hugo-site\content\Templates\templateName.md
- 
+
 [Configure Hugo modules `excludeFiles`](https://gohugo.io/hugo-modules/configuration/#module-config-mounts) - configuration options for a module
 
 To fix this possible issue consider adding the following to your Hugo project's TOML file; `C:\Users\username\projects\hugo-site\hugo.toml`

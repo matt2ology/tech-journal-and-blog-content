@@ -10,19 +10,19 @@ tags: readwise, reference/articles, consumed
 title: Reference - Creating a Blog With Hugo and Github in 10 Minutes
 ---
 
-## Creating a Blog With Hugo and Github in 10 Minutes
+## Creating a Blog With Hugo and GitHub in 10 Minutes
 
 ![rw-book-cover](https://i.ytimg.com/vi/LIFvgrRxdt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCNsEIVvwTC-frCL-9kz5iuBaTA4g)
 
 published-date: 2020-12-21
 
-**Link:** [Creating a Blog With Hugo and Github in 10 Minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte)
+**Link:** [Creating a Blog With Hugo and GitHub in 10 Minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte)
 
 ## Highlights
 
 ### id820195256
 
-> one repository on github that houses the actual code that we're iterating on uh you know making our posts and our drafts etc and then we're going to have another repository that we're actually deploying off of and this will be hosted through github pages
+> one repository on GitHub that houses the actual code that we're iterating on uh you know making our posts and our drafts etc. and then we're going to have another repository that we're actually deploying off of and this will be hosted through GitHub pages
 > \- [(View Highlight)](https://read.readwise.io/read/01je7pdmmgwdrjkpjdys31m1ej)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7pdmmgwdrjkpjdys31m1ej)
@@ -32,7 +32,7 @@ published-date: 2020-12-21
 
 ### id820195555
 
-> hugo has some nice themes available on their site again the link
+> Hugo has some nice themes available on their site again the link
 > \- [(View Highlight)](https://read.readwise.io/read/01je7pkzsqq51mj6wj5drkmzj5)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7pkzsqq51mj6wj5drkmzj5)
@@ -40,7 +40,7 @@ Hugo Themes: <https://themes.gohugo.io/themes/>
 
 ### id819842801
 
-> url that will be kind of the prefix to all of the sub pages that you visit for github
+> URL that will be kind of the prefix to all of the sub pages that you visit for GitHub
 > \- [(View Highlight)](https://read.readwise.io/read/01je4pz9jxdtjh8zy2w8tx3g0s)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je4pz9jxdtjh8zy2w8tx3g0s)
@@ -48,7 +48,7 @@ In config.toml baseURL = `https://username.github.io/`
 
 ### id819842627
 
-> we want to check is we want to see if this actually looks okay so we can actually preview this site locally in order to do that what we need to do is we just run hugo server
+> we want to check is we want to see if this actually looks okay so we can actually preview this site locally in order to do that what we need to do is we just run Hugo server
 > \- [(View Highlight)](https://read.readwise.io/read/01je4pwfyy8n30b0j9zdrcwvmn)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je4pwfyy8n30b0j9zdrcwvmn)
@@ -70,7 +70,7 @@ theme ="<theme>"
 
 ### id820253320
 
-> run hugo server
+> run Hugo server
 > \- [(View Highlight)](https://read.readwise.io/read/01je7ya7gx5766a8gem50nm1e2)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7ya7gx5766a8gem50nm1e2)

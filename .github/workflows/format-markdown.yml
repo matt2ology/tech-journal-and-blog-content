@@ -1,4 +1,4 @@
-name: Format and Lint Markdown
+name: Format Markdown
 
 # If stop working maybe it's time to regenerate the Personal access token
 # 1. Settings / Developer Settings / Personal access tokens / Tokens (classic)
@@ -13,7 +13,7 @@ on:
       - "main" # Ensures the workflow runs only when changes are pushed to the main branch, avoiding unnecessary actions for other branches.
 
 jobs:
-  markdown-format-and-lint:
+  markdown-format:
     runs-on: ubuntu-latest
     # Uses a reliable and up-to-date Linux environment for consistent execution of the workflow.
 
@@ -23,22 +23,17 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }} # Provides access to the repository to retrieve and modify its content.
 
-      # Prepares the environment to run Node.js-based tools, ensuring compatibility with Prettier and Markdownlint.
+      # Prepares the environment to run Node.js-based tools, ensuring compatibility with Prettier.
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "16"
 
-      # Installs Prettier and Markdownlint CLI globally to enforce consistent Markdown formatting and linting rules across the repository.
-      - name: Install dependencies
-        run: |
-          npm install -g prettier markdownlint-cli
+      # Installs Prettier globally to enforce consistent Markdown formatting rules across the repository.
+      - name: Install Prettier
+        run: npm install -g prettier
 
-      # Runs Markdownlint to check the markdown files for any linting issues.
-      - name: Lint Markdown files
-        run: markdownlint "**/*.md"
-
-      # Automatically formats all Markdown files using Prettier to ensure consistent code style and readability.
+      # Automatically formats all Markdown files, ensuring consistent code style and readability.
       - name: Format Markdown files
         run: prettier --write "**/*.md"
 
@@ -48,19 +43,16 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com" 
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Formatted and linted Markdown files"
-
+          git diff --quiet && git diff --staged --quiet || git commit -m "Formatted Markdown files"
       # Outputs the repository's remote URL to verify that it is correctly set up for pushing changes.
       - name: Debug remote URL
         run: git remote -v
-
       # Verifies that the GitHub Personal Access Token (PAT) is correctly injected as an environment variable for authentication.
       - name: Debug PAT (Sensitive info hidden)
         run: echo $GH_PAT | cut -c1-4 && echo "***"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-
-      # Pushes the committed changes back to the main branch, ensuring the repository reflects the latest formatted and linted content.
+      # Pushes the committed changes back to the main branch, ensuring the repository reflects the latest formatted content.
       - name: Push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}

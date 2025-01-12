@@ -9,3 +9,7 @@
 # Exclude "bad" names
 null*
 Untitled*
+
+# Exclude OS settings and caches (Silly MacOS)
+.trash/
+.DS_Store

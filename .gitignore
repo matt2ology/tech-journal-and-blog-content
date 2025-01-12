@@ -13,3 +13,6 @@ Untitled*
 # Exclude OS settings and caches (Silly MacOS)
 .trash/
 .DS_Store
+
+# Ignore python virtual environments
+**/.venv/

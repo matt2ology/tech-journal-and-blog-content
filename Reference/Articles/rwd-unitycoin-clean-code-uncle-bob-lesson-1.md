@@ -206,14 +206,14 @@ According to Robert Cecil Martin (Uncle Bob)
 
 ```python
 def process_data(data):
-	filtered_data = filter_positive_values(data)
-	return calculate_average(filtered_data)
+    filtered_data = filter_positive_values(data)
+    return calculate_average(filtered_data)
 
 def filter_positive_values(data):
-	return [d for d in data if d > 0]
+    return [d for d in data if d > 0]
 
 def calculate_average(data):
-	return sum(data) / len(data)
+    return sum(data) / len(data)
 ```
 
 ### id827368746
@@ -595,30 +595,30 @@ This structure keeps error processing isolated, makes the code easy to read, and
 
 ```python
 def process_file(file_path):
-	try:
-		read_and_process_file(file_path)
-		except FileNotFoundError as e:
-			handle_file_not_found_error(e)
-		except Exception as e:
-			handle_generic_error(e)
+    try:
+        read_and_process_file(file_path)
+    except FileNotFoundError as e:
+        handle_file_not_found_error(e)
+    except Exception as e:
+        handle_generic_error(e)
 
 def read_and_process_file(file_path):
-	# Logic for reading and processing the file
-	with open(file_path, 'r') as file:
-		for line in file:
-			process_line(line)
+    # Logic for reading and processing the file
+    with open(file_path, 'r') as file:
+        for line in file:
+            process_line(line)
 
 def handle_file_not_found_error(error):
-	print(f"File not found: {error}")
-	# Additional error handling logic here
+    print(f"File not found: {error}")
+    # Additional error handling logic here
 
 def handle_generic_error(error):
-	print(f"An unexpected error occurred: {error}")
-	# Additional error handling logic here
+    print(f"An unexpected error occurred: {error}")
+    # Additional error handling logic here
 
 def process_line(line):
-	# Logic to process a single line of the file
-	print(f"Processing line: {line.strip()}")
+    # Logic to process a single line of the file
+    print(f"Processing line: {line.strip()}")
 
 # Example usage
 process_file("example.txt")
@@ -644,22 +644,22 @@ Refactored Code (After Applying DRY):
 
 ```python
 def calculate_area_and_perimeter(shape, *dimensions):
-	area, perimeter = compute_area_and_perimeter(shape, *dimensions)
-	print(f"{shape.capitalize()} Area: {area}")
-	print(f"{shape.capitalize()} Perimeter: {perimeter}")
+    area, perimeter = compute_area_and_perimeter(shape, *dimensions)
+    print(f"{shape.capitalize()} Area: {area}")
+    print(f"{shape.capitalize()} Perimeter: {perimeter}")
 
 def compute_area_and_perimeter(shape, *dimensions):
-	if shape == "rectangle":
-		length, width = dimensions
-		area = length * width
-		perimeter = 2 * (length + width)
-	elif shape == "circle":
-		radius, = dimensions
-		area = 3.14159 * radius * radius
-		perimeter = 2 * 3.14159 * radius
-	else:
-		raise ValueError("Unsupported shape")
-	return area, perimeter
+    if shape == "rectangle":
+        length, width = dimensions
+        area = length * width
+        perimeter = 2 * (length + width)
+    elif shape == "circle":
+        radius, = dimensions
+        area = 3.14159 * radius * radius
+        perimeter = 2 * 3.14159 * radius
+    else:
+        raise ValueError("Unsupported shape")
+    return area, perimeter
 # Example usage
 calculate_area_and_perimeter("rectangle", 5, 3)
 calculate_area_and_perimeter("circle", 4)
@@ -669,18 +669,18 @@ Code with Duplication (Before Refactoring):
 
 ```python
 def calculate_area_and_perimeter_rectangle(length, width):
-	# Duplicate logic for area and perimeter
-	area = length * width
-	print(f"Rectangle Area: {area}")
-	perimeter = 2 * (length + width)
-	print(f"Rectangle Perimeter: {perimeter}")
+    # Duplicate logic for area and perimeter
+    area = length * width
+    print(f"Rectangle Area: {area}")
+    perimeter = 2 * (length + width)
+    print(f"Rectangle Perimeter: {perimeter}")
 
 def calculate_area_and_perimeter_circle(radius):
-	# Duplicate logic for area and perimeter
-	area = 3.14159 * radius * radius
-	print(f"Circle Area: {area}")
-	perimeter = 2 * 3.14159 * radius
-	print(f"Circle Perimeter: {perimeter}")
+    # Duplicate logic for area and perimeter
+    area = 3.14159 * radius * radius
+    print(f"Circle Area: {area}")
+    perimeter = 2 * 3.14159 * radius
+    print(f"Circle Perimeter: {perimeter}")
 ```
 
 ### id827384952
@@ -693,22 +693,22 @@ Before Refactoring (Repetition of Nested Loops and Processing Code):
 
 ```python
 def process_users(config):
-	for group in config["groups"]:
-		for user in group["users"]:
-			if user["active"]:
-				print(f"Processing active user: {user['name']}")
+    for group in config["groups"]:
+        for user in group["users"]:
+            if user["active"]:
+                print(f"Processing active user: {user['name']}")
 
 def process_projects(config):
-	for group in config["groups"]:
-		for project in group["projects"]:
-			if project["status"] == "open":
-				print(f"Processing open project: {project['name']}")
+    for group in config["groups"]:
+        for project in group["projects"]:
+            if project["status"] == "open":
+                print(f"Processing open project: {project['name']}")
 
 def process_tasks(config):
-	for group in config["groups"]:
-		for task in group["tasks"]:
-			if task["priority"] == "high":
-				print(f"Processing high-priority task: {task['name']}")
+    for group in config["groups"]:
+      for task in group["tasks"]:
+          if task["priority"] == "high":
+            print(f"Processing high-priority task: {task['name']}")
 ```
 
 ### id827385104

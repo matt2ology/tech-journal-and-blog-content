@@ -1,5 +1,5 @@
 {
-  "folder": "Inbox",
+  "folder": "post/daily",
   "format": "YYYY-MM-DD",
   "template": "Templates/daily"
 }

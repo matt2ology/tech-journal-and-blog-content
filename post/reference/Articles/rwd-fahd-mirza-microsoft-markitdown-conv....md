@@ -1,7 +1,7 @@
 ---
 authors:
   - Fahd Mirza
-categories: 
+categories:
 date: 2024-12-23
 draft: false
 source-url: https://www.youtube.com/watch?v=v65Oyddfxeg

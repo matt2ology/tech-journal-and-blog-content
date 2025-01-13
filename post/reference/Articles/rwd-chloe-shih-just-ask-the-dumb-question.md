@@ -1,7 +1,7 @@
 ---
 authors:
   - Chloe Shih
-categories: 
+categories:
 date: 2024-12-23
 draft: false
 source-url: https://youtube.com/shorts/KRoKTDs2W18?si=hu9OncGtgd-U6N1C

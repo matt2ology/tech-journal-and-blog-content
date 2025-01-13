@@ -1,7 +1,7 @@
 ---
 authors:
   - jacobian.org
-categories: 
+categories:
 date: 2024-12-23
 draft: false
 source-url: https://jacobian.org/til/hugo-obsidian/

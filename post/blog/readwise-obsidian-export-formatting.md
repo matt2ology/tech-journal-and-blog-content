@@ -1,11 +1,11 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: 2025-01-13T02:11:44-08:00
 draft: false
 notes: blog
-tags: 
+tags:
 title: Blog - Readwise Obsidian Export Formatting
 ---
 
@@ -98,11 +98,11 @@ The highlight text is rendered as a blockquote using the `>` Markdown syntax.
 #### 3. Link to Highlight Location:
 
 - If both `highlight_location` and `highlight_location_url` are present:
-    - A Markdown link (`[text](URL)`) is created under the highlight text.
+  - A Markdown link (`[text](URL)`) is created under the highlight text.
 - If only `highlight_location` is present:
-    - The location is shown in parentheses without a link.
+  - The location is shown in parentheses without a link.
 - Otherwise:
-    - A blank line is inserted as a placeholder.
+  - A blank line is inserted as a placeholder.
 
 ```django
 {% if highlight_location and highlight_location_url %}
@@ -113,15 +113,16 @@ The highlight text is rendered as a blockquote using the `>` Markdown syntax.
 <!-- Adding a blank line -->
 {% endif %}
 ```
+
 #### 4. Highlight Note:
 
 If a `highlight_note` exists:
 
 - A bold label `**Initial thought or note on:**` is displayed.
 - If `highlight_location` and `highlight_location_url` are available:
-    - A Markdown link to the location is appended.
+  - A Markdown link to the location is appended.
 - If only `highlight_location` is available:
-    - The location is shown in parentheses.
+  - The location is shown in parentheses.
 - The `highlight_note` is displayed below.
 
 ```django

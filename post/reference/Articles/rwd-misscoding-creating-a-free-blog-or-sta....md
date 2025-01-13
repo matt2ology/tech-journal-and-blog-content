@@ -1,12 +1,16 @@
 ---
-authors: MissCoding
-categories:
+authors:
+  - MissCoding
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=LSJ5S8VG5aU
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Creating a Free Blog or Static Content Website With Hugo and GitHub Pages With Custom Domain and Ads
 ---
 

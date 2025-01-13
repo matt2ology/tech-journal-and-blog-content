@@ -1,12 +1,16 @@
 ---
-authors: David Hwang
-categories:
+authors:
+  - David Hwang
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=_QSr2_pxIJs&ab_channel=davidhwang
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain
 ---
 

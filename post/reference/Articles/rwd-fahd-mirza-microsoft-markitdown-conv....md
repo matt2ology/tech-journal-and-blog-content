@@ -1,12 +1,16 @@
 ---
-authors: Fahd Mirza
-categories:
+authors:
+  - Fahd Mirza
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=v65Oyddfxeg
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Microsoft MarkItDown - Convert Files and Office Documents to Markdown - Install Locally
 ---
 

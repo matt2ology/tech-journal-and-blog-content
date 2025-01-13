@@ -1,12 +1,16 @@
 ---
-authors: Chloe Shih
-categories:
+authors:
+  - Chloe Shih
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://youtube.com/shorts/KRoKTDs2W18?si=hu9OncGtgd-U6N1C
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Just Ask the Dumb Question
 ---
 

@@ -1,12 +1,16 @@
 ---
-authors: Ryan Schachte
-categories:
+authors:
+  - Ryan Schachte
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Creating a Blog With Hugo and Github in 10 Minutes
 ---
 

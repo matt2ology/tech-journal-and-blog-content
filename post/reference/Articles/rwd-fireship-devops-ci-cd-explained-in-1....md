@@ -1,12 +1,16 @@
 ---
-authors: Fireship
-categories:
+authors:
+  - Fireship
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - DevOps CI/CD Explained in 100 Seconds
 ---
 

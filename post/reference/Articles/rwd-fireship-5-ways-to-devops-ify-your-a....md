@@ -1,12 +1,16 @@
 ---
-authors: Fireship
-categories:
+authors:
+  - Fireship
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://www.youtube.com/watch?v=eB0nUzAI7M8
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - 5 Ways to DevOps-ify Your App - Github Actions Tutorial
 ---
 

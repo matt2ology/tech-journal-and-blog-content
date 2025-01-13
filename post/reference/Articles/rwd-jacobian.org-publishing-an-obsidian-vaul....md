@@ -1,12 +1,16 @@
 ---
-authors: jacobian.org
-categories:
+authors:
+  - jacobian.org
+categories: 
 date: 2024-12-23
-draft: true
+draft: false
 source-url: https://jacobian.org/til/hugo-obsidian/
 mediums: articles
 notes: reference
-tags: readwise, reference/articles, consumed
+tags:
+  - readwise
+  - reference/articles
+  - consumed
 title: Reference - Publishing an Obsidian Vault With Hugo
 ---
 

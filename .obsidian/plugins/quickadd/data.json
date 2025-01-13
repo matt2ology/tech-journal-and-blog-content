@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Blog"
+          "post/blog"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -43,7 +43,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Literature"
+          "post/literature"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

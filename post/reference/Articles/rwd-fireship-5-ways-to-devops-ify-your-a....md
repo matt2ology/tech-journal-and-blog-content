@@ -1,7 +1,7 @@
 ---
 authors:
   - Fireship
-categories: 
+categories:
 date: 2024-12-23
 draft: false
 source-url: https://www.youtube.com/watch?v=eB0nUzAI7M8

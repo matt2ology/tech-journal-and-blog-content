@@ -95,7 +95,7 @@ The highlight text is rendered as a blockquote using the `>` Markdown syntax.
 > {{ highlight_text }}
 ```
 
-#### 3. Link to Highlight Location:
+#### 3. Link to Highlight Location
 
 - If both `highlight_location` and `highlight_location_url` are present:
     - A Markdown link (`[text](URL)`) is created under the highlight text.
@@ -113,7 +113,7 @@ The highlight text is rendered as a blockquote using the `>` Markdown syntax.
 <!-- Adding a blank line -->
 {% endif %}
 ```
-#### 4. Highlight Note:
+#### 4. Highlight Note
 
 If a `highlight_note` exists:
 

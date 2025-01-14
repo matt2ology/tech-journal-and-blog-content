@@ -113,6 +113,7 @@ The highlight text is rendered as a blockquote using the `>` Markdown syntax.
 <!-- Adding a blank line -->
 {% endif %}
 ```
+
 #### 4. Highlight Note
 
 If a `highlight_note` exists:

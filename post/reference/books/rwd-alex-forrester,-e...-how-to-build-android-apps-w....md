@@ -3,7 +3,7 @@ authors:
   - Alex Forrester, Eran Boudjnah, Alexandru Dumbravan, and Jomar Tigcal
 categories: 
 date: 2025-01-16
-draft: false
+draft: true
 sources: kindle
 mediums: books
 notes: reference

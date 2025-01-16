@@ -1,11 +1,11 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
 notes: atomic
-tags: 
+tags:
 title: Atomic - {{title}}
 ---
 

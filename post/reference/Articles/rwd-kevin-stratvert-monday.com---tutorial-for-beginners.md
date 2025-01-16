@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - monday.com - Tutorial for Beginners
 ---
+
 ## monday.com - Tutorial for Beginners
 
 ![rw-book-cover](https://i.ytimg.com/vi/K-j7Ty2rHBc/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2023-09-18
 **Link:** [monday.com - Tutorial for Beginners](https://www.youtube.com/watch?v=K-j7Ty2rHBc&ab_channel=KevinStratvert)
 
 ## Highlights
+
 ### id822951228
 
 > You can plan events, manage engineering sprints, and keep track of social media campaigns
@@ -41,7 +43,7 @@ published-date: 2023-09-18
 ### id822955363
 
 > Down below, I can set the privacy for this board. I can set it so it's visible to everyone in my organization. I could also limit it to just certain individuals.
->   People in my organization or here, I can make it available to everyone, but also to people outside my organization. I'll set it to Main. Keep in mind, you can always change these settings later.
+> People in my organization or here, I can make it available to everyone, but also to people outside my organization. I'll set it to Main. Keep in mind, you can always change these settings later.
 > \- [(View Highlight)](https://read.readwise.io/read/01jervan12pex2m16nwx6c80bh)
 
 ### id822957824
@@ -204,6 +206,3 @@ As Monday.com define a "dashboard" is an collection of groups/projects, so all c
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jes05szfaehf28wfhmc0tqn5)
 All data from various groups/projects can have multiple ways that it can be displayed/visualized in one location.
-
-
-

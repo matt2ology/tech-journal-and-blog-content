@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - So You Think You Know Git - FOSDEM 2024
 ---
+
 ## So You Think You Know Git - FOSDEM 2024
 
 ![rw-book-cover](https://i.ytimg.com/vi/aolI_Rz0ZqY/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2024-02-08
 **Link:** [So You Think You Know Git - FOSDEM 2024](https://www.youtube.com/watch?v=aolI_Rz0ZqY&ab_channel=GitButler)
 
 ## Highlights
+
 ### id676836235
 
 > So normally you run, Git blame and it blames the entire file and pages it. If you know the line range, then you can say just blame this line range and A it makes it faster, but B, it makes it more, more understandable
@@ -39,7 +41,7 @@ The command can also take in a function name and git will try to figure out what
 ### id676837830
 
 > GitHub and most of the GUIs don't ignore whitespace by default when when it runs Git blame and there's more options you can give Git blame. So you can also say dash C which says detect code movement. So if you delete a function and then move it somewhere else
->   in the file, it will remember that and it will kind of ignore that movement.
+> in the file, it will remember that and it will kind of ignore that movement.
 > \- [(View Highlight)](https://read.readwise.io/read/01hpk62atp59mrdypqa92fzaxj)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01hpk62atp59mrdypqa92fzaxj)
@@ -87,7 +89,7 @@ It's not expensive disk wise.
 ### id676843973
 
 > dash dash column or you can set a global config column.ui auto and then if it sees this sort of list instead of sort of paging it as one line, it will try to put it into columns graphically for you.
->   And the other one is branch.sort. So you can sort your branches by default by in this case reverse commiterdate. So I want to see the ones that have had the last commit first right the most recent commit first.
+> And the other one is branch.sort. So you can sort your branches by default by in this case reverse commiterdate. So I want to see the ones that have had the last commit first right the most recent commit first.
 > \- [(View Highlight)](https://read.readwise.io/read/01hpk7c1a1fmp6g0bb74sx0fcd)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01hpk7c1a1fmp6g0bb74sx0fcd)
@@ -98,22 +100,22 @@ Git branches an be ordered by reverse commiterdate: `git config --global branch.
 ### id676845338
 
 > it's just going to make everything faster and you won't have to worry about anything. So if you've ever run like a Git command and you see like, you know, it's garbage collector, it's running. Git GC It's like garbage collecting or pruning loose objects or doing something like that. It's doing that but in the background. So you don't it doesn't have to tack it on to another command that you run because there's something running in the background. So this is what strategy incremental does. It does mostly these four things. It does commit graph generation, which I'll talk about in a second pre fetch every hour, which I'll talk about in a second
->   loose object collection and incremental repacks of of your packs. But really all that means is shit just gets faster.
+> loose object collection and incremental repacks of of your packs. But really all that means is shit just gets faster.
 > \- [(View Highlight)](https://read.readwise.io/read/01hpk80r9jzvf4zc6qg31ygxwy)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01hpk80r9jzvf4zc6qg31ygxwy)
 `git maintenance start` appends the following to `.git/config` file
+
 ```yml
 [maintenance]
 auto = false
 strategy = incremental
 ```
+
 This will make thing generally faster...
 `strategy = incremental` does the following:
+
 - Commit graph generation
 - prefetch every hour
 - loose object collection
 - incremental-repack
-
-
-

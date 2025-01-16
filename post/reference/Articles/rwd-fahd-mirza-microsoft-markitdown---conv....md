@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - Microsoft MarkItDown - Convert Files and Office Documents to Markdown - Install Locally
 ---
+
 ## Microsoft MarkItDown - Convert Files and Office Documents to Markdown - Install Locally
 
 ![rw-book-cover](https://i.ytimg.com/vi/v65Oyddfxeg/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2024-12-16
 **Link:** [Microsoft MarkItDown - Convert Files and Office Documents to Markdown - Install Locally](https://www.youtube.com/watch?v=v65Oyddfxeg)
 
 ## Highlights
+
 ### id827471526
 
 > You can use it for indexing, text analysis, dataset generation, and many other use cases.
@@ -26,6 +28,7 @@ published-date: 2024-12-16
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpgrh2zwr5gp878mex30fpp)
 [Microsoft's MarkItDown](https://github.com/microsoft/markitdown)
 It supports:
+
 - PDF
 - PowerPoint
 - Word
@@ -68,6 +71,7 @@ This tool: [MarkItDown](https://github.com/microsoft/markitdown)
 > \- [(View Highlight)](https://read.readwise.io/read/01jfph9xfsrbsd7drgvdxffqs7)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfph9xfsrbsd7drgvdxffqs7)
+
 ```python
 from markitdown import MarkItDown
 markitdown = MarkItDown()
@@ -81,6 +85,7 @@ print(result.text_convert)
 > \- [(View Highlight)](https://read.readwise.io/read/01jfphe7kv6fhr7j7z4d1sa1de)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfphe7kv6fhr7j7z4d1sa1de)
+
 ```python
 from markitdown import MarkItDown
 from IPython.display import Markdown, display
@@ -92,7 +97,7 @@ display(Markdown(result.text_content))
 ### id827474287
 
 > now let me show you how you can use it with large language models. Let's do the OCR with it, and then um, I We will be providing it an image; it will do the optical color recognition from that image by using the model—open a model.
->   Then we will display it in the Markdown format.
+> Then we will display it in the Markdown format.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfphhad9p0x52ybsfvre4vd0)
 
 ### id827474492
@@ -101,6 +106,7 @@ display(Markdown(result.text_content))
 > \- [(View Highlight)](https://read.readwise.io/read/01jfphk7sp7neqkmh4ga0ktgn3)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfphk7sp7neqkmh4ga0ktgn3)
+
 ```python
 from markitdown import MarkItDown
 from openai import OpenAI
@@ -118,6 +124,7 @@ display(Markdown(result.text_content))
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpht45k9pmf9bfm8bkpzbyj)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpht45k9pmf9bfm8bkpzbyj)
+
 ```sh
 markitdown path/to/mypdf.pdf
 ```
@@ -128,6 +135,7 @@ markitdown path/to/mypdf.pdf
 > \- [(View Highlight)](https://read.readwise.io/read/01jfphwpn3c7e3vbzhhfdax6yf)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfphwpn3c7e3vbzhhfdax6yf)
+
 ```sh
 cat /home/Ubuntu/myfiles/mypdf.pdf | markitdown
 ```
@@ -156,6 +164,3 @@ cat /home/Ubuntu/myfiles/mypdf.pdf | markitdown
 
 > I would highly appreciate it if they could make this work with the local LLMs.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpj3vk29f2d14n0z46npae1)
-
-
-

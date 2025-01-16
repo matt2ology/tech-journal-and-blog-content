@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - I Started a Blog.....in 2024
 ---
+
 ## I Started a Blog.....in 2024
 
 ![rw-book-cover](https://i.ytimg.com/vi/dnE7c0ELEH8/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2024-11-27
 **Link:** [I Started a Blog.....in 2024](https://www.youtube.com/watch?v=dnE7c0ELEH8&t=291s&ab_channel=NetworkChuck)
 
 ## Highlights
+
 ### id819825824
 
 > I'm going to type up a note in obsidian, and then a Python script will make it beautiful with Hugo. Then we'll ship it up to GitHub and then with the webhook, dump it onto my favorite website, hosting provider, hosting it, the sponsor of this video.
@@ -54,10 +56,8 @@ Of course you are.
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je4m02yrka95rd66xt17xaen)
 Can you just do git submodules?
+
 1. Add the Submodule: `git submodule add <repository_url>`
 2. Commit the Changes: `git submodule add <repository_url>`
 3. Commit the Changes
 4. Push the Changes to the Parent Repository: `git push origin <branch_name>`
-
-
-

@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - My FULL Obsidian Zettelkasten Workflow in 10 Minutes
 ---
+
 ## My FULL Obsidian Zettelkasten Workflow in 10 Minutes
 
 ![rw-book-cover](https://i.ytimg.com/vi/GRA_fwbdrtc/maxresdefault.jpg)
@@ -18,6 +19,7 @@ published-date: 2023-08-24
 **Link:** [My FULL Obsidian Zettelkasten Workflow in 10 Minutes](https://www.youtube.com/watch?v=GRA_fwbdrtc&t=118s&ab_channel=FromSergio)
 
 ## Highlights
+
 ### id820268682
 
 > Most people just take notes; they passively copy or highlight whatever they find interesting and call it a day.
@@ -32,6 +34,7 @@ A "reference" note
 > \- [(View Highlight)](https://read.readwise.io/read/01je8418qv5fbb647z5h2qydxn)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je8418qv5fbb647z5h2qydxn)
+
 - **Literature Notes:** reference notes, the highlights, that are written in your own words
 - **Permanent Notes:** are notes that atomic encapsulations of a particular example, thought, idea, concept, theory, etc. These notes can standalone independent of it's original context.
 
@@ -70,7 +73,7 @@ Free alternative to Readwise: <https://www.zotero.org/>
 ### id820279321
 
 > A literature note is a note you make in your own words about a reference note. It’s your own interpretation of the author’s thoughts; it’s what you personally got out of it.
->   There is no right or wrong way to write these; as long as it’s in your own words.
+> There is no right or wrong way to write these; as long as it’s in your own words.
 > \- [(View Highlight)](https://read.readwise.io/read/01je87e4zg5zgqm8z54n2zyq0c)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je87e4zg5zgqm8z54n2zyq0c)
@@ -83,14 +86,16 @@ Don't just hoard and archive reference notes highlights. Extrapolate and infuse 
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je87qr6erwe3vhbqbx2bfd83)
 A reference note is imported via Readwise and a new literature note is created that is Wikilink: `[[Reference Note #^original-quote-highlighted|reference]]` or Markdown link: `[reference](./References/reference_note.md)` to the imported reference note.
+
 ```markdown
 ## My Takeaways
+
 1. Idea/concept from author written in my own words.
-\- \[\[Reference Note #^original-quote-highlighted|reference]]
-2. Another key highlight of an idea or concept written in my own words. 
-\- \[Location 926 of a Kindle source](./References/reference_note.md)
+   \- \[\[Reference Note #^original-quote-highlighted|reference]]
+2. Another key highlight of an idea or concept written in my own words.
+   \- \[Location 926 of a Kindle source](./References/reference_note.md)
 3. A final idea to make note of in my own words.
-\- \[id820195256 of an article source](./References/reference_note.md)
+   \- \[id820195256 of an article source](./References/reference_note.md)
 ```
 
 ### id820280199
@@ -124,19 +129,25 @@ Fortunately, you don't need to know the identifier. When you type the caret (^),
 > \- [(View Highlight)](https://read.readwise.io/read/01je88hngd9gz6fvwbkk1z2wym)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je88hngd9gz6fvwbkk1z2wym)
+
 ```markdown
 ## Literature Notes on {title}
+
 ### Summary
+
 ## What Stood Out to Me
+
 1. My understanding and interpretation of the passage/reference/quote written in my own words \- (Highlight ID/Location ID from reference note)
+
 ## Questions/Notes for Later
+
 - Any questions or follow-ups related to this material
 ```
 
 ### id820282185
 
 > down here, I have a list of all the chapters in the book. As you can see, the majority were left empty, but that doesn't mean that they were a waste of time or that I got nothing out of it. In fact, I even took highlights on those chapters, but I'm extremely selective on what goes in.
->   The literature notes go back to what I said earlier about the benefits of separating a reference and a literature note. In the case of this book, these were my thoughts on what truly mattered.
+> The literature notes go back to what I said earlier about the benefits of separating a reference and a literature note. In the case of this book, these were my thoughts on what truly mattered.
 > \- [(View Highlight)](https://read.readwise.io/read/01je88v4p5861zqhm3z9k3adjv)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je88v4p5861zqhm3z9k3adjv)
@@ -154,7 +165,7 @@ Only if you are using [Obsidian's Wikilink to a block in a note formats](https:/
 ### id820283200
 
 > I don’t like to impose strict rules on myself, but I do try to
->   keep the literature note as short as possible because that's what’s hard.
+> keep the literature note as short as possible because that's what’s hard.
 > \- [(View Highlight)](https://read.readwise.io/read/01je89d2kc18fefsaz02b88708)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je89d2kc18fefsaz02b88708)
@@ -169,7 +180,7 @@ Distill and encapsulate key ideas and concepts of the source material without lo
 Permanent notes are concepts and ideas independent of their original context; for, it is not a highlight of someone else's words or ideas and it is not our interpretation of someone else's words or ideas.
 Permanent notes are atomic, standalone, can be applied to various applications, examples, and contribute (i.e. the building blocks) to new ideas, thoughts, and insights.
 Literature notes **points to** permanent notes (i.e. literature notes **DO** Wikilink or internal Markdown link out to permanent notes).
-Permanent notes **DO NOT** 
+Permanent notes **DO NOT**
 point back to literature notes (i.e. permanent notes **DO NOT** Wikilink or internal Markdown link to literature notes
 
 ### id820288211
@@ -183,8 +194,8 @@ As you're writing in your own words the quotes from your reference note (i.e. th
 ### id820289087
 
 > I took on more content; I made literature notes on "Atomic Habits" by James Clear and "Flow" by Mihaly.
->   Three literature notes both ended up linking to multitasking. So later, once I saw that there were multiple links to that empty note, I started writing it. I already had so much to write about because I had already thought and written about it before. This is why it’s commonly said that in the Zettelkasten system, you never start from scratch. As your Vault grows, you’ll see clusters forming in your graph view, and some of these clusters will likely be around notes you haven’t even written yet. But when you have multiple notes all pointing to one single link, it becomes virtually impossible to not take action and write a permanent note about
->   it, because half of it is already written for you. You just need to put the pieces together.
+> Three literature notes both ended up linking to multitasking. So later, once I saw that there were multiple links to that empty note, I started writing it. I already had so much to write about because I had already thought and written about it before. This is why it’s commonly said that in the Zettelkasten system, you never start from scratch. As your Vault grows, you’ll see clusters forming in your graph view, and some of these clusters will likely be around notes you haven’t even written yet. But when you have multiple notes all pointing to one single link, it becomes virtually impossible to not take action and write a permanent note about
+> it, because half of it is already written for you. You just need to put the pieces together.
 > \- [(View Highlight)](https://read.readwise.io/read/01je8b153majp3tmeex42v85cc)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je8b153majp3tmeex42v85cc)
@@ -194,11 +205,12 @@ In Sergio's example the three literature notes on "How to Take Smart Notes" by S
 ### id820292086
 
 > The first is that they should be atomic, which means one note, one idea. Secondly, they should be short and concise as possible. I make it so I don’t have to scroll down to see the full note, because generally speaking, if I need to scroll to see the full note, I mean, it's not clear enough or I’m Covering more than one idea, it should be easy to understand by anyone, even if it pulls information from two or three different literature nodes.
->   Someone with just basic knowledge of the topic at hand should be able to understand it. As Sunk has said in the book, permanent notes are directed towards an audience ignorant of the thoughts behind the text and unaware of the original context, only equipped with the general knowledge of the field. Lastly, I do my best to have at least one link in each permanent note. This of course isn’t possible when you’re just starting, but it’s something to keep in mind as your vault grows, because that’s what adds real value to our system. It’s
+> Someone with just basic knowledge of the topic at hand should be able to understand it. As Sunk has said in the book, permanent notes are directed towards an audience ignorant of the thoughts behind the text and unaware of the original context, only equipped with the general knowledge of the field. Lastly, I do my best to have at least one link in each permanent note. This of course isn’t possible when you’re just starting, but it’s something to keep in mind as your vault grows, because that’s what adds real value to our system. It’s
 > \- [(View Highlight)](https://read.readwise.io/read/01je8bz5qyqjcqseh3e99qngnz)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je8bz5qyqjcqseh3e99qngnz)
 Components of a good quality permanent note are:
+
 1. The note is atomic: the note encapsulates 1 and only 1 idea or concept.
 2. The note is short and concise as much as possible (i.e. the content should be above the fold: you should not have to scroll to gain understanding). It should be relatively easy to understand by anyone ignorant of the field, topic, domain, and/or original context.
 3. The permanent note,via Wikilink: `[[Multi-tasking myth]]` or Markdown link: `[Multi-tasking myth](Multi-tasking myth)`, internally links out to at least one (or more) permanent note.
@@ -206,7 +218,7 @@ Components of a good quality permanent note are:
 ### id820293522
 
 > one final step in the process. That is to write published work. That’s when you take the content from multiple permanent notes to write published work, whether that’s an academic paper, a book, etc. The same permanent note can and likely will help.
->   In creating several different published pieces
+> In creating several different published pieces
 > \- [(View Highlight)](https://read.readwise.io/read/01je8chsrpwynj0cne5m5afp8h)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je8chsrpwynj0cne5m5afp8h)
@@ -220,15 +232,15 @@ Take your permanent notes, as building blocks, to write original published works
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je8crh6bj306jtcyydvtr1sp)
 Logical fallacy - "affirming the consequent"? No, the fallacy occurs when someone assumes that because a consequent (effect) is true, the antecedent (cause) must also be true.
 It follows this invalid logical structure:
+
 ```plaintext
 1. If P, then Q.
 2. Q.
 3. Therefore, P.
 ```
+
 **It has some potential Issues in that it may lead to**:
+
 - Hasty Generalization: some people may become better speakers or writers through other means (e.g., practice, feedback) without engaging in extensive note-taking or reflective thought.
 - Post Hoc Ergo Propter Hoc (Causal Fallacy): the statement implies a causal relationship: notes and thoughts compounding → better thinking → better speaking/writing.
 - Appeal to General Utility (Implicit Assumption): the statement claims, "No matter what you do, being a good writer will probably help." While broadly true, this is an overgeneralization. Some professions or activities may benefit very little from strong writing skills (e.g., physical labor jobs), so the universal applicability is questionable.
-
-
-

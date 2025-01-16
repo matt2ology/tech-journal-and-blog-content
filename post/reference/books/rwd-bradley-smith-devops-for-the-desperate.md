@@ -10,6 +10,7 @@ notes: reference
 tags: readwise, reference/books
 title: Reference - DevOps for the Desperate
 ---
+
 ## DevOps for the Desperate
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/71xOonOss9L._SY160.jpg)
@@ -17,6 +18,7 @@ title: Reference - DevOps for the Desperate
 published-date: None
 
 ## Highlights
+
 ### Location 366
 
 > DevOps is an integral part of software development.
@@ -74,6 +76,3 @@ The developers are no longer separated from those who maintain the infrastructur
 
 **Initial thought or note on:** [(Location 556)](https://readwise.io/to_kindle?action=open&asin=B09M82VY43&location=556)
 One configuration file per project. How does this compare with Nix?
-
-
-

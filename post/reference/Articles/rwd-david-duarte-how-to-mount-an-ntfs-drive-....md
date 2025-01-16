@@ -9,6 +9,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - How to Mount an NTFS Drive on CentOS / RHEL / Rocky Linux
 ---
+
 ## How to Mount an NTFS Drive on CentOS / RHEL / Rocky Linux
 
 ![rw-book-cover](https://www.howtoforge.com/images/featured/rhel-ntfs.jpg)
@@ -18,6 +19,7 @@ published-date: None
 **Link:** [How to Mount an NTFS Drive on CentOS / RHEL / Rocky Linux](https://www.howtoforge.com/tutorial/mount-ntfs-centos/)
 
 ## Highlights
+
 ### id659039576
 
 > yum install epel-release
@@ -44,6 +46,3 @@ After installing the windows New Technology File System (NTFS) drive a directory
 In this example, my NTFS partition is the device /dev/sdb1. You have to replace that with the device name of your NTFS partition.
 However the above is temporary. For a permanent solution one would need to edit `/etc/fstab` and append the following line `/dev/sdb1 /mnt/win ntfs-3g defaults 0 0`
 Where `/dev/sdb1` is the device name of your NTFS partition.
-
-
-

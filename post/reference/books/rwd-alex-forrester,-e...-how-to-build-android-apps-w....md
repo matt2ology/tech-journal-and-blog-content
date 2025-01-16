@@ -1,7 +1,7 @@
 ---
 authors:
   - Alex Forrester, Eran Boudjnah, Alexandru Dumbravan, and Jomar Tigcal
-categories: 
+categories:
 date: 2025-01-16
 draft: true
 sources: kindle

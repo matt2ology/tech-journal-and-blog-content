@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./attachments",
-  "newFileFolderPath": "Inbox",
+  "newFileFolderPath": "post/inbox",
   "newFileLocation": "folder",
   "newLinkFormat": "relative",
   "readableLineLength": true,

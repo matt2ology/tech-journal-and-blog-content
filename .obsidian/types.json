@@ -5,6 +5,7 @@
     "categories": "multitext",
     "cssclasses": "multitext",
     "date": "text",
-    "tags": "tags"
+    "tags": "tags",
+    "links": "multitext"
   }
 }

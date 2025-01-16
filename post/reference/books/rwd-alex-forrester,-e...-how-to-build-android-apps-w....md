@@ -1,13 +1,15 @@
 ---
-authors: Alex Forrester, Eran Boudjnah, Alexandru Dumbravan, and Jomar Tigcal
-categories:
+authors:
+  - Alex Forrester, Eran Boudjnah, Alexandru Dumbravan, and Jomar Tigcal
+categories: 
 date: 2025-01-16
-draft: true
-
+draft: false
 sources: kindle
 mediums: books
 notes: reference
-tags: readwise, reference/books
+tags:
+  - readwise
+  - reference/books
 title: Reference - How to Build Android Apps With Kotlin
 ---
 

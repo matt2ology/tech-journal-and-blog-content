@@ -12,6 +12,9 @@ on:
     branches:
       - "main" # Ensures the workflow runs only when changes are pushed to the main branch, avoiding unnecessary actions for other branches.
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   markdown-format:
     runs-on: ubuntu-latest

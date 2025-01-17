@@ -32,7 +32,7 @@ rwd-{{author|lower|replace("and","")|replace(" ","-")|replace("...","")|truncate
 
 ![rw-book-cover]({{image_url}})
 
-published-date: {{published_date}}
+Source published date: {{published_date}}
 
 {% endif -%}
 {% if url -%}

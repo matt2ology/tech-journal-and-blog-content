@@ -1,11 +1,11 @@
 ---
 authors:
   - Matt2ology
-categories:
+categories: 
 date: 2025-01-13T02:11:44-08:00
-draft: true
+draft: false
 notes: blog
-tags:
+tags: 
 title: Blog - Readwise Obsidian Export Formatting
 ---
 

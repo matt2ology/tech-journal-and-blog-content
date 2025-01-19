@@ -9,9 +9,9 @@ source-url: https://youtube.com/shorts/gf7udt3tODk?si=gBKkUSSHrCoHcIRy
 media: articles
 notes: reference
 tags:
-  - readwise
-  - reference/articles
   - consumed
+  - readwise
+  - youtube
 title: Reference - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 ---
 

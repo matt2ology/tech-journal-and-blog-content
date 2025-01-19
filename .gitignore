@@ -1,6 +1,7 @@
 .obsidian/appearance.json
-.obsidian/workspace.json
+.obsidian/graph.json
 .obsidian/plugins/
+.obsidian/workspace.json
 .trash/
 
 # Don't ignore the following plug-in configurations

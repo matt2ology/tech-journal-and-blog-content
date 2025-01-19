@@ -13,6 +13,8 @@ title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsi
 
 ## From Notes to Website: Automating Hugo with GitHub Pages and Obsidian
 
+[Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/blog/from-notes-to-website-automating-hugo-with-github-pages-and-obsidian.md)
+
 For this "how-to" I've tried to write the instructions as agnostic as I can (i.e. the steps can be followed regardless of one's operating system); however, before preceding note, at the time of writing, that I am primarily developing in a windows environment.
 
 To set up and automate deployment for a static website using [Hugo](https://gohugo.io/), with [Obsidian](https://obsidian.md/) notes as the content source management and [GitHub Pages](https://pages.github.com/) as the deployment target.
@@ -427,4 +429,4 @@ If you're using TOML as your configuration file add the following:
         target = 'content'
 ```
 
-[Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/blog/from-notes-to-website-automating-hugo-with-github-pages-and-obsidian.md)
+

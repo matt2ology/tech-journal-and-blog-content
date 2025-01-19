@@ -5,7 +5,7 @@ date: 2025-01-16
 draft: true
 
 sources: kindle
-mediums: books
+media: books
 notes: reference
 tags: readwise, reference/books
 title: Reference - The Rust Programming Language

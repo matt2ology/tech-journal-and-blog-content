@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://jacobian.org/til/hugo-obsidian/
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed, media-consumed
 title: Reference - Publishing an Obsidian Vault With Hugo

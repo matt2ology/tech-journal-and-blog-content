@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/715/introduction/4654/
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - Stacks and queues are data structures defined by their interfaces. They're a good example of how a simple idea can be used to implement efficient algorithms, and how data structures & algorithms show up in our everyday lives.

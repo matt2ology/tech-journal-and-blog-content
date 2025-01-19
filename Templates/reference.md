@@ -6,10 +6,10 @@ draft: true
 media:
 notes: reference
 tags:
-  - reference/article
-  - reference/book
-  - reference/podcast
-  - reference/video
+  - article
+  - book
+  - podcast
+  - video
 title: Reference - {{title}}
 ---
 

@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.howtoforge.com/tutorial/mount-ntfs-centos/
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - How to Mount an NTFS Drive on CentOS / RHEL / Rocky Linux

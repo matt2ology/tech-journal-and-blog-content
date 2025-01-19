@@ -13,6 +13,7 @@ title: Blog - Readwise Obsidian Export Formatting
 
 Consider using [Zotero](https://www.zotero.org/) as a free alternative to [Readwise service](https://readwise.io/) and their [Reader app](https://readwise.io/read).
 
+This post contains my customized Readwise format when exporting highlights and initial notes to Obsidian. You can create your own by following the link to [Readwise documentation: How can I customize the Readwise to Obsidian Export?](https://docs.readwise.io/readwise/docs/exporting-highlights/obsidian#how-can-i-customize-the-readwise-to-obsidian-export)
 
 ### File name
 

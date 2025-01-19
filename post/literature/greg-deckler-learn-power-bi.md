@@ -4,7 +4,7 @@ authors:
 categories:
 date: 2025-01-19T01:14:21-08:00
 draft: true
-mediums: books
+media: books
 notes: literature
 tags:
   - literature/book

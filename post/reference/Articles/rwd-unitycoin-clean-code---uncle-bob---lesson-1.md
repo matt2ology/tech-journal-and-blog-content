@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed, media-consumed
 title: Reference - Clean Code - Uncle Bob / Lesson 1

@@ -7,7 +7,7 @@ categories:
 date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog
-tags: 
+tags:
 title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 
@@ -296,7 +296,7 @@ on:
   workflow_run:
     workflows: ["Update Submodule Reference"]
     types:
-      - completed  # This ensures the dependent workflow runs after Workflow 1 completes
+      - completed # This ensures the dependent workflow runs after Workflow 1 completes
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

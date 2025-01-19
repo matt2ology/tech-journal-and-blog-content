@@ -6,6 +6,7 @@ date: 2025-01-13T02:11:44-08:00
 draft: false
 notes: blog
 tags:
+  - readwise
 title: Blog - Readwise Obsidian Export Formatting
 ---
 

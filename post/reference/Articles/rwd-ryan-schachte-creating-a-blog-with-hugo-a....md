@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed, media-consumed
 title: Reference - Creating a Blog With Hugo and Github in 10 Minutes

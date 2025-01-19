@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=dnE7c0ELEH8&t=291s&ab_channel=NetworkChuck
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - I Started a Blog.....in 2024

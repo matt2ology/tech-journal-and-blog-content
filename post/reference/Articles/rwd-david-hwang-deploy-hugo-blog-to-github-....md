@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=_QSr2_pxIJs&ab_channel=davidhwang
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain

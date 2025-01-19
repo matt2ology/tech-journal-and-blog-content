@@ -4,7 +4,7 @@ authors:
 categories:
 date: 2024-12-26T11:17:30-08:00
 draft: true
-mediums: notebooklm
+media: notebooklm
 notes: reference
 tags:
   - reference/notebooklm

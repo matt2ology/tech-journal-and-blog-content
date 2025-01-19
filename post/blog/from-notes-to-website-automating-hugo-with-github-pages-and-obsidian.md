@@ -13,29 +13,21 @@ title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsi
 
 ## From Notes to Website: Automating Hugo with GitHub Pages and Obsidian
 
-For this "how-to" I've tried to write the instructions as agnostic as I can (i.e. the steps can be followed regardless of one's operating system); however, before preceding note, at the time of writing, that I am:
-
-- Working in a windows 11 environment (version: 24H2, OS build: 26100.2605); using PowerShell 7.4.6
-- Hugo version: `hugo v0.139.4-3afe91d4b1b069abbedd6a96ed755b1e12581dfe+extended windows/amd64 BuildDate=2024-12-09T17:45:23Z VendorInfo=gohugoio`
+For this "how-to" I've tried to write the instructions as agnostic as I can (i.e. the steps can be followed regardless of one's operating system); however, before preceding note, at the time of writing, that I am primarily developing in a windows environment.
 
 To set up and automate deployment for a static website using Hugo, with Obsidian notes as the content source and GitHub Pages as the deployment target, you can follow these steps:
 
 ### Prerequisites
 
-- Install [Git](https://git-scm.com/downloads)
-  - `git --version`
-- Install [Hugo](https://gohugo.io/installation/)
-  - `hugo version`
-- Install [Obsidian](https://obsidian.md/download)
+In addition to the [prerequisites describe on Hugo's own site](https://gohugo.io/installation/windows/) you'd also need to install [Obsidian](https://obsidian.md/download).
 
 ### 1. Repository Structure
 
-1. **Main Repository**: Host the [Hugo](https://gohugo.io/) project (`hugo-site`).
-   - Repository: `hugo-site`
-2. **Content Submodule**: Use [Obsidian notes](https://obsidian.md/) for managing content (`obsidian-notes-repo`).
-   - Submodule: A separate repository containing Markdown files for your notes.
-3. **Public Submodule**: Use the [GitHub Pages](https://pages.github.com/) repository (`username.github.io`) to deploy the generated static site.
-   - Submodule: A separate repository for the generated static site.
+1. **Public Submodule**: use the [GitHub Pages](https://pages.github.com/) repository (`username.github.io`) to deploy the generated static site.
+   - Submodule: a separate repository for the generated static site.
+2. **Content Submodule**: use [Obsidian notes](https://obsidian.md/) for managing content (`obsidian-notes-repo`).
+   - Submodule: a separate repository containing Markdown files for your notes.
+3. Theme Submodule: there are many [Hugo themes](https://themes.gohugo.io/) to select from take your pick.
 
 ### 2. Initial Setup
 
@@ -46,29 +38,18 @@ To set up and automate deployment for a static website using Hugo, with Obsidian
    ```
 
 2. **Public Repository**: [Create the `username.github.io` repository on GitHub](https://pages.github.com/).
-3. **Hugo Repository**: Create the folder that will house the static site generator framework
-
-   Using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) or Bash:
-
-   ```bash
-   git init hugo-site && cd hugo-site
-   ```
-
-   Using [Windows Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) (i.e. cmd.exe)
-
-   ```cmd
-   mkdir hugo-site && cd hugo-site && git init
-   ```
 
 #### Add Submodules
 
-1. **Add Obsidian Notes Submodule**:
+Using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) (on Windows) or Bash (on Linux) within your **user** site GitHub Pages repository (i.e. your `username.github.io`). Also see the [Types of GitHub Pages sites](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
+
+1. **Add Obsidian Notes Submodule:**
    ```bash
    git submodule add https://github.com/username/obsidian-notes-repo content
    ```
-2. **Add Public Deployment Submodule**:
+2. **Add a theme:** I'll be using [Jimmy Cai](https://jimmycai.com/)'s [Hugo Stack theme](https://github.com/CaiJimmy/hugo-theme-stack)
    ```bash
-   git submodule add -b main https://github.com/username/username.github.io public
+   git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
    ```
 
 #### Checkpoint - Verify Directory Structure
@@ -78,12 +59,11 @@ Following the steps listed so far should result in the following directory struc
 ```plaintext
 C:.
 \---projects
-    +---hugo-site
-    |   +---content
+    +---username.github.io   <- GitHub Repository
+    |   +---content          <- Submodule in GitHub Repository
     |   |   +---.obsidian
-    |   \---public
-    +---obsidian-notes-repo
-    \---username.github.io
+    |   \---theme
+    +---obsidian-notes-repo  <- GitHub Repository
 ```
 
 #### Create Hugo project skeleton
@@ -104,102 +84,290 @@ hugo new site . --force
 [submodule "content"]
     path = content
     url = https://github.com/username/obsidian-notes-repo
-[submodule "public"]
-    path = public
-    url = https://github.com/username/username.github.io
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/
 ```
+
+Note if you're not using [Jimmy Cai](https://jimmycai.com/)'s [Hugo Stack theme](https://github.com/CaiJimmy/hugo-theme-stack) your `themes/` submodule will read differently than what I have listed
 
 ### 3. Configure GitHub Actions
 
-Create a GitHub Actions workflow to automate pulling the latest content, building the Hugo site, and deploying it.
+Hosting on GitHub Pages with continuous deployment is as easy as following the steps found here: <https://gohugo.io/hosting-and-deployment/hosting-on-github/>
 
-#### Create `.github/workflows/deploy.yml`
+The downside of using their prescribed [.github/workflows/hugo.yaml](https://gohugo.io/hosting-and-deployment/hosting-on-github/) is that you'd have to manually pull changes from the `content` (`obsidian-notes-repo`) submodule and update the submodule reference in the main `username.github.io` repository.
+
+I will provide my GitHub Action workflow to automate:
+
+1. `obsidian-notes-repo`: the formatting of the Markdown files
+2. `username.github.io`: update the `content` (`obsidian-notes-repo`) submodule and reference
+3. `username.github.io`: build and deploy the Hugo site with the latest content
+
+You'll need to create a Personal Access Token (PAT).
+You can find how to do that here: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+
+##### GitHub Account Settings for Personal Access Token (PAT)
+
+You can also follow my abridged steps below
+
+1. Settings / Developer Settings / Personal access tokens / Tokens (classic) > Personal access tokens (classic)
+2. Regenerate the token > Generate new token (classic) - For general use
+3. What's this token for name: GH_PAT
+4. Set Expiration
+5. Select scopes > check the workflow box (Update GitHub Action workflows)
+6. Copy secret value
+7. Go to repo's settings > Secrets and variables > Actions > Actions secrets and variables > Secrets tab > Repository secrets > New repository secret
+8. Actions secrets / New secret > Secret Name Should be the same as when created: GH_PAT
+9. Paste the secret value
+10. Click "Add secret"
+
+#### `obsidian-notes-repo`: automate formatting Markdown files
+
+Create the following file in path: `.github\workflows\format-markdown.yml`
+
+```plaintext
+C:.
+\---projects
+    +---username.github.io   <- GitHub Repository
+    |   +---content          <- Submodule in GitHub Repository
+    |   |   +---.obsidian
+    |   \---theme
+    +---obsidian-notes-repo  <- GitHub Repository
+    |   +---.github
+    |       \---workflows
+    |               format-markdown.yml  <- File created
+```
+
+In that file I have the following:
 
 ```yaml
-name: Deploy Hugo Site
-
-# GitHub Account Settings:
-# 01. Settings / Developer Settings / Personal access tokens / Tokens (classic) > Personal access tokens (classic)
-# 02. Regenerate the token > Generate new token (classic) - For general use
-# 03. Note - What's this token for name: GH_PAT_HUGO
-# 04. Set Expiration
-# 05. Select scopes > check the workflow box (Update GitHub Action workflows)
-# 06. Copy secret value
-# 07. Go to repo's settings > Secrets and variables > Actions > Actions secrets and variables > Secrets tab > Repository secrets > New repository secret
-# 08. Actions secrets / New secret > Secret Name Should be the same as when created: GH_PAT_HUGO
-# 09. Paste the secret value
-# 10. Click "Add secret"
+name: Format Markdown
 
 on:
   push:
     branches:
-      - main # Trigger the workflow when code is pushed to the 'main' branch
-  workflow_dispatch: # Allow manual triggering of the workflow via the GitHub Actions UI
-  schedule:
-    - cron: "0 0 */14 * *" # Run every 14 days at midnight UTC
+      - "main" # Ensures the workflow runs only when changes are pushed to the main branch, avoiding unnecessary actions for other branches.
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  markdown-format:
     runs-on: ubuntu-latest
-    # Specify the OS environment where the workflow will run
+    # Uses a reliable and up-to-date Linux environment for consistent execution of the workflow.
 
     steps:
-      # Clone the repository and ensure any submodules are cloned recursively
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          token: ${{ secrets.GH_PAT }} # Provides access to the repository to retrieve and modify its content.
 
-      # Install the latest version of Hugo to generate the static site
-      - name: Set Up Hugo
-        uses: peaceiris/actions-hugo@v2
+      # Prepares the environment to run Node.js-based tools, ensuring compatibility with Prettier.
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          hugo-version: "latest"
+          node-version: "16"
 
-      # Commit submodule changes if there are updates, otherwise continue
-      - name: Update Content Submodule
+      # Installs Prettier globally to enforce consistent Markdown formatting rules across the repository.
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      # Automatically formats all Markdown files, ensuring consistent code style and readability.
+      - name: Format Markdown files
+        run: prettier --write "**/*.md"
+
+      # Configures Git credentials for the bot, stages any formatting changes, and commits them if there are modifications.
+      - name: Commit changes
         run: |
-          git submodule update --remote --merge content # Update the specified submodule to its latest remote version and merge changes
-          git add content # Stage changes in the submodule
-          git commit -m "Update content submodule" || echo "No changes to commit"
-
-      # Generate the static site using Hugo, with minified output for optimized performance
-      - name: Build Hugo Site
-        run: hugo --minify
-
-      # Authenticate using the GitHub token to push changes
-      # Specify the directory containing the built static site to deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_PAT_HUGO }}
-          publish_dir: ./public
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" 
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Formatted Markdown files"
+      # Outputs the repository's remote URL to verify that it is correctly set up for pushing changes.
+      - name: Debug remote URL
+        run: git remote -v
+      # Verifies that the GitHub Personal Access Token (PAT) is correctly injected as an environment variable for authentication.
+      - name: Debug PAT (Sensitive info hidden)
+        run: echo $GH_PAT | cut -c1-4 && echo "***"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+      # Pushes the committed changes back to the main branch, ensuring the repository reflects the latest formatted content.
+      - name: Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          git push origin HEAD
 ```
 
-### 4. Workflow Explained
+#### `username.github.io`: automate updating content and deploying the Hugo site
 
-1. **Checkout Repository**:
-   - Ensures the Hugo repository and its submodules are cloned.
-2. **Set Up Hugo**:
-   - Installs Hugo for the build process.
-3. **Update Content Submodule**:
-   - Updates the `content` submodule to pull the latest changes from the Obsidian notes repository.
-   - Commits the updated submodule reference.
-4. **Build Hugo Site**:
-   - Runs Hugo to generate the static website in the `public` directory.
-5. **Deploy to GitHub Pages**:
-   - Deploys the contents of the `public` directory (a submodule) to the `username.github.io` repository.
+You'll still need to follow the step 3 and step 4 in Hugo's document on [HOSTING AND DEPLOYMENT Host on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) (i.e. from the main menu choose **Settings** > **Pages** Change the **Source** to `GitHub Actions`).
 
-### 5. Maintain Your Workflow
+Create the following directory `.github\workflows\` to create the following two files:
 
-1. **Obsidian Workflow**:
-   - Update your notes and push changes to the `obsidian-notes-repo` repository.
-2. **Trigger GitHub Actions**:
-   - Push changes to the `main` branch of the `hugo-site` repository to trigger the deployment workflow.
-3. **Monitor Submodules**:
-   - Periodically ensure that the `public` and `content` submodules are synchronized with their respective remote repositories.
+1. `.github\workflows\hugo.yml`
+2. `.github\workflows\update-submodlue-reference.yml`
 
-### 6. Ignore Obsidian Markdown Templates
+```plaintext
+C:.
+\---projects
+    +---username.github.io   <- GitHub Repository
+    +---.github
+    |   \---workflows
+    |           hugo.yml                        <- Create file
+    |           update-submodule-reference.yml  <- Create file
+    |   +---content          <- Submodule in GitHub Repository
+    |   |   +---.obsidian
+    |   \---theme
+    +---obsidian-notes-repo  <- GitHub Repository
+```
+
+##### Workflow to build and deploy the Hugo site with the latest content
+
+```yaml
+name: Update Submodule Reference
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Runs every 14 days on a schedule (cron expression)
+  schedule:
+    - cron: "0 0 */14 * *" # Every 14 days at midnight UTC
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Required to push changes to the repository
+
+    steps:
+      # Checkout the repository, including submodules
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: "true" # Ensure submodules are checked out
+
+      # Forcefully update the submodule and resolve conflicts by resetting
+      - name: Update submodule and resolve merge conflicts
+        run: |
+          cd ./content/
+
+          # Fetch the latest changes from the submodule's remote
+          git fetch origin
+
+          # Force reset the submodule to the latest commit (use 'main' or your desired branch)
+          git reset --hard origin/main  # Adjust 'main' to the correct branch name
+
+          # Go back to the main repository
+          cd -
+
+      - name: Configure Git identity for the commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check for submodule reference changes
+        run: |
+          git diff ./content/
+          if ! git diff --quiet ./content/; then
+            echo "Submodule reference updated."
+            git add ./content/
+            git commit -m "Resolved submodule merge conflict by accepting incoming changes"
+            git push
+          else
+            echo "No changes in submodule reference."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+```
+
+##### Workflow to update the `content` (`obsidian-notes-repo`) submodule and reference
+
+```yaml
+name: Deploy Hugo site to Pages
+
+on:
+  workflow_run:
+    workflows: ["Update Submodule Reference"]
+    types:
+      - completed  # This ensures the dependent workflow runs after Workflow 1 completes
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.128.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # Ensures submodules are cloned recursively
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+### Ignore Obsidian Markdown templates when building your Hugo site
 
 When managing content using Obsidian you're most likely to use your own templates when
 creating notes. For this reason your Obsidian Markdown templates front matter may not
@@ -220,3 +388,5 @@ To fix this possible issue consider adding the following to your Hugo project's 
         source = 'content'
         target = 'content'
 ```
+
+[Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/blog/from-notes-to-website-automating-hugo-with-github-pages-and-obsidian.md)

@@ -5,7 +5,7 @@ date: 2025-01-19
 draft: true
 
 sources: kindle
-mediums: books
+media: books
 notes: reference
 tags: readwise, reference/books
 title: Reference - Learn Power BI

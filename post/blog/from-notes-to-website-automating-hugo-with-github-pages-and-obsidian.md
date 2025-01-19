@@ -92,9 +92,15 @@ hugo new site . --format yaml --force
 
 With the command I've [configure Hugo](https://gohugo.io/getting-started/configuration/) to use [YAML over the default TOML format](https://www.barenakedcoder.com/blog/2020/03/config-files-ini-xml-json-yaml-toml/) (i.e. `hugo.yaml`) for that I, personally, find it easier to work with as a configuration file.
 
-To have Hugo configured with the default `hugo.toml` file run the same command without `--format yaml`, so that it's just the following: `hugo new site . --force`
+To have Hugo configured with the default `hugo.toml` file run the same command
+without `--format yaml`, so that it's just the following: `hugo new site . --force`
 
-> Without `--force` you'll get the following prompt:
+Know that if you ever restart or wish to switch Hugo configuration file format
+you can simply do so, for that is the benefit of separating your Hugo site
+(`username.github.io`) and you markdown files (your `content`) into their own
+separate repositories.
+
+> Without `--force` you'll get a similar prompt:
 >
 > > Error: C:\Users\username\projects\hugo-site already exists and is not empty. See --force.
 >
@@ -128,7 +134,7 @@ I will provide my GitHub Action workflow to automate:
 You'll need to create a Personal Access Token (PAT).
 You can find how to do that here: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
 
-##### GitHub Account Settings for Personal Access Token (PAT)
+#### GitHub Account Settings for Personal Access Token (PAT)
 
 You can also follow my abridged steps below
 

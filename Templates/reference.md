@@ -3,7 +3,7 @@ authors:
 categories:
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
-mediums:
+media:
 notes: reference
 tags:
   - reference/article

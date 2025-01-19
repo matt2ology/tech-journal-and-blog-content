@@ -1,7 +1,7 @@
 ---
 authors:
   - Matt2ology
-categories: 
+categories:
 date: 2025-01-19T01:14:21-08:00
 draft: true
 mediums: books

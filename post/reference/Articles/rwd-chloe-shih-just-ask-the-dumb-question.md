@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://youtube.com/shorts/KRoKTDs2W18?si=hu9OncGtgd-U6N1C
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - Just Ask the Dumb Question

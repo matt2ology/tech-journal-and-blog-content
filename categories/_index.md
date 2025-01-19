@@ -1,5 +1,5 @@
 ---
-title: Example Category
+title: Categories
 description: A description of this category
 # Badge style
 style:

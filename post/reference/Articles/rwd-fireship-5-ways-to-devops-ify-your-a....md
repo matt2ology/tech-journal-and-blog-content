@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=eB0nUzAI7M8
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - 5 Ways to DevOps-ify Your App - Github Actions Tutorial

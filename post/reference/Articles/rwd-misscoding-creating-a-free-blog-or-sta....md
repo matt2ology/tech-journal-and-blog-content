@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=LSJ5S8VG5aU
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed, media-consumed
 title: Reference - Creating a Free Blog or Static Content Website With Hugo and GitHub Pages With Custom Domain and Ads

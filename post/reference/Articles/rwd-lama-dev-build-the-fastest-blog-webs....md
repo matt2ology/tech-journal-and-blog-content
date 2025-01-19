@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=6BRZ-yHjYwo&ab_channel=LamaDev
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - Build the Fastest Blog Website With Markdown Content | Hugo Static Site Generation Tutorial

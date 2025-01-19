@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - DevOps CI/CD Explained in 100 Seconds

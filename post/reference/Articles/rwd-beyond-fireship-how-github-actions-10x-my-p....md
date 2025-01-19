@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=yfBtjLxn_6k&ab_channel=BeyondFireship
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - How GitHub Actions 10x My Productivity

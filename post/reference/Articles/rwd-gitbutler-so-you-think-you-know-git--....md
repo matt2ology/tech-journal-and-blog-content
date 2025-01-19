@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=aolI_Rz0ZqY&ab_channel=GitButler
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - So You Think You Know Git - FOSDEM 2024

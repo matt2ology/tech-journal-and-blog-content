@@ -15,7 +15,21 @@ title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsi
 
 For this "how-to" I've tried to write the instructions as agnostic as I can (i.e. the steps can be followed regardless of one's operating system); however, before preceding note, at the time of writing, that I am primarily developing in a windows environment.
 
-To set up and automate deployment for a static website using Hugo, with Obsidian notes as the content source and GitHub Pages as the deployment target, you can follow these steps:
+To set up and automate deployment for a static website using [Hugo](https://gohugo.io/), with [Obsidian](https://obsidian.md/) notes as the content source management and [GitHub Pages](https://pages.github.com/) as the deployment target.
+
+Using Obsidian to manage markdown files for a Hugo-based static site deployed on 
+GitHub Pages offers several benefits, including efficient local content management, easy 
+linking between notes, and full compatibility with markdown. Obsidian’s organizational 
+features, such as tags, backlinks, and folder structures, help structure content for Hugo, 
+making it easier to manage large sites. Additionally, Obsidian works offline and across 
+platforms, allowing flexibility in content creation. It also integrates well with Git for version 
+control, enabling smooth collaboration and history tracking. The approach promotes a 
+clear separation of concerns by decoupling content creation (managed in Obsidian) from 
+the site generation and deployment process (handled by Hugo and GitHub Pages), 
+allowing each tool to focus on its strengths. This separation enhances organization, 
+scalability, and maintainability for the static site.
+
+If this sounds beneficial to you or your workflow you can follow these steps:
 
 ### Prerequisites
 
@@ -23,11 +37,11 @@ In addition to the [prerequisites describe on Hugo's own site](https://gohugo.io
 
 ### 1. Repository Structure
 
-1. **Public Submodule**: use the [GitHub Pages](https://pages.github.com/) repository (`username.github.io`) to deploy the generated static site.
-   - Submodule: a separate repository for the generated static site.
+1. **Hugo Framework/GitHub Pages Repository**: use [GitHub Pages](https://pages.github.com/) user repository (`username.github.io`) to deploy the generated static site.
 2. **Content Submodule**: use [Obsidian notes](https://obsidian.md/) for managing content (`obsidian-notes-repo`).
    - Submodule: a separate repository containing Markdown files for your notes.
-3. Theme Submodule: there are many [Hugo themes](https://themes.gohugo.io/) to select from take your pick.
+3. **Theme Submodule:** there are many [Hugo themes](https://themes.gohugo.io/) to select from take your pick.
+    - I will be using Hugo theme "[Stack](https://github.com/CaiJimmy/hugo-theme-stack)" by [Jimmy Cai](https://jimmycai.com/)
 
 ### 2. Initial Setup
 
@@ -70,13 +84,21 @@ C:.
 
 [Hugo directory structure](https://gohugo.io/getting-started/directory-structure/)
 
+Run the following command within your GitHub Page user repository (i.e. `username.github.io`)
+
 ```bash
-hugo new site . --force
+hugo new site . --format yaml --force
 ```
+
+With the command I've [configure Hugo](https://gohugo.io/getting-started/configuration/) to use [YAML over the default TOML format](https://www.barenakedcoder.com/blog/2020/03/config-files-ini-xml-json-yaml-toml/) (i.e. `hugo.yaml`) for that I, personally, find it easier to work with as a configuration file.
+
+To have Hugo configured with the default `hugo.toml` file run the same command without `--format yaml`, so that it's just the following: `hugo new site . --force`
 
 > Without `--force` you'll get the following prompt:
 >
 > > Error: C:\Users\username\projects\hugo-site already exists and is not empty. See --force.
+> 
+> This is because the directory is already populated with a `content` folder and a `themes` folder.
 
 #### Set up `.gitmodules`
 
@@ -379,7 +401,17 @@ adhere to what Hugo expects.
 
 [Configure Hugo modules `excludeFiles`](https://gohugo.io/hugo-modules/configuration/#module-config-mounts) - configuration options for a module
 
-To fix this possible issue consider adding the following to your Hugo project's TOML file; `C:\Users\username\projects\hugo-site\hugo.toml`
+To fix this possible issue consider adding the following to your Hugo project's YAML file; `C:\Users\username\projects\hugo-site\hugo.yaml`
+
+```YAML
+module:
+  mounts:
+    - excludeFiles: Templates/*
+      source: content
+      target: content
+```
+
+If you're using TOML as your configuration file add the following:
 
 ```toml
 [module]

@@ -428,5 +428,3 @@ If you're using TOML as your configuration file add the following:
         source = 'content'
         target = 'content'
 ```
-
-

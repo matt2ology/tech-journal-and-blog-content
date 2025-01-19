@@ -4,7 +4,7 @@ authors:
 categories:
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
-mediums:
+media:
 notes: literature
 tags:
   - literature/article

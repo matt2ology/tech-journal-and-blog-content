@@ -156,11 +156,11 @@ Create the following file in path: `.github\workflows\format-markdown.yml`
 ```plaintext
 C:.
 \---projects
-    +---username.github.io   <- GitHub Repository
-    |   +---content          <- Submodule in GitHub Repository
+    +---username.github.io               <- GitHub Repository
+    |   +---content                      <- Submodule in GitHub Repository
     |   |   +---.obsidian
     |   \---theme
-    +---obsidian-notes-repo  <- GitHub Repository
+    +---obsidian-notes-repo              <- GitHub Repository
     |   +---.github
     |       \---workflows
     |               format-markdown.yml  <- File created
@@ -245,10 +245,10 @@ C:.
     |   \---workflows
     |           hugo.yml                        <- Create file
     |           update-submodule-reference.yml  <- Create file
-    |   +---content          <- Submodule in GitHub Repository
+    |   +---content                             <- Submodule in GitHub Repository
     |   |   +---.obsidian
     |   \---theme
-    +---obsidian-notes-repo  <- GitHub Repository
+    +---obsidian-notes-repo                     <- GitHub Repository
 ```
 
 ##### Workflow to build and deploy the Hugo site with the latest content

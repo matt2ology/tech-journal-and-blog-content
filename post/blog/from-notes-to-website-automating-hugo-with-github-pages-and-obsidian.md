@@ -2,8 +2,8 @@
 authors:
   - Matt2ology
 categories:
-  - how-to
   - blog
+  - how-to
 date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog

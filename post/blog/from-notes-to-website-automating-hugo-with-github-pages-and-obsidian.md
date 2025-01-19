@@ -5,9 +5,9 @@ categories:
   - how-to
   - blog
 date: 2025-01-11T23:55:35-08:00
-draft: true
+draft: false
 notes: blog
-tags:
+tags: 
 title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 

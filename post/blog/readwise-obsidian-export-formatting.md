@@ -148,7 +148,7 @@ source-url: {{url}}
 {% else %}
 sources: {{source}}
 {% endif -%}
-mediums: {{category}}
+media: {{category}}
 notes: reference
 tags: readwise, reference/{{category}}{% for tag in document_tags %}, {{tag}}{% endfor %}
 title: Reference - {{title}}

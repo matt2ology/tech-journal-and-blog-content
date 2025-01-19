@@ -26,7 +26,7 @@ rwd-{{author|lower|replace("and","")|replace(" ","-")|replace("...","")|truncate
 ### Page title
 
 ```django
-## {{ full_title }}
+## {{ full_title }} (Highlights)
 ```
 
 ### Page metadata

@@ -10,3 +10,5 @@ title: Blog - {{title}}
 ---
 
 ## {{title}}
+
+Propose edits or changes on GitHub

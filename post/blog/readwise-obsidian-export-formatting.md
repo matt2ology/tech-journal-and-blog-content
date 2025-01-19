@@ -11,6 +11,9 @@ title: Blog - Readwise Obsidian Export Formatting
 
 ## Readwise Obsidian Export Formatting
 
+Consider using [Zotero](https://www.zotero.org/) as a free alternative to [Readwise service](https://readwise.io/) and their [Reader app](https://readwise.io/read).
+
+
 ### File name
 
 Dynamically generates a string identifier for content, typically used for SEO-friendly URLs or file names. It uses the `author` and `title` fields, applies several formatting and cleaning steps (e.g., converting to lowercase, removing special characters, replacing spaces with hyphens), and truncates the resulting segments to fixed lengths (20 characters for `author` and 30 for `title`).

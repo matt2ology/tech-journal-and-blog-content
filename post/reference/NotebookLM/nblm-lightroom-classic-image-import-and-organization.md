@@ -5,7 +5,7 @@ categories:
   - photography
 date: 2024-12-28T20:13:38-08:00
 draft: true
-mediums: notebooklm
+media: notebooklm
 notes: reference
 tags:
   - reference/notebooklm

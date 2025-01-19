@@ -4,7 +4,7 @@ categories:
 date: 2025-01-16
 draft: true
 source-url: https://www.youtube.com/watch?v=GRA_fwbdrtc&t=118s&ab_channel=FromSergio
-mediums: articles
+media: articles
 notes: reference
 tags: readwise, reference/articles
 title: Reference - My FULL Obsidian Zettelkasten Workflow in 10 Minutes

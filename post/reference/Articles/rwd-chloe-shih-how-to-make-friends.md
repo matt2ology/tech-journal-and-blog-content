@@ -5,7 +5,7 @@ categories:
 date: 2024-12-23
 draft: false
 source-url: https://youtube.com/shorts/gf7udt3tODk?si=gBKkUSSHrCoHcIRy
-mediums: articles
+media: articles
 notes: reference
 tags:
   - readwise

@@ -15,7 +15,16 @@ Consider using [Zotero](https://www.zotero.org/) as a free alternative to [Readw
 
 This post contains my customized Readwise format when exporting highlights and initial notes to Obsidian. You can create your own by following the link to [Readwise documentation: How can I customize the Readwise to Obsidian Export?](https://docs.readwise.io/readwise/docs/exporting-highlights/obsidian#how-can-i-customize-the-readwise-to-obsidian-export)
 
+### Group Files in Category Folders  
+
+- Books -> `books`
+- Articles -> `articles`
+- Tweets -> `tweets`
+- Podcasts -> `podcasts`
+
 ### File name
+
+Have "Use Custom File Name" toggled on.
 
 Dynamically generates a string identifier for content, typically used for SEO-friendly URLs or file names. It uses the `author` and `title` fields, applies several formatting and cleaning steps (e.g., converting to lowercase, removing special characters, replacing spaces with hyphens), and truncates the resulting segments to fixed lengths (20 characters for `author` and 30 for `title`).
 

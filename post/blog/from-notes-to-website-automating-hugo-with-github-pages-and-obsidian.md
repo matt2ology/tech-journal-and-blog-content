@@ -99,9 +99,11 @@ you can simply do so, for that is the benefit of separating your Hugo site
 separate repositories.
 
 **NOTE** - without `--force` you'll get a similar prompt:
+
 ```powershell
 Error: C:\Users\username\projects\hugo-site already exists and is not empty. See –force.
 ```
+
 This is because the directory is already populated with a `content` folder and a `themes` folder.
 
 #### Set up `.gitmodules`

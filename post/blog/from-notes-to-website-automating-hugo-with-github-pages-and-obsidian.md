@@ -7,7 +7,7 @@ categories:
 date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog
-tags: 
+tags:
 title: "From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 
@@ -21,10 +21,10 @@ linking between notes, and full compatibility with markdown. Obsidian’s organi
 features, such as tags, backlinks, and folder structures, help structure content for Hugo,
 making it easier to manage large sites.
 
-Additionally, Obsidian works offline and across platforms, allowing flexibility in content 
-creation. The approach promotes a clear separation of concerns by decoupling 
-content creation (managed in Obsidian) from the site generation and deployment process 
-(handled by Hugo and GitHub Pages), allowing each tool to focus on its strengths. This 
+Additionally, Obsidian works offline and across platforms, allowing flexibility in content
+creation. The approach promotes a clear separation of concerns by decoupling
+content creation (managed in Obsidian) from the site generation and deployment process
+(handled by Hugo and GitHub Pages), allowing each tool to focus on its strengths. This
 separation enhances organization, scalability, and maintainability for the static site.
 
 If this sounds beneficial to your needs or workflow you can follow these steps:

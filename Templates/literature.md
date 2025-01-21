@@ -16,7 +16,7 @@ tags:
 title: Literature - {{title}}
 ---
 
-## {{title}}
+## Literature note - {{title}}
 
 **Link to reference note:**
 

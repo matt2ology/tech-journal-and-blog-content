@@ -32,15 +32,15 @@ a new hobby.
 > that one friend you vibe with. Afterwards, ask them to hang out. This is a follow-through. It's critical! It's a meal, a coffee chat. This is where you go from NPC to, "Oh, you're a real person." if you don’t have hobbies, host something.
 
 You'll hardly know anyone, so leverage your existing and surrounding relationships.
-Ask from people you've known from college, previous roommates, or even your former or
+Ask people you've known from college, previous roommates, or even your former or
 current co-workers. Go to the local events, the housewarmings, work events, and/or happy
-hours and find that one person you can connect and vibe with and ask to hangout. Go out
-for a coffee, brunch, a walk around the farmers market. You already pass the vibe test, so
-talk about your goals, hobbies, share life stories and interests. If you don't have "hobbies"
-host a game or dinner night.
+hours and find that one person you can connect and vibe with, and ask to hangout. Go out
+for a coffee, brunch, a walk around the farmers market. You've already pass the vibe test, so
+have confidence to talk about your goals, hobbies, share life stories, and interests.
+If you don't have "hobbies" host a game or dinner night.
 
 > Making friends is hard, but it's very doable. Remember to follow through, don't overthink it, give it time, make an effort, and you just might be surprised.
 
-Everything for the first time in a new environment, or stage of life, is hard. Give yourself
-grace and follow though. The amounts of time and effort you put into any venture adds up
-and soon you'll find yourself at a different state from when you first started.
+Everything for the first time especially in a new environment, or stage of life, is hard.
+Give yourself grace and follow though. The amounts of time and effort you put into any 
+venture adds up and soon you'll find yourself at a different state from when you first started.

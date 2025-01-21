@@ -12,6 +12,7 @@ tags:
   - book
   - podcast
   - video
+  - youtube
 title: Literature - {{title}}
 ---
 

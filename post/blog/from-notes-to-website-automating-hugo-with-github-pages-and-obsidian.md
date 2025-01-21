@@ -7,31 +7,27 @@ categories:
 date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog
-tags:
-title: "Blog - From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
+tags: 
+title: "From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 
 ## From Notes to Website: Automating Hugo with GitHub Pages and Obsidian
 
 [Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/blog/from-notes-to-website-automating-hugo-with-github-pages-and-obsidian.md)
 
-For this "how-to" I've tried to write the instructions as agnostic as I can (i.e. the steps can be followed regardless of one's operating system); however, before preceding note, at the time of writing, that I am primarily developing in a windows environment.
-
-To set up and automate deployment for a static website using [Hugo](https://gohugo.io/), with [Obsidian](https://obsidian.md/) notes as the content source management and [GitHub Pages](https://pages.github.com/) as the deployment target.
-
-Using Obsidian to manage markdown files for a Hugo-based static site deployed on
-GitHub Pages offers several benefits, including efficient local content management, easy
+Using [Obsidian](https://obsidian.md/) to manage markdown files for a [Hugo-based static site](https://gohugo.io/) deployed on
+[GitHub Pages](https://pages.github.com/) offers several benefits, including efficient local content management, easy
 linking between notes, and full compatibility with markdown. Obsidian’s organizational
 features, such as tags, backlinks, and folder structures, help structure content for Hugo,
-making it easier to manage large sites. Additionally, Obsidian works offline and across
-platforms, allowing flexibility in content creation. It also integrates well with Git for version
-control, enabling smooth collaboration and history tracking. The approach promotes a
-clear separation of concerns by decoupling content creation (managed in Obsidian) from
-the site generation and deployment process (handled by Hugo and GitHub Pages),
-allowing each tool to focus on its strengths. This separation enhances organization,
-scalability, and maintainability for the static site.
+making it easier to manage large sites.
 
-If this sounds beneficial to you or your workflow you can follow these steps:
+Additionally, Obsidian works offline and across platforms, allowing flexibility in content 
+creation. The approach promotes a clear separation of concerns by decoupling 
+content creation (managed in Obsidian) from the site generation and deployment process 
+(handled by Hugo and GitHub Pages), allowing each tool to focus on its strengths. This 
+separation enhances organization, scalability, and maintainability for the static site.
+
+If this sounds beneficial to your needs or workflow you can follow these steps:
 
 ### Prerequisites
 

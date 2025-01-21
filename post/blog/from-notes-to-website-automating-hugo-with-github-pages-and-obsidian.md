@@ -115,7 +115,7 @@ This is because the directory is already populated with a `content` folder and a
 	url = https://github.com/CaiJimmy/hugo-theme-stack/
 ```
 
-Note if you're not using [Jimmy Cai](https://jimmycai.com/)'s [Hugo Stack theme](https://github.com/CaiJimmy/hugo-theme-stack) your `themes/` submodule will read differently than what I have listed
+**NOTE** - if you're not using [Jimmy Cai](https://jimmycai.com/)'s [Hugo Stack theme](https://github.com/CaiJimmy/hugo-theme-stack) your `themes/` submodule will read differently than what I have listed
 
 ### 3. Configure GitHub Actions
 

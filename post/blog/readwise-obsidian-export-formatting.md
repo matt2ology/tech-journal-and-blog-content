@@ -163,5 +163,5 @@ sources: {{source}}
 media: {{category}}
 notes: reference
 tags: readwise, reference/{{category}}{% for tag in document_tags %}, {{tag}}{% endfor %}
-title: Reference - {{title}}
+title: Reference - {{author}} - {{title}}
 ```

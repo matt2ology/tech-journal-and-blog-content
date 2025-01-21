@@ -1,12 +1,12 @@
 ---
 authors:
   - Matt2ology
-categories:
+categories: 
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
 notes: blog
-tags:
-title: Blog - {{name}}
+tags: 
+title: "{{name}}"
 ---
 
 ## {{name}}

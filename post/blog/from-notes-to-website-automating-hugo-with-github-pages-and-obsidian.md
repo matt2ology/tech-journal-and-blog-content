@@ -134,7 +134,7 @@ You can find how to do that here: <https://docs.github.com/en/authentication/kee
 
 #### GitHub Account Settings for Personal Access Token (PAT)
 
-You can also follow my abridged steps below
+You can also follow my abridged steps below (steps written - as of January 21st, 2025)
 
 1. Settings / Developer Settings / Personal access tokens / Tokens (classic) > Personal access tokens (classic)
 2. Regenerate the token > Generate new token (classic) - For general use

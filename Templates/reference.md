@@ -10,7 +10,7 @@ tags:
   - article
   - book
   - podcast
-  - video
+  - youtube
 title: Reference - {{title}}
 ---
 

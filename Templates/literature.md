@@ -17,9 +17,9 @@ title: Literature - {{title}}
 
 ## Literature note: {{title}}
 
-<!-- [Initial thoughts or notes, and original highlights]({{< relref "/post/reference/rest_of_the_path_to_file" >}}) -->
+<!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file" >}}) -->
 
-**Link to reference note:** [Initial thoughts or notes, and original highlights]({{< relref "/post/reference/rest_of_the_path_to_file" >}})
+[**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file" >}})
 
 ## Key Ideas
 

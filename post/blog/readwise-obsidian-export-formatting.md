@@ -152,6 +152,7 @@ If a `highlight_note` exists:
 ```django
 authors: {{author}}
 categories:
+  - reference
 date: {{date|date("Y-m-d")}}
 draft: true
 {% if url -%}

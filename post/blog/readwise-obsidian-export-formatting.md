@@ -8,7 +8,7 @@ draft: false
 notes: blog
 tags:
   - readwise
-title: Blog - Readwise Obsidian Export Formatting
+title: Readwise Obsidian Export Formatting
 ---
 
 ## Readwise Obsidian Export Formatting

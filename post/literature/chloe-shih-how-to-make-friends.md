@@ -1,10 +1,10 @@
 ---
 authors:
   - Matt2ology
-categories:
+categories: 
 date: 2025-01-21T10:35:13-08:00
-draft: true
-media:
+draft: false
+media: 
 notes: literature
 tags:
   - youtube

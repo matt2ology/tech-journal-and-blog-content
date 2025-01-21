@@ -42,5 +42,5 @@ If you don't have "hobbies" host a game or dinner night.
 > Making friends is hard, but it's very doable. Remember to follow through, don't overthink it, give it time, make an effort, and you just might be surprised.
 
 Everything for the first time especially in a new environment, or stage of life, is hard.
-Give yourself grace and follow though. The amounts of time and effort you put into any 
+Give yourself grace and follow though. The amounts of time and effort you put into any
 venture adds up and soon you'll find yourself at a different state from when you first started.

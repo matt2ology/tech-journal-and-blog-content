@@ -18,4 +18,5 @@ title: Atomic - {{title}}
 
 ## Related Atomic Notes and Published Works
 
-<!-- \[Atomic01\]\(../03-Atomic/Atomic01.md\) -->
+<!-- [Also See]({{< relref "/post/rest_of_the_path_to_file" >}}) -->
+- 

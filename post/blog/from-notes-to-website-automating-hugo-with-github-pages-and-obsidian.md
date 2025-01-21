@@ -98,11 +98,11 @@ you can simply do so, for that is the benefit of separating your Hugo site
 (`username.github.io`) and you markdown files (your `content`) into their own
 separate repositories.
 
-> Without `--force` you'll get a similar prompt:
->
-> > Error: C:\Users\username\projects\hugo-site already exists and is not empty. See --force.
->
-> This is because the directory is already populated with a `content` folder and a `themes` folder.
+**NOTE** - without `--force` you'll get a similar prompt:
+```powershell
+Error: C:\Users\username\projects\hugo-site already exists and is not empty. See –force.
+```
+This is because the directory is already populated with a `content` folder and a `themes` folder.
 
 #### Set up `.gitmodules`
 

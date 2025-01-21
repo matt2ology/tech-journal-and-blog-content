@@ -2,9 +2,10 @@
 authors:
   - Matt2ology
 categories:
+  - literature
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
-media:
+media: 
 notes: literature
 tags:
   - article

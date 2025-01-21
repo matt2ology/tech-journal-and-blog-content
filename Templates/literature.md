@@ -11,19 +11,22 @@ tags:
   - article
   - book
   - podcast
-  - video
   - youtube
 title: Literature - {{title}}
 ---
 
 ## Literature note: {{title}}
 
-**Link to reference note:**
+<!-- [See my original highlights]({{< relref "/post/reference/rest_of_the_path_to_file" >}}) -->
+**Link to reference note:** [See my original highlights]({{< relref "/post/reference/rest_of_the_path_to_file" >}})
 
 ## Key Ideas
 
 <!-- Idea 1: Key point or insights written in your own words -->
 
 ## Related Literature Notes or Atomic Notes
+
+<!-- [Related Literature Note]({{< relref "/post/literature/rest_of_the_path_to_file" >}}) -->
+<!-- [Related Atomic Note]({{< relref "/post/atomic/rest_of_the_path_to_file" >}}) -->
 
 -

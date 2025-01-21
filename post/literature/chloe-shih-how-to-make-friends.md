@@ -14,7 +14,7 @@ title: Literature - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of
 
 ## Literature note: Chloe Shih - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 
-**Link to reference note:** [Initial thoughts or notes, and original highlights]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md" >}})
+[**Link to reference note**]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md" >}})
 
 ## Key Ideas
 

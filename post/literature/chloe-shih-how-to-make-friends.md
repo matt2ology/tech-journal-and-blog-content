@@ -8,7 +8,7 @@ media:
 notes: literature
 tags:
   - youtube
-title: Literature - chloe-shih-how-to-make-friends
+title: Literature - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 ---
 
 ## Literature note: Chloe Shih - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30

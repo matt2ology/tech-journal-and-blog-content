@@ -17,13 +17,18 @@ title: Literature - {{title}}
 
 ## Literature note: {{title}}
 
-<!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file.md" >}})
+> Summary:
 
-[**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file" >}})
+<!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file.md" >}})  -->
+[**Link to reference note**]({{< relref "" >}})
 
 ## Key Ideas
 
 <!-- Idea 1: Key point or insights written in your own words [reference]({{< relref "path/to/target-document.md#my-target-header" >}}) -->
+
+1. 
+
+<!-- ## Chapters Optional-->
 
 ## Related Literature Notes or Atomic Notes
 

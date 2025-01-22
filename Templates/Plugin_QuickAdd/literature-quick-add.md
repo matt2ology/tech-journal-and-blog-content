@@ -8,10 +8,10 @@ draft: true
 media:
 notes: literature
 tags:
-  - article
-  - book
-  - podcast
-  - youtube
+  - literature/article
+  - literature/book
+  - literature/podcast
+  - literature/video
 title: Literature - {{name}}
 ---
 

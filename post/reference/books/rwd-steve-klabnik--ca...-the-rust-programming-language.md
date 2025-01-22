@@ -1,24 +1,23 @@
 ---
 authors: Steve Klabnik and Carol Nichols
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 
 sources: kindle
 media: books
 notes: reference
 tags: readwise, reference/books
-title: Reference - The Rust Programming Language
+title: Reference - Steve Klabnik and Carol Nichols - The Rust Programming Language
 ---
-
-## The Rust Programming Language
+## The Rust Programming Language (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/71aCEjlQBoL._SY160.jpg)
 
-published-date: None
+Source published date: None
 
 ## Highlights
-
 ### Location 1362
 
 > This version of the text assumes you’re using Rust 1.62.0 (released 2022-06-30) or later with edition="2021" in the Cargo.toml file of all projects to configure them to use Rust 2021 edition idioms.
@@ -103,3 +102,4 @@ Rust is not so restrictive to dis-allow others from adopting it's opinionated st
 
 **Initial thought or note on:** [(Location 1877)](https://readwise.io/to_kindle?action=open&asin=B0B7QTX8LL&location=1877)
 like C/CPP one would need to import libraries to do user input.
+

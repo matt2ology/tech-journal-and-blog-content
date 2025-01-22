@@ -11,7 +11,6 @@ notes: reference
 tags:
   - readwise
   - reference/books
-slug: rwd-greg-deckler-learn-power-bi
 title: Reference - Greg Deckler - Learn Power BI
 ---
 

@@ -35,6 +35,9 @@ via Markdown. The fix, to make this post, is to escape the characters.
 ERROR [en] REF_NOT_FOUND: Ref "path/to/target-document.md": "/home/runner/work/matt2ology.github.io/matt2ology.github.io/content/post/literature/greg-deckler-learn-power-bi.md:23:74": page not found
 ```
 
+Also make sure whatever you're internally linking to is also "published", is able to be 
+rendered, that is `draft: false`. You can't link to what doesn't exist.
+
 ## Additional learning - Flexibility with Permalinks
 
 ### `relref`

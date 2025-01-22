@@ -23,7 +23,7 @@ title: Literature - {{name}}
 
 ## Key Ideas
 
-<!-- Idea 1: Key point or insights written in your own words -->
+<!-- Idea 1: Key point or insights written in your own words [reference]({{< relref "path/to/target-document.md#my-target-header" >}}) -->
 
 ## Related Literature Notes or Atomic Notes
 

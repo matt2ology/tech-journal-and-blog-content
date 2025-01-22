@@ -1,25 +1,24 @@
 ---
 authors: Fireship
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 source-url: https://www.youtube.com/watch?v=eB0nUzAI7M8
 media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
-title: Reference - 5 Ways to DevOps-ify Your App - Github Actions Tutorial
+title: Reference - Fireship - 5 Ways to DevOps-ify Your App - Github Actions Tutorial
 ---
-
-## 5 Ways to DevOps-ify Your App - Github Actions Tutorial
+## 5 Ways to DevOps-ify Your App - Github Actions Tutorial (Highlights)
 
 ![rw-book-cover](https://i.ytimg.com/vi/eB0nUzAI7M8/maxresdefault.jpg)
 
-published-date: 2020-03-16
+Source published date: 2020-03-16
 
 **Link:** [5 Ways to DevOps-ify Your App - Github Actions Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8)
 
 ## Highlights
-
 ### id827711711
 
 > One of the best ways to increase productivity in a software project is to automate anything manual or repetitive
@@ -91,7 +90,7 @@ What is continuous integration (CI) [DevOps CI/CD Explained in 100 Seconds](http
 ### id827714541
 
 > What we want to do for continuous integration is have our test suite run anytime there's a pull request to the master branch. If the test suite fails or if the code fails to build, we should get a red checkmark here, automatically telling us not to merge
-> that pull request. But if everything goes according to plan, we should get a green checkmark.
+>   that pull request. But if everything goes according to plan, we should get a green checkmark.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqyjd774x596f1wyz2qaqj4)
 
 ### id827716423
@@ -100,8 +99,7 @@ What is continuous integration (CI) [DevOps CI/CD Explained in 100 Seconds](http
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqym05k9y7xqcf455meaqb8)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqym05k9y7xqcf455meaqb8)
-
-> `./.github/workflows/integrate.yml`
+>`./.github/workflows/integrate.yml`
 
 ### id827721973
 
@@ -109,14 +107,12 @@ What is continuous integration (CI) [DevOps CI/CD Explained in 100 Seconds](http
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqyqh8chqwz9d9fzt657d5j)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqyqh8chqwz9d9fzt657d5j)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
 pull_requests:
-branches: [master]
+branches: [ master ]
 ```
 
 ### id827727986
@@ -125,14 +121,12 @@ branches: [master]
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqytxk6f46aqqcznt8kk28f)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqytxk6f46aqqcznt8kk28f)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
 pull_requests:
-branches: [master]
+branches: [ master ]
 jobs:
 ```
 
@@ -142,14 +136,12 @@ jobs:
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqywxbkwjvsd3bkhwzte20y)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqywxbkwjvsd3bkhwzte20y)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
 pull_requests:
-branches: [master]
+branches: [ master ]
 jobs:
 test_pull_request:
 runs-on: ubuntu-latest
@@ -158,24 +150,22 @@ runs-on: ubuntu-latest
 ### id827735792
 
 > next we need to give this job a set of steps or instructions that actually build and test our code. First, we want to get our source code into the virtual machine. We can do that using an officially maintained action called checkout that brings your source code into the current
-> working directory, and that means you can run commands like you would from the command line if working on the project locally. But in our case, we also need to set up Node.js in order to run those commands, so we use the Node setup action and then specify the version.
+>   working directory, and that means you can run commands like you would from the command line if working on the project locally. But in our case, we also need to set up Node.js in order to run those commands, so we use the Node setup action and then specify the version.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqyyyt41n4g7vmmbddxawq9)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqyyyt41n4g7vmmbddxawq9)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
 pull_requests:
-branches: [master]
+branches: [ master ]
 jobs:
 test_pull_request:
 runs-on: ubuntu-latest
 steps:
-  - uses: actions/checkout@v2
-  - uses: actions/setup-node@v1
+- uses: actions/checkout@v2
+- uses: actions/setup-node@v1
 with:
 node-version: 12
 ```
@@ -186,9 +176,7 @@ node-version: 12
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqz5yc7s0xkvxrwqa6cjmew)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqz5yc7s0xkvxrwqa6cjmew)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
@@ -211,9 +199,7 @@ node-version: 12
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqz80t9756bs1dxpy2hk91k)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqz80t9756bs1dxpy2hk91k)
-
-> `./.github/workflows/integrate.yml`
-
+>`./.github/workflows/integrate.yml`
 ```yml
 name: Node Continuous Integration
 on:
@@ -238,7 +224,6 @@ node-version: 12
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqzaspeftsvwjb1r5fvm5tf)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqzaspeftsvwjb1r5fvm5tf)
-
 ```sh
 git add .github/workflows/integrate.yml
 git commit -m "Adding integration steps for GitHub Actions"
@@ -255,11 +240,9 @@ git commit -m "Adding integration steps for GitHub Actions"
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqzg9qb4dwwgk11ghbgr1xp)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfqzg9qb4dwwgk11ghbgr1xp)
-
 ```sh
 git checkout -b testing
 ```
-
 > `Switched to a new branch 'testing'`
 
 ### id827751900
@@ -270,7 +253,7 @@ git checkout -b testing
 ### id827752137
 
 > GitHub, I'll see the option to create a pull request, which I'll go ahead and do. You'll notice that it indicates how we're running checks or a
-> continuous integration test in the background.
+>   continuous integration test in the background.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfqzk27mjh7w5b1h8f3nweqm)
 
 ### id827753884
@@ -328,11 +311,10 @@ Marc Stammerjohann's blog post [GitHub Action deploying Angular App to Firebase 
 ### id827757911
 
 > We can easily set up hosting locally.
-> By running firebase init hosting, then we can push our code to our Firebase hosting account using firebase deploy.
+>   By running firebase init hosting, then we can push our code to our Firebase hosting account using firebase deploy.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfr00pf4gxphs9bndb3pht8c)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfr00pf4gxphs9bndb3pht8c)
-
 ```sh
 firebase init
 firebase deploy --only hosting
@@ -349,18 +331,15 @@ firebase deploy --only hosting
 > \- [(View Highlight)](https://read.readwise.io/read/01jfr0604a5npsgvtsmjh9h80v)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfr0604a5npsgvtsmjh9h80v)
-
 ```sh
 firebase login:ci
 ```
-
 > `Success! Use this token to login on a CI Server:`
 >
 > YOUR TOKEN HERE
 >
 > `Example: firebase deploy --token "$FIREBASE_TOKEN"
-
-````
+```
 
 ### id827759847
 
@@ -386,7 +365,7 @@ name: Firebase Continuous Deployment
 on:
 push:
 branches: [ master ]
-````
+```
 
 ### id827845621
 
@@ -394,7 +373,6 @@ branches: [ master ]
 > \- [(View Highlight)](https://read.readwise.io/read/01jfraryfcp9ykpzzhhzr93fe5)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfraryfcp9ykpzzhhzr93fe5)
-
 ```yml
 name: Firebase Continuous Deployment
 on:
@@ -415,11 +393,10 @@ node-version: 12
 ### id827846070
 
 > This action takes care of all the steps required to set up the Firebase CLI on your server. It will run the Firebase command, and then we tell it to use the arguments of deploy
-> only hosting, and it’s going to be looking for an environment variable of Firebase token. We can access our secret GitHub value by using dollar sign double braces followed by Secrets dot firebase token, and that’s basically all there is to it.
+>   only hosting, and it’s going to be looking for an environment variable of Firebase token. We can access our secret GitHub value by using dollar sign double braces followed by Secrets dot firebase token, and that’s basically all there is to it.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrb1rvrk8vjzegz87y54a0j)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrb1rvrk8vjzegz87y54a0j)
-
 ```yml
 name: Firebase Continuous Deployment
 on:
@@ -447,7 +424,6 @@ FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrb5wryk4915ped1tmw1wxf)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrb5wryk4915ped1tmw1wxf)
-
 ```sh
 git add .github/workflows/deploy.yml
 git commit -m "Added Continuous Deployment workflow"
@@ -481,22 +457,20 @@ Jeff Delaney, the man behind the YouTube channel Fireship, maintains a "minimal,
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrbv8ggjxzp14fjm2n9zkc1)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrbv8ggjxzp14fjm2n9zkc1)
-
 ```yml
 name: Sveltefire Package
 on:
 release:
-types: [created]
+types: [ created ]
 ```
 
 ### id827851960
 
 > you'll notice we have two jobs: one for build and one to publish to NPM. We might want an additional job to publish to the GitHub package registry. By default, all the jobs will run concurrently in parallel, but that's not actually what we want here.
-> Because we want to first build our code before releasing it to the package managers, we can use the needs keyword to tell GitHub Actions to run this job after the previous job is finished. This can be a really useful technique because in our case here, it allows us to build the code once and then push it out to two different registries without having to rebuild the code. So that's really useful if you're a library maintainer.
+>   Because we want to first build our code before releasing it to the package managers, we can use the needs keyword to tell GitHub Actions to run this job after the previous job is finished. This can be a really useful technique because in our case here, it allows us to build the code once and then push it out to two different registries without having to rebuild the code. So that's really useful if you're a library maintainer.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrbxn1vazr6fk0bnyfjc9y2)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrbxn1vazr6fk0bnyfjc9y2)
-
 ```yml
 name: Sveltefire Package
 on:
@@ -617,19 +591,17 @@ The quick and simple editor for cron schedule expressions by [Cronitor](https://
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrfvxymyekgsxd2ej2pkv29)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrfvxymyekgsxd2ej2pkv29)
-
 > `.github/workflows/package.yml`
-
 ```yml
 name: Export Firestore Data
 on:
 schedule:
-  - cron: "0 0 * * *"
+- cron: '0 0 * * *'
 jobs:
 backup:
 runs-on: ubuntu-latest
 steps:
-  - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+- uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
 with:
 service_account_key: ${{ secrets.GCP_SA_KEY }}
 export_default_credentials: true
@@ -639,3 +611,4 @@ export_default_credentials: true
 
 > Check the links in the description for a full write-up on how to set up the service account and everything else involved with G Cloud.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrg4p0qddnjdr0w26xc215e)
+

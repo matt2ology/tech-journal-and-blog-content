@@ -6,8 +6,8 @@ categories:
 date: 2025-01-22T01:32:20-08:00
 draft: false
 notes: blog
-tags:
-title: dont-comment-hugo-shortcodes-links-and-cross-references
+tags: 
+title: Don't Comment Hugo Shortcodes Links And Cross References
 ---
 
 ## Don't comment Hugo shortcodes links and cross references

@@ -6,7 +6,7 @@ categories:
 date: 2025-01-22T01:32:20-08:00
 draft: false
 notes: blog
-tags: 
+tags:
 title: dont-comment-hugo-shortcodes-links-and-cross-references
 ---
 
@@ -18,17 +18,17 @@ title: dont-comment-hugo-shortcodes-links-and-cross-references
 
 [SEE TO -> Hugo Documentation: Content Management - Links and Cross References](https://gohugo.io/content-management/cross-references/)
 
-Another late night of debugging and too stubborn to abide by my own prescribe and new 
+Another late night of debugging and too stubborn to abide by my own prescribe and new
 year's sleep schedule...
 
 In my Obsidian content templates I had the following as a reminder to how Hugo internal
-document linking is formatted: 
+document linking is formatted:
 
 ```markdown
 <!-- Idea 1: Key point or insights written in your own words [reference]({{< relref "path/to/target-document.md#my-target-header" >}}) -->
-``` 
+```
 
-Don't do this because Hugo will still try to parse the format as if it was not commented out 
+Don't do this because Hugo will still try to parse the format as if it was not commented out
 via Markdown.
 
 ```bash

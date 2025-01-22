@@ -12,7 +12,7 @@ title: "{{title}}"
 
 ## {{title}}
 
-<!-- [Propose edits or changes on GitHub](link to GitHub repo of file) -->
+<!-- [Propose edits or changes on GitHub]([Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/) -->
 
 Propose edits or changes on GitHub
 

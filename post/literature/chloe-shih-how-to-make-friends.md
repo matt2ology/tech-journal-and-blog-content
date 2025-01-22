@@ -34,13 +34,18 @@ for a coffee, brunch, a walk around the farmers market. You've already pass the 
 have confidence to talk about your goals, hobbies, share life stories, and interests.
 If you don't have "hobbies" host a game or dinner night.
 
-> the game plan: Start with whoever you know — people from
-> college, roommates, co-workers. Whatever's happening. Say yes. Go
-> to the housewarmings, the happy hours, and the hikes, and just find
-> that one friend you vibe with. Afterwards, ask them to hang out. This is a follow-through. It's critical! It's a meal, a coffee chat. This is where you go from NPC to, "Oh, you're a real person." if you don’t have hobbies, host something.
+> the game plan: Start with whoever you know — people from college, roommates, co-
+> workers. \- [(reference)]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md#id827476978" >}})
+> 
+> Whatever's happening. Say yes. Go to the housewarmings, the happy hours, and the 
+> hikes, and just find that one friend you vibe with. \- [(reference)]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md#id827477013" >}})
+> 
+> Afterwards, ask them to hang out. This is a follow-through. It's critical! It's a meal, a coffee chat. This is where you go from NPC to, "Oh, you're a real person." \- [(reference)]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md#id827477046" >}})
+> 
+> if you don’t have hobbies, host something. \- [(reference)]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md#id827477309" >}})
 
 Everything for the first time especially in a new environment, or stage of life, is hard.
 Give yourself grace and follow though. The amounts of time and effort you put into any
 venture adds up and soon you'll find yourself at a different state from when you first started.
 
-> Making friends is hard, but it's very doable. Remember to follow through, don't overthink it, give it time, make an effort, and you just might be surprised.
+> Making friends is hard, but it's very doable. Remember to follow through, don't overthink it, give it time, make an effort, and you just might be surprised. \- [(reference)]({{< relref "/post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md#id827477380" >}})

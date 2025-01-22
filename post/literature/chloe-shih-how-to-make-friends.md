@@ -5,10 +5,10 @@ categories:
   - literature
 date: 2025-01-21T10:35:13-08:00
 draft: false
-media:
+media: 
 notes: literature
 tags:
-  - youtube
+  - literature/video
 title: Literature - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30
 ---
 

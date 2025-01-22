@@ -20,7 +20,7 @@ title: Literature - Greg Deckler - Learn Power BI
 
 ## Key Ideas
 
-<!-- Idea 1: Key point or insights written in your own words -->
+<!-- Idea 1: Key point or insights written in your own words [reference]({{< relref "path/to/target-document.md#my-target-header" >}}) -->
 
 ## Chapters
 

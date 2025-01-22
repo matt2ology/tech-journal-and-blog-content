@@ -17,3 +17,6 @@ Untitled*
 
 # Ignore python virtual environments
 **/.venv/
+
+# Synced notes that does not have original captured name
+post/reference/articles/rwd-chloe-shih-how-to-make-friends-as-an-a....md

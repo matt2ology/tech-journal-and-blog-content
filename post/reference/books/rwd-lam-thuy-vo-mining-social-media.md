@@ -1,24 +1,23 @@
 ---
 authors: Lam Thuy Vo
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 
 sources: kindle
 media: books
 notes: reference
 tags: readwise, reference/books
-title: Reference - Mining Social Media
+title: Reference - Lam Thuy Vo - Mining Social Media
 ---
-
-## Mining Social Media
+## Mining Social Media (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/81I0COBdRyL._SY160.jpg)
 
-published-date: None
+Source published date: None
 
 ## Highlights
-
 ### Location 343
 
 > HTML structures the text and images that make up a website’s content so that a browser can render, or display, that content for a user to view. The HTML code itself is just a text file, but when an HTML file is opened in a browser, it tells the browser to format and display content as a web page.
@@ -34,3 +33,4 @@ The content of the webpage
 
 **Initial thought or note on:** [(Location 393)](https://readwise.io/to_kindle?action=open&asin=B07QGN34N7&location=393)
 The look and feel of the webpage
+

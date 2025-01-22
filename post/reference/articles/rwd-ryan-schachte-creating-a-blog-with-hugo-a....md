@@ -1,32 +1,30 @@
 ---
 authors: Ryan Schachte
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 source-url: https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte
 media: articles
 notes: reference
 tags: readwise, reference/articles, consumed, media-consumed
-title: Reference - Creating a Blog With Hugo and Github in 10 Minutes
+title: Reference - Ryan Schachte - Creating a Blog With Hugo and Github in 10 Minutes
 ---
-
-## Creating a Blog With Hugo and Github in 10 Minutes
+## Creating a Blog With Hugo and Github in 10 Minutes (Highlights)
 
 ![rw-book-cover](https://i.ytimg.com/vi/LIFvgrRxdt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCNsEIVvwTC-frCL-9kz5iuBaTA4g)
 
-published-date: 2020-12-21
+Source published date: 2020-12-21
 
 **Link:** [Creating a Blog With Hugo and Github in 10 Minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4&ab_channel=RyanSchachte)
 
 ## Highlights
-
 ### id820195256
 
 > one repository on github that houses the actual code that we're iterating on uh you know making our posts and our drafts etc and then we're going to have another repository that we're actually deploying off of and this will be hosted through github pages
 > \- [(View Highlight)](https://read.readwise.io/read/01je7pdmmgwdrjkpjdys31m1ej)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7pdmmgwdrjkpjdys31m1ej)
-
 1. Hugo development Repo: a repo that house the Hugo source code and framework
 2. GitHub Pages: Another repo that will just house the output "pages" (i.e. the Markdown to HTML code)
 
@@ -60,7 +58,6 @@ In config.toml baseURL = `https://username.github.io/`
 > \- [(View Highlight)](https://read.readwise.io/read/01je7y5mrsd31wfchzhhfhxf78)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7y5mrsd31wfchzhhfhxf78)
-
 ```yml
 baseURL = "https://username.github.io/"
 languageCode ="en-us"
@@ -75,7 +72,6 @@ theme ="<theme>"
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7ya7gx5766a8gem50nm1e2)
 Run locally to see the output
-
 > $ `hugo server`
 
 ### id819843255
@@ -85,7 +81,6 @@ Run locally to see the output
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je4q3pzchk43krha06qvkay6)
 To create a new post:
-
 > $ `hugo new posts/filename.md`
 
 ### id819843556
@@ -102,7 +97,6 @@ Main branch of `https://username.github.io`
 > \- [(View Highlight)](https://read.readwise.io/read/01je7xrecfbb7yf6r6znk8574f)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01je7xrecfbb7yf6r6znk8574f)
-
 1. Development branch that was created via: `hugo new site websitename`
 2. The public site (`https://username.github.io`)
 3. From the "development repo": `git submodule add -b main https://github.com/username/username.github.io public`
@@ -133,7 +127,7 @@ Depending on your needs, you may wish to manually clear the contents of the publ
 ### id826778885
 
 > git remote v the origin is pointing to my simple engineer github repository and that's because we're in the public sub
-> module
+>   module
 > \- [(View Highlight)](https://read.readwise.io/read/01jfhmxef83nngf3tjnefnxr0a)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfhmxef83nngf3tjnefnxr0a)
@@ -143,5 +137,6 @@ In directory path, blog/public, (the submodule) you'll see that the origin is po
 ### id826780133
 
 > it will automatically get deployed and the reason it automatically gets deployed is if we go into settings
-> and we scroll down you'll notice that there is a github pages thing and it says your site is ready to be published at this url and the branch that we're deploying off of is the main branch
+>   and we scroll down you'll notice that there is a github pages thing and it says your site is ready to be published at this url and the branch that we're deploying off of is the main branch
 > \- [(View Highlight)](https://read.readwise.io/read/01jfhn603hbvngtmadtssawffr)
+

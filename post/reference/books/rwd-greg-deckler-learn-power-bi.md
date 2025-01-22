@@ -1,14 +1,17 @@
 ---
-authors: Greg Deckler
+authors:
+  - Greg Deckler
 categories:
   - reference
 date: 2025-01-21
 draft: true
-
+slug: rwd-greg-deckler-learn-power-bi
 sources: kindle
 media: books
 notes: reference
-tags: readwise, reference/books
+tags:
+  - readwise
+  - reference/books
 title: Reference - Greg Deckler - Learn Power BI
 ---
 

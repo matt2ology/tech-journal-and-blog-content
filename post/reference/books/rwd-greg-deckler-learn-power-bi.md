@@ -4,7 +4,7 @@ authors:
 categories:
   - reference
 date: 2025-01-22
-draft: true
+draft: false
 sources: kindle
 media: books
 notes: reference

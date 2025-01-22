@@ -6,6 +6,7 @@
     "cssclasses": "multitext",
     "date": "text",
     "tags": "tags",
-    "links": "multitext"
+    "links": "multitext",
+    "slug": "text"
   }
 }

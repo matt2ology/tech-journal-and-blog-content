@@ -17,7 +17,7 @@ title: Literature - {{title}}
 
 ## Literature note: {{title}}
 
-> Summary:
+> **Summary:**
 
 <!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file.md" >}})  -->
 
@@ -29,7 +29,7 @@ title: Literature - {{title}}
 
 1.
 
-<!-- ## Chapters Optional-->
+## Chapters Optional
 
 ## Related Literature Notes or Atomic Notes
 

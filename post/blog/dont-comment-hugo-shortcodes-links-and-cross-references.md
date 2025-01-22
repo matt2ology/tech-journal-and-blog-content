@@ -29,7 +29,7 @@ document linking is formatted:
 ```
 
 Don't do this because Hugo will still try to parse the format as if it was not commented out
-via Markdown.
+via Markdown. The fix, to make this post, is to escape the characters.
 
 ```bash
 ERROR [en] REF_NOT_FOUND: Ref "path/to/target-document.md": "/home/runner/work/matt2ology.github.io/matt2ology.github.io/content/post/literature/greg-deckler-learn-power-bi.md:23:74": page not found

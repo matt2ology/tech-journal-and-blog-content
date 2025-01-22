@@ -1,25 +1,24 @@
 ---
 authors: Fireship
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 source-url: https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship
 media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
-title: Reference - DevOps CI/CD Explained in 100 Seconds
+title: Reference - Fireship - DevOps CI/CD Explained in 100 Seconds
 ---
-
-## DevOps CI/CD Explained in 100 Seconds
+## DevOps CI/CD Explained in 100 Seconds (Highlights)
 
 ![rw-book-cover](https://i.ytimg.com/vi/scEDHsr3APg/maxresdefault.jpg)
 
-published-date: 2020-03-12
+Source published date: 2020-03-12
 
 **Link:** [DevOps CI/CD Explained in 100 Seconds](https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship)
 
 ## Highlights
-
 ### id827894256
 
 > DevOps is a set of practices to build, test, and release your code in small, frequent steps.
@@ -79,13 +78,12 @@ Step 01: Create a workflow in your project repository.
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrj8n415gdws2jkk7st5j5t)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
 push:
 branches:
-  - main
+- main
 ```
 
 ### id827896928
@@ -96,13 +94,12 @@ branches:
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrjcw7z819m56swnrrs2qwr)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
 push:
 branches:
-  - main
+- main
 jobs:
 build:
 runs-on: ubuntu-latest
@@ -116,18 +113,17 @@ runs-on: ubuntu-latest
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrje6ad1b27ey86sw5fdz7t)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
 push:
 branches:
-  - main
+- main
 jobs:
 build:
 runs-on: ubuntu-latest
 steps:
-  - uses: actions/checkout@v2
+- uses: actions/checkout@v2
 ```
 
 ### id827897022
@@ -138,19 +134,18 @@ steps:
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrjga1k8xjkag5pcka9gyt6)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
 push:
 branches:
-  - main
+- main
 jobs:
 build:
 runs-on: ubuntu-latest
 steps:
-  - uses: actions/checkout@v2
-  - uses: actions/setup-node@v4
+- uses: actions/checkout@v2
+- uses: actions/setup-node@v4
 with:
 node-version: 12
 ```
@@ -163,7 +158,6 @@ node-version: 12
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrjk7xhy7km95tw98prn0sp)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
@@ -184,13 +178,12 @@ node-version: 12
 ### id827897180
 
 > and runs my tests.
-> Build and deploy commands.
+>   Build and deploy commands.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrjmw8jye1jfwz30t2fvd6x)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrjmw8jye1jfwz30t2fvd6x)
 Step 02: Run on every push to the main branch.
 `.github/workflows/deploy.yml`
-
 ```yml
 name: CI/CD is Easy!
 on:
@@ -222,11 +215,11 @@ It can be seen, logged into your account, project repository > Actions
 ### id827897896
 
 > CI/CD offers two main benefits.
-> It helps you automate things that would otherwise have to be done manually by developers, which will increase your velocity, but it also detects small problems early, before they can grow into major disasters, and that results in higher code quality.
+>   It helps you automate things that would otherwise have to be done manually by developers, which will increase your velocity, but it also detects small problems early, before they can grow into major disasters, and that results in higher code quality.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrjvsxtyz706vvw46wq2cvy)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfrjvsxtyz706vvw46wq2cvy)
 The two main benefits are:
-
 1. Helps you automate routines/steps that would have to be done manually by you or other developers; in effect, increases your/team's velocity.
 2. Continuous integration detects small problems early before becoming a roadblock; and so, yields higher code quality from all contributors.
+

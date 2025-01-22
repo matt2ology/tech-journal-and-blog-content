@@ -10,6 +10,7 @@ notes: reference
 tags: readwise, reference/articles
 title: Reference - leetcode.com - Stacks and queues are data structures defined by their interfaces. They're a good example of how a simple idea can be used to implement efficient algorithms, and how data structures & algorithms show up in our everyday lives.
 ---
+
 ## Stacks and queues are data structures defined by their interfaces. They're a good example of how a simple idea can be used to implement efficient algorithms, and how data structures & algorithms show up in our everyday lives. (Highlights)
 
 ![rw-book-cover](https://leetcode.com/static/images/LeetCode_Sharing.png)
@@ -19,6 +20,7 @@ Source published date: None
 **Link:** [Stacks and queues are data structures defined by their interfaces. They're a good example of how a simple idea can be used to implement efficient algorithms, and how data structures & algorithms show up in our everyday lives.](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/715/introduction/4654/)
 
 ## Highlights
+
 ### id735147814
 
 > Algorithms take an input and produce an output. The output will be the answer to a question regarding the input.
@@ -93,11 +95,15 @@ We care about input size, not an integer like 4 or 9,001, like an array/list of 
 > \- [(View Highlight)](https://read.readwise.io/read/01j0wt7wmp5bn4p4267fdztgs1)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01j0wt7wmp5bn4p4267fdztgs1)
+
 1. **Ignore constraints**
+
 - We don't care that one algorithm versus another is 5x or 10x slower as the input size increases; for, the number of operations required increases $O\left(n\right)$ - **linearly**.
+
 2. Consider the complexity as the variables **tend to infinity**
+
 - Ignore all terms except the most powerful one
-There are, normally, three cases in complexity analysis:
+  There are, normally, three cases in complexity analysis:
 - Best case scenario
 - Average case
 - Worst case scenario
@@ -105,8 +111,7 @@ There are, normally, three cases in complexity analysis:
 ### id736431574
 
 > When talking about complexity, there are normally three cases:
->   • Best case scenario
->   • Average case
->   • Worst case scenario
+> • Best case scenario
+> • Average case
+> • Worst case scenario
 > \- [(View Highlight)](https://read.readwise.io/read/01j0wt74ecxw4x5fe8hj8tjry1)
-

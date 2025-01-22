@@ -11,6 +11,7 @@ notes: reference
 tags: readwise, reference/books
 title: Reference - Brian Ward - How Linux Works
 ---
+
 ## How Linux Works (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/81K+2pqDU-L._SY160.jpg)
@@ -18,6 +19,7 @@ title: Reference - Brian Ward - How Linux Works
 Source published date: None
 
 ## Highlights
+
 ### Location 926
 
 > The first edition included historical information that I removed later to improve focus. If you’re interested in Linux and how it relates to the history of Unix, pick up Peter H. Salus’s The Daemon, the Gnu, and the Penguin (Reed Media Services, 2008).
@@ -85,4 +87,3 @@ Process States: While a process executes, over time it changes state
 
 > The kernel is in charge of managing tasks in four general system areas: Processes The kernel is responsible for determining which processes are allowed to use the CPU. Memory The kernel needs to keep track of all memory—what is currently allocated to a particular process, what might be shared between processes, and what is free. Device drivers The kernel acts as an interface between hardware (such as a disk) and processes. It’s usually the kernel’s job to operate the hardware. System calls and support Processes normally use system calls to communicate with the kernel.
 > \- [(Location 1010)](https://readwise.io/to_kindle?action=open&asin=B07X7S1JMB&location=1010)
-

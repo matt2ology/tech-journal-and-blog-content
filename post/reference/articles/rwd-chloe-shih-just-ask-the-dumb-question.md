@@ -10,6 +10,7 @@ notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - Chloe Shih - Just Ask the Dumb Question
 ---
+
 ## Just Ask the Dumb Question (Highlights)
 
 ![rw-book-cover](https://i.ytimg.com/vi/KRoKTDs2W18/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AG2CIACgA-KAgwIABABGFogXShlMA8=&rs=AOn4CLDIiFrsoGATfVvcCVxV8vLvp99QAQ)
@@ -19,6 +20,7 @@ Source published date: 2024-12-10
 **Link:** [Just Ask the Dumb Question](https://youtube.com/shorts/KRoKTDs2W18?si=hu9OncGtgd-U6N1C)
 
 ## Highlights
+
 ### id827905563
 
 > Just ask the dumb question.
@@ -42,7 +44,7 @@ Source published date: 2024-12-10
 ### id827905767
 
 > If it's a new job, start with "Noob question: What do you mean by X?" Otherwise, you disarm people by starting with "I have a naive question." You can also say, "Just so I have this right, just
->   to repeat myself, just to clarify."
+> to repeat myself, just to clarify."
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrm7830qtfcete01ss19b48)
 
 ### id827905828
@@ -62,4 +64,3 @@ Trust, but verify...
 
 > make asking good questions your superpower, and I swear you will learn faster than ever.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfrmbj20zkkemxamke53fqce)
-

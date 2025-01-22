@@ -11,6 +11,7 @@ notes: reference
 tags: readwise, reference/books
 title: Reference - Chris Riccomini and Dmitriy Ryaboy - The Missing README
 ---
+
 ## The Missing README (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/71VeCu7UHvS._SY160.jpg)
@@ -18,6 +19,7 @@ title: Reference - Chris Riccomini and Dmitriy Ryaboy - The Missing README
 Source published date: None
 
 ## Highlights
+
 ### Location 511
 
 > Everyone begins as an entry-level engineer. To advance, you’ll need to be competent in several core areas.
@@ -43,4 +45,3 @@ Even when you are new and inexperienced - you still can add value. It can also h
 
 **Initial thought or note on:** [(Location 542)](https://readwise.io/to_kindle?action=open&asin=B08XM2CDZM&location=542)
 Develop a growth mindset. At first go articulate what you understand and share your knowledge as if to quiz your understanding. others who have a deeper understanding or are compelled to correct your comprehension will correct you. Take no offence. You win either way.
-

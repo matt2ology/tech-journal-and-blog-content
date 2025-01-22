@@ -26,9 +26,10 @@ title: Literature - Greg Deckler - Learn Power BI
 
 ### 1. Understanding Business Intelligence and Power BI
 
-Chapter 2: Planning Projects with Power BI
-Planning Power BI business intelligence projects
-Explaining the example scenario
+Exploring key concepts of business intelligence
+Discovering the Power BI ecosystem
+Choosing the right Power BI license
+Introducing Power BI Desktop and the Power BI service
 Summary
 Questions
 Further reading

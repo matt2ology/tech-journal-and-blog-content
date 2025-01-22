@@ -25,7 +25,7 @@ In my Obsidian content templates I had the following as a reminder to how Hugo i
 document linking is formatted:
 
 ```markdown
-<!-- Idea 1: Key point or insights written in your own words [reference]({{< relref "path/to/target-document.md#my-target-header" >}}) -->
+<!-- Idea 1: Key point or insights written in your own words \[reference\]\(\{\{\< relref "path/to/target-document.md#my-target-header" \>\}\}\) -->
 ```
 
 Don't do this because Hugo will still try to parse the format as if it was not commented out

@@ -15,7 +15,7 @@ title: Literature - greg-deckler-learn-power-bi
 
 > Summary
 >
-> >This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
+> > This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
 
 **Link to reference note:** [rwd-greg-deckler-learn-power-bi](../reference/books/rwd-greg-deckler-learn-power-bi.md)
 

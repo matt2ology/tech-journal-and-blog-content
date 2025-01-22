@@ -17,7 +17,7 @@ title: Literature - {{title}}
 
 ## Literature note: {{title}}
 
-<!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file" >}}) -->
+<!-- [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file.md" >}})
 
 [**Link to reference note**]({{< relref "/post/reference/rest_of_the_path_to_file" >}})
 
@@ -27,7 +27,7 @@ title: Literature - {{title}}
 
 ## Related Literature Notes or Atomic Notes
 
-<!-- [Related Literature Note]({{< relref "/post/literature/rest_of_the_path_to_file" >}}) -->
-<!-- [Related Atomic Note]({{< relref "/post/atomic/rest_of_the_path_to_file" >}}) -->
+<!-- [Related Literature Note]({{< relref "/post/literature/rest_of_the_path_to_file.md" >}})
+<!-- [Related Atomic Note]({{< relref "/post/atomic/rest_of_the_path_to_file.md" >}})
 
 -

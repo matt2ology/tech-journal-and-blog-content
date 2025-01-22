@@ -7,10 +7,10 @@ draft: true
 media:
 notes: reference
 tags:
-  - article
-  - book
-  - podcast
-  - youtube
+  - reference/article
+  - reference/book
+  - reference/podcast
+  - reference/video
 title: Reference - {{title}}
 ---
 

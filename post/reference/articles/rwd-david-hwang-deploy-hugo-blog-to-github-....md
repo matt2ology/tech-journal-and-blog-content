@@ -1,25 +1,24 @@
 ---
 authors: david hwang
 categories:
-date: 2025-01-16
+  - reference
+date: 2025-01-21
 draft: true
 source-url: https://www.youtube.com/watch?v=_QSr2_pxIJs&ab_channel=davidhwang
 media: articles
 notes: reference
 tags: readwise, reference/articles, consumed
-title: Reference - Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain
+title: Reference - david hwang - Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain
 ---
-
-## Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain
+## Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain (Highlights)
 
 ![rw-book-cover](https://i.ytimg.com/vi/_QSr2_pxIJs/maxresdefault.jpg)
 
-published-date: 2023-02-20
+Source published date: 2023-02-20
 
 **Link:** [Deploy Hugo Blog to Github Pages via Github Actions W/ a Custom Domain](https://www.youtube.com/watch?v=_QSr2_pxIJs&ab_channel=davidhwang)
 
 ## Highlights
-
 ### id827478104
 
 > We'll be building and deploying a blog powered by Hugo to GitHub Pages via a custom GitHub action to build a blog
@@ -40,7 +39,6 @@ published-date: 2023-02-20
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpkw7gk0sphydbpv679jd6k)
 Install Hugo on MacOS
-
 ```sh
 brew install hugo
 ```
@@ -52,7 +50,6 @@ brew install hugo
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpky7mbhgcs413awmasd3gj)
 [Homebrew Homepage](https://brew.sh/)
-
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -64,16 +61,13 @@ brew install hugo
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpm0pakmyhcjmp7p0678fpd)
 Again that is the following; however, the `-f` flag is optional and will default to `config.toml` if no flag option is provided.
-
 ```sh
 brew install hugo
 hugo new site my-demo-site -f yml
 cd my-demo-site
 ```
-
 The reason he uses YAML as his config file is that the Hugo [PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation) theme assumes one to use it.
 The author of the theme, Aditya Telange, writes his opinion in their installation guide:
-
 > We'll be using `yml`/`yaml` format for all examples down below, it is recommend to use `yaml` over `toml` as it is easier to read.
 >
 > You can find any [YAML to TOML](https://www.google.com/search?q=yml+to+toml) converters if needed.
@@ -85,15 +79,12 @@ The author of the theme, Aditya Telange, writes his opinion in their installatio
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpm4sans3168mfejvr50xm3)
 from:
-
 ```yml
 baseURL: http://example.org/
 languageCode: en-us
 title: My New Hugo Site
 ```
-
 to:
-
 ```yml
 baseURL:
 languageCode: en-us
@@ -106,7 +97,6 @@ title: My New Hugo Site
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpm7n2gqcewadxfhc0edyej)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpm7n2gqcewadxfhc0edyej)
-
 ```sh
 hugo new docs/test.md
 ```
@@ -132,15 +122,12 @@ GitHub repository: [PaperMod Repo](https://github.com/adityatelange/hugo-PaperMo
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpmz08n07x6pgvwtn2xcqj7)
 The author of the video uses "Method 1 - Git Clone"
-
 ```sh
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 cd themes/PaperMod
 git pull
 ```
-
 **Method 2 - Git Submodule (recommended):**
-
 ```sh
 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
@@ -156,16 +143,13 @@ The author of the video does both: `git clone` and `git submodule add`.
 He doesn't know what he is doing.
 You only need to do one (method 1) OR the other (method 2).
 **Method 1 - Git Clone**:
-
 ```sh
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 cd themes/PaperMod
 git pull
 ```
-
 OR
 **Method 2 - Git Submodule (recommended):**
-
 ```sh
 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
@@ -177,7 +161,6 @@ git submodule update --init --recursive # needed when you reclone your repo (sub
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpn9xy44ntb5sh1qtn1763h)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpn9xy44ntb5sh1qtn1763h)
-
 ```yml
 baseURL:
 languageCode: en-us
@@ -191,20 +174,16 @@ theme: PaperMod
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpncepj0mjsvc5csc7a8aq6)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpncepj0mjsvc5csc7a8aq6)
-
 ```sh
 nano content/docs/test.md
 ```
-
 ```markdown
 ---
 title: "Test"
 date: 2024-12-20
 draft: false
 ---
-
 ## Test Page
-
 This is a test page!
 ```
 
@@ -214,7 +193,6 @@ This is a test page!
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpnnbfrzyq43xzjksx2bamb)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpnnbfrzyq43xzjksx2bamb)
-
 ```sh
 hugo server
 ```
@@ -251,18 +229,15 @@ Repo that houses Hugo code > Settings > Code and automation > Actions > General 
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpp9tzq69gxy25qe6t20k4h)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpp9tzq69gxy25qe6t20k4h)
-
 ```sh
 mkdir -p .github/workflows
 nano .github/workflows/deploy.yml
 ```
-
 In the command mkdir -p .github/workflows, the -p flag stands for "parents" and serves the following purposes:
-
 1. **Create Parent Directories:** It ensures that any intermediate directories in the specified path (`.github/workflows`) that do not already exist are created. For example, if `.github` doesn't exist, the command will create it along with the `workflows` directory.
 2. **No Error if Exists:** If the directory or any part of the path already exists, no error will be thrown. Without `-p`, trying to create an already existing directory would result in an error.
-   Practical Use Case: This is especially useful for creating nested directory structures in a single command without having to manually check if the intermediate directories exist.
-   In the context of `mkdir -p .github/workflows`, it's commonly used in projects with GitHub Actions to ensure the required directory structure exists for workflow files.
+Practical Use Case: This is especially useful for creating nested directory structures in a single command without having to manually check if the intermediate directories exist.
+In the context of `mkdir -p .github/workflows`, it's commonly used in projects with GitHub Actions to ensure the required directory structure exists for workflow files.
 
 ### id827490490
 
@@ -279,7 +254,6 @@ Author goes out of process from step-by-step to imposing you to copy and paste a
 > \- [(View Highlight)](https://read.readwise.io/read/01jfppz5g2bcfy759k7d6s7w0p)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfppz5g2bcfy759k7d6s7w0p)
-
 ```yml
 name: Publish to GH Pages
 on:
@@ -326,59 +300,46 @@ git push
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpq1xvj17zs2gtetht30sfw)
 **TL;DR:** This ensures the site is updated and published automatically whenever changes are pushed to the `main` branch.
-
 - **Source branch:** `main` contains the Hugo project files.
 - Destination branch: `gh-pages` hosts the built static site.
 - The workflow automates:
-
 1. Fetching the latest source code.
 2. Building the site using Hugo.
 3. Deploying the generated files to the `gh-pages` branch, which is often used for GitHub Pages hosting.
-   This GitHub Actions workflow is designed to automate the process of building and publishing a Hugo-based site to GitHub Pages. Here’s a detailed breakdown of each part of the YAML file:
-   **Workflow Name and Triggers**
-
+This GitHub Actions workflow is designed to automate the process of building and publishing a Hugo-based site to GitHub Pages. Here’s a detailed breakdown of each part of the YAML file:
+**Workflow Name and Triggers**
 - **Name:** `Publish to GH Pages` is the identifier for this workflow.
 - **Triggers:**
 - `push`: The workflow runs whenever there’s a push to the `main` branch.
-
 ```yml
 name: Publish to GH Pages
 on:
 push:
 branches:
-  - main
+- main
 pull_request:
 ```
-
 **Job: `deploy`**
-
 - `deploy`: The single job in this workflow.
 - `runs-on: ubuntu-latest`: Specifies that the job will run on a virtual machine with the latest version of Ubuntu.
-
 ```yml
 jobs:
 deploy:
 runs-on: ubuntu-latest
 ```
-
 **Step 1: Checkout Source**
-
 - **Purpose:** Checks out the source code from the repository.
 - `submodules: true`: Ensures that any Git submodules are also checked out.
-
 ```yml
 - name: Checkout source
 uses: actions/checkout@v3
 with:
 submodules: true
 ```
-
 **Step 2: Checkout Destination**
-
 - **Purpose:** If the workflow is running on the `main` branch, it checks out the `gh-pages` branch into a subdirectory called `built-site`. This is where the static site files will be deployed.
 - **Conditional Execution:** The `if` condition ensures this step only runs for pushes to the main branch.
 - `path`: The `built-site` directory is used to separate the destination (`gh-pages` branch) from the source code.
-
 ```yml
 - name: Checkout destination
 uses: actions/checkout@v3
@@ -387,29 +348,21 @@ with:
 ref: gh-pages
 path: built-site
 ```
-
 **Step 3: Setup Hugo**
-
 - **Purpose:** Downloads and sets up Hugo, a static site generator.
 - **Process:**
-
 1. `curl` fetches the specified Hugo version archive.
 2. The archive is extracted into the temporary runner directory (`${RUNNER_TEMP}`).
-   **Step 4: Build the Site**
-
+**Step 4: Build the Site**
 - **Purpose:** Runs Hugo to generate the static site files.
 - **Output:** The built site files are stored in the public directory by default.
-
 ```yml
 - name: Build
 run: ${RUNNER_TEMP}/hugo
 ```
-
 **Step 5: Deploy to `gh-pages`**
-
 - **Conditional Execution:** Only runs for pushes to the main branch.
 - **Process:**
-
 1. Copies the built files (`public/*`) into the `built-site` directory (checked-out `gh-pages` branch).
 2. Adds the new or updated files to the Git index.
 3. Configures Git author details (`user.name` and `user.email`).
@@ -422,7 +375,6 @@ run: ${RUNNER_TEMP}/hugo
 > \- [(View Highlight)](https://read.readwise.io/read/01jfpr3vsc3s9tcfc7vc8ay4st)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpr3vsc3s9tcfc7vc8ay4st)
-
 ```yml
 baseURL: "https://<username>.github.io/<repo_name>/"
 languageCode: en-us
@@ -432,12 +384,11 @@ title: My New Hugo Site
 ### id827494334
 
 > I'm going to save that, and let's just check the status. I'll just add all of those and commit this at the first test page.
-> And push the changes
+>   And push the changes
 > \- [(View Highlight)](https://read.readwise.io/read/01jfprb1a7rh03v4mtefbpq6qx)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfprb1a7rh03v4mtefbpq6qx)
 With that now saved you then can add all and commit.
-
 ```sh
 git status
 git add .
@@ -467,11 +418,9 @@ Oh now he shares what each step does... Definitely not a friendly step-by-step g
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfprpv6ywa2vj3xb2tjj6t0r)
 **TL;DR:** This ensures the site is updated and published automatically whenever changes are pushed to the `main` branch.
-
 - **Source branch:** `main` contains the Hugo project files.
 - Destination branch: `gh-pages` hosts the built static site.
 - The workflow automates:
-
 1. Fetching the latest source code.
 2. Building the site using Hugo.
 3. Deploying the generated files to the `gh-pages` branch, which is often used for GitHub Pages hosting.
@@ -492,11 +441,10 @@ Oh now he shares what each step does... Definitely not a friendly step-by-step g
 ### id827494998
 
 > down here you can see the path is referring to the relative path under the GitHub workspace to place the Repository. So, we are placing the build site directory under the GitHub workspace path, and this is used to reference the gh-pages branch. We configure this here, which we’ll use later. But before we set up Hugo, we install Hugo from the releases page and use that Hugo command to build our aesthetic sites, which will be stored in the public directory by default.
-> And during the last step, we are copying all our static site output in the public directory into the build site directory, which references the GitHub Pages. So when we do a git push, that's going to push to GitHub Pages, which GitHub then recognizes and uses to publish to the GitHub Pages site.
+>   And during the last step, we are copying all our static site output in the public directory into the build site directory, which references the GitHub Pages. So when we do a git push, that's going to push to GitHub Pages, which GitHub then recognizes and uses to publish to the GitHub Pages site.
 > \- [(View Highlight)](https://read.readwise.io/read/01jfprypys7gp8996qvnax9jsp)
 
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfprypys7gp8996qvnax9jsp)
-
 ```yaml
 # Relative path under $GITHUB_WORKSPACE to place the repository
 path: built-site
@@ -528,7 +476,6 @@ Project repository > Settings > General > Pages > GitHub Pages > Custom domain >
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpsjt3j7x7qhg8jq1jbd466)
 The author uses [namecheap.com](https://www.namecheap.com/)
 There are other options for Domain Name System (DNS) providers:
-
 - [godaddy.com](https://www.godaddy.com/)
 - [cloudflare.com](https://www.cloudflare.com/)
 
@@ -540,3 +487,4 @@ There are other options for Domain Name System (DNS) providers:
 **Initial thought or note on:** [(View Highlight)](https://read.readwise.io/read/01jfpt197yk1yngh95vcab47dh)
 [Author's section on Link Custom Domain to Github Pages](https://theplaybook.dev/docs/deploy-hugo-to-github-pages/#link-custom-domain-to-github-pages)
 [GitHub - Configuring an apex domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
+

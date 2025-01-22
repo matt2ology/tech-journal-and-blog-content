@@ -14,7 +14,7 @@ title: Literature - Greg Deckler - Learn Power BI
 
 ## Learn Power BI: A comprehensive, step-by-step guide for beginners to learn real-world business intelligence 2nd Edition
 
-> Summary: This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
+> **Summary**: This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
 
 [**Link to reference note**]({{< relref "/post/reference/books/rwd-greg-deckler-learn-power-bi.md" >}})
 
@@ -24,7 +24,9 @@ title: Literature - Greg Deckler - Learn Power BI
 
 ## Chapters
 
-### 1. Understanding Business Intelligence and Power BI
+### Section 1: The Basics
+
+#### 1. Understanding Business Intelligence and Power BI
 
 Exploring key concepts of business intelligence
 Discovering the Power BI ecosystem
@@ -34,7 +36,7 @@ Summary
 Questions
 Further reading
 
-### 2. Planning Projects with Power BI
+#### 2. Planning Projects with Power BI
 
 Planning Power BI business intelligence projects
 Explaining the example scenario
@@ -42,7 +44,9 @@ Summary
 Questions
 Further reading
 
-### 3. Up and Running with Power BI Desktop
+### Section 2: The Desktop
+
+#### 3. Up and Running with Power BI Desktop
 
 Technical requirements
 Downloading and running Power BI Desktop
@@ -53,7 +57,7 @@ Summary
 Questions
 Further reading
 
-### 4. Connecting to and Transforming Data
+#### 4. Connecting to and Transforming Data
 
 Technical requirements
 Getting data
@@ -64,7 +68,7 @@ Summary
 Questions
 Further reading
 
-### 5. Creating Data Models and Calculations
+#### 5. Creating Data Models and Calculations
 
 Technical requirements
 Creating a data model
@@ -74,7 +78,7 @@ Summary
 Questions
 Further reading
 
-### 6. Unlocking Insights
+#### 6. Unlocking Insights
 
 Technical requirements
 Segmenting data
@@ -83,7 +87,7 @@ Summary
 Questions
 Further reading
 
-### 7. Creating the Final Report
+#### 7. Creating the Final Report
 
 Technical requirements
 Preparing the final report
@@ -93,7 +97,9 @@ Summary
 Questions
 Further reading
 
-### 8. Publishing and Sharing
+### Section 3: The Service
+
+#### 8. Publishing and Sharing
 
 Technical requirements
 Getting an account
@@ -103,7 +109,7 @@ Summary
 Questions
 Further reading
 
-### 9. Using Reports in the Power BI Service
+#### 9. Using Reports in the Power BI Service
 
 Technical requirements
 Viewing and using reports
@@ -112,7 +118,7 @@ Summary
 Questions
 Further reading
 
-### 10. Understanding Dashboards, Apps, Goals, and Security
+#### 10. Understanding Dashboards, Apps, Goals, and Security
 
 Technical requirements
 Understanding dashboards
@@ -123,7 +129,7 @@ Summary
 Questions
 Further reading
 
-### 11. Refreshing Content
+#### 11. Refreshing Content
 
 Technical requirements
 Installing and using data gateways
@@ -132,7 +138,9 @@ Summary
 Questions
 Further reading
 
-### 12. Deploying, Governing, and Adopting Power BI
+### Section 4: The Future
+
+#### 12. Deploying, Governing, and Adopting Power BI
 
 Technical requirements
 Understanding usage models
@@ -142,7 +150,7 @@ Summary
 Questions
 Further reading
 
-### 13. Putting Your Knowledge to Use
+#### 13. Putting Your Knowledge to Use
 
 Technical requirements
 Understanding the business intelligence opportunity

@@ -2,20 +2,19 @@
 authors:
   - Matt2ology
 categories:
+  - literature
 date: 2025-01-19T01:14:21-08:00
 draft: false
 media: books
 notes: literature
 tags:
   - literature/book
-title: Literature - greg-deckler-learn-power-bi
+title: Literature - Greg Deckler - Learn Power BI
 ---
 
 ## Learn Power BI: A comprehensive, step-by-step guide for beginners to learn real-world business intelligence 2nd Edition
 
-> Summary
->
-> > This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
+> Summary: This book is to serve as an entry level to [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi); so, to introduce to Power Bi ecosystem, provide a basic understanding of basic BI concepts, and how BI projects are constructed.
 
 **Link to reference note:** [rwd-greg-deckler-learn-power-bi](../reference/books/rwd-greg-deckler-learn-power-bi.md)
 

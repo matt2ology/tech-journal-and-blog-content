@@ -18,6 +18,14 @@ title: Literature - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of
 
 [slug-linked](/p/reference/Articles/rwd-chloe-shih-how-to-make-friends/)
 
+[dot dot rwd-chloe-shih-how-to-make-friends](../reference/articles/rwd-chloe-shih-how-to-make-friends/)
+
+[post rwd-chloe-shih-how-to-make-friends](/post/reference/articles/rwd-chloe-shih-how-to-make-friends/)
+
+[Read More]({{< relref "post/reference/Articles/rwd-chloe-shih-how-to-make-friends.md" >}})
+
+[Read related article](/post/reference/Articles/rwd-chloe-shih-how-to-make-friends/)
+
 ## Key Ideas
 
 <!-- Idea 1: Key point or insights written in your own words -->

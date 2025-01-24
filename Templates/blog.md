@@ -6,7 +6,8 @@ categories:
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
 notes: blog
-tags:
+related-notes: 
+tags: 
 title: "{{title}}"
 ---
 

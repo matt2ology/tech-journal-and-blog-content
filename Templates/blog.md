@@ -19,6 +19,6 @@ Propose edits or changes on GitHub
 
 ## Related blogs
 
-<!-- [Related blog post]({{< relref "/post/blog/path_to_file.md" >}})
+<!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}})
 
 -

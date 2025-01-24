@@ -6,8 +6,8 @@ categories:
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
 notes: atomic
-related-notes: 
-tags: 
+related-notes:
+tags:
 title: Atomic - {{title}}
 ---
 

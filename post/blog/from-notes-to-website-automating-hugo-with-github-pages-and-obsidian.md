@@ -9,7 +9,7 @@ draft: false
 notes: blog
 related-notes:
   - "[[readwise-obsidian-export-formatting]]"
-tags: 
+tags:
 title: "From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 

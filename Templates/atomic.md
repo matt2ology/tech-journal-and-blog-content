@@ -19,6 +19,6 @@ title: Atomic - {{title}}
 
 ## Related Atomic Notes and Published Works
 
-<!-- [Also See]({{< relref "/post/rest_of_the_path_to_file.md" >}})
+<!-- [Also See]({{< ref "/post/rest_of_the_path_to_file.md" >}})
 
 -

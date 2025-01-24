@@ -8,7 +8,8 @@ date: 2025-01-11T23:55:35-08:00
 draft: false
 notes: blog
 related-notes:
-tags:
+  - "[[readwise-obsidian-export-formatting]]"
+tags: 
 title: "From Notes to Website: Automating Hugo with GitHub Pages and Obsidian"
 ---
 

@@ -5,8 +5,9 @@ categories:
   - literature
 date: "{{date:YYYY-MM-DDTHH:mm:ssZ}}"
 draft: true
-media:
+media: 
 notes: literature
+related-notes: 
 tags:
   - literature/article
   - literature/book

@@ -8,6 +8,7 @@ draft: false
 media: articles
 notes: literature
 related-notes:
+  - "[[../reference/articles/rwd-chloe-shih-how-to-make-friends|rwd-chloe-shih-how-to-make-friends]]"
 tags:
   - literature/video
 title: Literature - How to Make Friends as an Adult (In Your 20s) | Lesson 16 of 30

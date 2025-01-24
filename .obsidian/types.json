@@ -7,6 +7,7 @@
     "date": "text",
     "tags": "tags",
     "links": "multitext",
-    "slug": "text"
+    "slug": "text",
+    "related-notes": "multitext"
   }
 }

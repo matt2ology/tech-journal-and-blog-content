@@ -7,6 +7,7 @@ date: 2025-01-19T01:14:21-08:00
 draft: false
 media: books
 notes: literature
+related-notes: 
 tags:
   - literature/book
 title: Literature - Greg Deckler - Learn Power BI

@@ -8,6 +8,7 @@ draft: false
 media: books
 notes: literature
 related-notes:
+  - "[[../reference/books/rwd-greg-deckler-learn-power-bi|rwd-greg-deckler-learn-power-bi]]"
 tags:
   - literature/book
 title: Literature - Greg Deckler - Learn Power BI

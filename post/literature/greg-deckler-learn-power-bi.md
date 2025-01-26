@@ -38,11 +38,17 @@ is important to organizations, the eco system of Microsoft's Power BI,
 licensing, and Power BI Desktop and Microsoft services.
 
 ##### Exploring key concepts of business intelligence
+
 ##### Discovering the Power BI ecosystem
+
 ##### Choosing the right Power BI license
+
 ##### Introducing Power BI Desktop and the Power BI service
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 2. Planning Projects with Power BI
@@ -51,9 +57,13 @@ How business intelligence projects are planned and executed - a explanation of
 basic software development written for entry level or business people.
 
 ##### Planning Power BI business intelligence projects
+
 ##### Explaining the example scenario
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 ### Section 2: The Desktop
@@ -63,12 +73,19 @@ basic software development written for entry level or business people.
 The real introduction of Power BI.
 
 ##### Technical requirements
+
 ##### Downloading and running Power BI Desktop
+
 ##### Touring the desktop
+
 ##### Generating data
+
 ##### Creating visualizations
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 4. Connecting to and Transforming Data
@@ -76,12 +93,19 @@ The real introduction of Power BI.
 SQL, but in Power BI.
 
 ##### Technical requirements
+
 ##### Getting data
+
 ##### Transforming data
+
 ##### Merging, copying, and appending queries
+
 ##### Verifying and loading data
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 5. Creating Data Models and Calculations
@@ -89,11 +113,17 @@ SQL, but in Power BI.
 Python Pandas, but Power BI.
 
 ##### Technical requirements
+
 ##### Creating a data model
+
 ##### Creating calculations
+
 ##### Checking and troubleshooting calculations
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 6. Unlocking Insights
@@ -101,10 +131,15 @@ Python Pandas, but Power BI.
 Data analysis using Power BI.
 
 ##### Technical requirements
+
 ##### Segmenting data
+
 ##### Advanced analysis techniques
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 7. Creating the Final Report
@@ -112,11 +147,17 @@ Data analysis using Power BI.
 Make pretty charts and graphs for executives and decision makers.
 
 ##### Technical requirements
+
 ##### Preparing the final report
+
 ##### Creating the final report pages
+
 ##### Finishing up
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 ### Section 3: The Service
@@ -126,11 +167,17 @@ Make pretty charts and graphs for executives and decision makers.
 Share your art with other people.
 
 ##### Technical requirements
+
 ##### Getting an account
+
 ##### Introducing the service
+
 ##### Publishing and sharing
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 9. Using Reports in the Power BI Service
@@ -138,10 +185,15 @@ Share your art with other people.
 Pay Microsoft more money.
 
 ##### Technical requirements
+
 ##### Viewing and using reports
+
 ##### Editing and creating reports
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 10. Understanding Dashboards, Apps, Goals, and Security
@@ -151,12 +203,19 @@ Premium or [Premium Per User (PPU)](https://www.microsoft.com/en-us/power-platfo
 licensing.
 
 ##### Technical requirements
+
 ##### Understanding dashboards
+
 ##### Creating and using apps
+
 ##### Working with goals
+
 ##### Understanding security and permissions
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 11. Refreshing Content
@@ -164,10 +223,15 @@ licensing.
 Automate data and dashboard updates.
 
 ##### Technical requirements
+
 ##### Installing and using data gateways
+
 ##### Refreshing datasets
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 ### Section 4: The Future
@@ -177,11 +241,17 @@ Automate data and dashboard updates.
 Convincing others to use Microsoft Power BI
 
 ##### Technical requirements
+
 ##### Understanding usage models
+
 ##### Governing and administering Power BI
+
 ##### Adopting Power BI
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
 
 #### 13. Putting Your Knowledge to Use
@@ -190,12 +260,19 @@ How to make your argument more convincing, so more than just management see
 value being locked in with Microsoft's Power BI.
 
 ##### Technical requirements
+
 ##### Understanding the business intelligence opportunity
+
 ##### Growing your job and career
+
 ##### Continuing your journey
+
 ##### Summary
+
 ##### Questions
+
 ##### Further reading
+
 ##### Why subscribe?
 
 ## Related Literature Notes or Atomic Notes

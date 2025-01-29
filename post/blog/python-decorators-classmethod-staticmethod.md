@@ -5,7 +5,7 @@ categories:
   - blog
   - python
 date: 2025-01-29T09:51:26-08:00
-draft: true
+draft: false
 notes: blog
 related-notes: 
 tags: 

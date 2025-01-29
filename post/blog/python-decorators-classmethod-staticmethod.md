@@ -7,8 +7,8 @@ categories:
 date: 2025-01-29T09:51:26-08:00
 draft: true
 notes: blog
-related-notes: 
-tags: 
+related-notes:
+tags:
 title: Python Decorators `classmethod` and `staticmethod`
 ---
 
@@ -20,8 +20,8 @@ Use `@staticmethod` when you need a function inside a class but don't need class
 
 | Decorator       | Receives `cls`? | Receives `self`? | Can modify class variables? | Can modify instance variables? |
 | --------------- | :-------------: | :--------------: | :-------------------------: | :----------------------------: |
-| `@classmethod`  |      ✅ Yes      |       ❌ No       |            ✅ Yes            |              ❌ No              |
-| `@staticmethod` |      ❌ No       |       ❌ No       |            ❌ No             |              ❌ No              |
+| `@classmethod`  |     ✅ Yes      |      ❌ No       |           ✅ Yes            |             ❌ No              |
+| `@staticmethod` |      ❌ No      |      ❌ No       |            ❌ No            |             ❌ No              |
 
 ## Decorators `@classmethod` and `@staticmethod`
 
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     main()  # Runs only if the script is executed directly
 ```
 
-### `@classmethod` 
+### `@classmethod`
 
 - A class method receives **the class itself** (`cls`) as the first argument.
 - It can access and modify **class variables** but **not instance variables**.

@@ -27,7 +27,7 @@ Use `@staticmethod` when you need a function inside a class but don't need class
 
 <!-- [Propose edits or changes on GitHub](link to GitHub repo of file) -->
 
-<!-- Propose edits or changes on GitHub -->
+[Propose edits or changes on GitHub](https://github.com/matt2ology/tech-journal-and-blog-content/blob/main/post/blog/python-decorators-classmethod-staticmethod.md)
 
 In Python, `@classmethod` and `@staticmethod` are **decorators** used to define methods inside a class. They change how the method behaves and how it interacts with the class and its instances.
 

@@ -15,8 +15,6 @@ title: "{{name}}"
 
 <!-- [Propose edits or changes on GitHub](link to GitHub repo of file) -->
 
-Propose edits or changes on GitHub
-
 ## Related blogs
 
 <!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}}) -->

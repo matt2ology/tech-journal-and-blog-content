@@ -10,6 +10,7 @@ notes: reference
 tags: readwise, reference/articles, consumed
 title: Reference - systems-thinking.org - Data, Information, Knowledge, and Wisdom
 ---
+
 ## Data, Information, Knowledge, and Wisdom (Highlights)
 
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
@@ -19,6 +20,7 @@ Source published date: None
 **Link:** [Data, Information, Knowledge, and Wisdom](https://www.systems-thinking.org/dikw/dikw.htm)
 
 ## Highlights
+
 ### id843926141
 
 > According to Russell Ackoff, a systems theorist and professor of organizational change,
@@ -30,12 +32,13 @@ Source published date: None
 ### id843927926
 
 > content of the human mind can be classified into five categories:
->   1. **Data**: symbols 
->   2. **Information**: data that are processed to be useful; provides answers to "who", "what", "where", and "when" questions 
->   3. **Knowledge**: application of data and information; answers "how" questions 
->   4. **Understanding**: appreciation of "why" 
->   5. **Wisdom**: evaluated understanding.
-> \- [(View Highlight)](https://read.readwise.io/read/01jjgnb14nygx8a7j6bdrbmf06)
+>
+> 1. **Data**: symbols
+> 2. **Information**: data that are processed to be useful; provides answers to "who", "what", "where", and "when" questions
+> 3. **Knowledge**: application of data and information; answers "how" questions
+> 4. **Understanding**: appreciation of "why"
+> 5. **Wisdom**: evaluated understanding.
+>    \- [(View Highlight)](https://read.readwise.io/read/01jjgnb14nygx8a7j6bdrbmf06)
 
 ### id843925569
 
@@ -124,4 +127,3 @@ This is taken as "fact" without making one go through the exercises to understan
 
 > the transitions from data, to information, to knowledge, and finally to wisdom, and it is understanding that support the transition from each stage to the next. Understanding is not a separate level of its own.
 > \- [(View Highlight)](https://read.readwise.io/read/01jjgprjgtz6r3zhxacbxahpdv)
-

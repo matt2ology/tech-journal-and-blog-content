@@ -11,6 +11,7 @@ notes: reference
 tags: readwise, reference/books
 title: Reference - Greg Deckler - Learn Power BI
 ---
+
 ## Learn Power BI (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/8134bCWKChL._SY160.jpg)
@@ -18,6 +19,7 @@ title: Reference - Greg Deckler - Learn Power BI
 Source published date: None
 
 ## Highlights
+
 ### Location 332
 
 > This book is an entry-level guide specifically designed to get you up and running quickly with Power BI, including data import and transformation, data modeling, visualization, and analytical techniques without any prior knowledge of BI or Power BI.
@@ -51,4 +53,3 @@ The goal
 
 **Initial thought or note on:** [(Location 447)](https://readwise.io/to_kindle?action=open&asin=B09K4479P2&location=447)
 What gets tracked gets managed. With "proper" data, information, knowledge, and insights one individual or an organization can achieve wisdom to make meaningful, well informed, decisions and create impact. The author continues by relating it to one’s own life if they were to remodel a bathroom. The prices and details in the quotes from various contractors are pieces of data better inform us, the individual, to select the best contractor for our needs and budget. The additional research we do online benefits our decision with more confidence.
-

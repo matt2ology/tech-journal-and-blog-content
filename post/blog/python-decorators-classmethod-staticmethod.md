@@ -100,6 +100,5 @@ if __name__ == "__main__":
 
 ## Related blogs
 
-<!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}}) -->
 
 -

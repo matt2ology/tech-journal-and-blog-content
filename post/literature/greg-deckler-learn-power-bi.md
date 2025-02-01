@@ -21,7 +21,7 @@ title: Literature - Greg Deckler - Learn Power BI
 > so, to introduce to Power Bi ecosystem, provide a basic understanding of
 > basic BI concepts, and how BI projects are constructed.
 
-[Link to reference note - Learn Power BI Reference]({{< ref "post/reference/books/rwd-greg-deckler-learn-power-bi.md" >}})
+[Link to reference note - Learn Power BI Reference]({{% ref "/post/reference/books/rwd-greg-deckler-learn-power-bi.md" %}})
 
 ## Key Ideas
 

@@ -10,6 +10,7 @@ date: 2025-01-30T09:27:34-08:00
 draft: false
 notes: blog
 related-notes:
+  - "[[python-decorators-classmethod-staticmethod]]"
 tags:
   - selenium
 title: Testing Frontend Forms with Selenium and Python
@@ -187,4 +188,4 @@ class TestBtpRequest(BaseBtpRequest):
 ```
 ## Related blogs
 
--
+- [Python Decorators `classmethod` and `staticmethod`]({{< ref "python-decorators-classmethod-staticmethod.md" >}})

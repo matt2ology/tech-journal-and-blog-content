@@ -8,7 +8,8 @@ date: 2025-01-29T09:51:26-08:00
 draft: false
 notes: blog
 related-notes:
-tags:
+  - "[[testing-frontend-forms-with-selenium-and-python]]"
+tags: 
 title: Python Decorators `classmethod` and `staticmethod`
 ---
 

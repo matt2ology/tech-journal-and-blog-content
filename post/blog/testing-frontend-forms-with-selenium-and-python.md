@@ -110,7 +110,7 @@ class BaseTest(unittest.TestCase):
     def _login(driver):
         username_field = driver.find_element(By.ID, "loginUsername")
         login_button = driver.find_element(By.TAG_NAME, "button")
-        username_field.send_keys("MMendoz5")
+        username_field.send_keys("my_username")
         login_button.click()
 
     @staticmethod

@@ -99,4 +99,4 @@ if __name__ == "__main__":
 
 ## Related blogs
 
--
+- [Testing Frontend Forms with Selenium and Python]({{< ref "testing-frontend-forms-with-selenium-and-python.md" >}})

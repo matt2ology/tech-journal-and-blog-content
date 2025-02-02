@@ -17,6 +17,6 @@ title: "{{title}}"
 
 ## Related blogs
 
-<!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}})
+<!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}}) -->
 
 -

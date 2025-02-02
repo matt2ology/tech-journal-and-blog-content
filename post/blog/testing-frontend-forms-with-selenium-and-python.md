@@ -13,6 +13,7 @@ related-notes:
   - "[[python-decorators-classmethod-staticmethod]]"
 tags:
   - selenium
+  - unittest
 title: Testing Frontend Forms with Selenium and Python
 ---
 
@@ -37,7 +38,7 @@ user acceptance tests.
 ### Action
 
 To ensure the functionality of the web form application, I developed an
-automated test script in Python using the `unittest` library and Selenium.
+automated test script in Python using the [`unittest` library](https://realpython.com/python-unittest/) and [Selenium](https://selenium-python.readthedocs.io/getting-started.html).
 This script systematically fills out and submits the form, verifying that all
 required fields function correctly and that the submitted proposal request
 appears accurately in the system.

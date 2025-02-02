@@ -186,6 +186,7 @@ class TestBtpRequest(BaseBtpRequest):
             self._log_to_csv(test_name, test_result, e)
             raise
 ```
+
 ## Related blogs
 
 - [Python Decorators `classmethod` and `staticmethod`]({{< ref "python-decorators-classmethod-staticmethod.md" >}})

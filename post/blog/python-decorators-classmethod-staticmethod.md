@@ -9,7 +9,7 @@ draft: false
 notes: blog
 related-notes:
   - "[[testing-frontend-forms-with-selenium-and-python]]"
-tags: 
+tags:
 title: Python Decorators `classmethod` and `staticmethod`
 ---
 

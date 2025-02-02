@@ -149,7 +149,8 @@ from base_test import BaseTest
 class BaseBtpRequest(BaseTest):
     @classmethod
     def setUpClass(cls):
-        super(BaseBtpRequest, cls).setUpClass()  # Correct way to call super in a class method
+        # Correct way to call super in a class method
+        super(BaseBtpRequest, cls).setUpClass()
         cls.driver.get(
             "https://dev.app.com/submission/edit")
 ```

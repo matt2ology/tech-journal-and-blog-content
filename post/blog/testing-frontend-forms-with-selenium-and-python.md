@@ -5,6 +5,7 @@ categories:
   - blog
   - python
   - START
+  - automated-testing
 date: 2025-01-30T09:27:34-08:00
 draft: false
 notes: blog

@@ -7,7 +7,7 @@ categories:
 date: 2025-02-02T22:12:48-08:00
 draft: true
 notes: blog
-related-notes: 
+related-notes:
 tags:
   - advent-of-code-2024
 title: advent-of-code-2024
@@ -23,7 +23,6 @@ my own life that requires a constant stream of unique solutions.
 Thinking that all elements of my own life requires a solution that needs
 to be on the cloud and leverages generative AI is the same logical fallacy
 that all problems can be resolved with a hammer... Well yes, but my gosh.
-
 
 ## Related blogs
 

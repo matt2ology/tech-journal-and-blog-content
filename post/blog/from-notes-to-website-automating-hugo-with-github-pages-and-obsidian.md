@@ -409,6 +409,8 @@ adhere to what Hugo expects.
 
 [Configure Hugo modules `excludeFiles`](https://gohugo.io/hugo-modules/configuration/#module-config-mounts) - configuration options for a module
 
+#### YAML configuration
+
 To fix this possible issue consider adding the following to your Hugo project's YAML file; `C:\Users\username\projects\hugo-site\hugo.yaml`
 
 ```YAML

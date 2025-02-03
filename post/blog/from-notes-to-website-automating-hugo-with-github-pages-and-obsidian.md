@@ -421,6 +421,8 @@ module:
       target: content
 ```
 
+#### TOML configuration
+
 If you're using TOML as your configuration file add the following:
 
 ```toml

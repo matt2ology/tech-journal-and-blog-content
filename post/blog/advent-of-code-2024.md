@@ -30,7 +30,7 @@ But this time, it's different. Unlike previous years, I’m no longer juggling t
 
 Now that I’m graduated and employed, I have the privilege to focus on my career. I no longer need to _work to live_—instead, I get to _live to work_.
 
-For me, the barrier to all this was earning that first degree. It’s a challenge many face, but one that’s worth it, as [research shows]((https://www.ppic.org/publication/is-college-worth-it/#:~:text=Society%20benefits%20from%20higher%20education,-Higher%20education%20is&text=In%20addition%20to%20having%20higher,poverty%20or%20need%20social%20services.), both for personal growth and the broader social benefits it brings.
+For me, the barrier to all this was earning that first degree. It’s a challenge many face, but one that’s worth it, as [research shows](https://www.ppic.org/publication/is-college-worth-it/#:~:text=Society%20benefits%20from%20higher%20education,-Higher%20education%20is&text=In%20addition%20to%20having%20higher,poverty%20or%20need%20social%20services.), both for personal growth and the broader social benefits it brings.
 
 All developments in my journey of the previous, 2024, Advent of Code in Python
 can be found here: <https://github.com/matt2ology/advent-of-code-2024-python>

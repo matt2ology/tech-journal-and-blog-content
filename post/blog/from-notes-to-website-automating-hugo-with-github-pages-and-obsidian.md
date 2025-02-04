@@ -35,7 +35,7 @@ If this sounds beneficial to your needs or workflow you can follow these steps:
 
 In addition to the [prerequisites describe on Hugo's own site](https://gohugo.io/installation/windows/) you'd also need to install [Obsidian](https://obsidian.md/download).
 
-### 1. Repository Structure
+### Repository Structure
 
 1. **Hugo Framework/GitHub Pages Repository**: use [GitHub Pages](https://pages.github.com/) user repository (`username.github.io`) to deploy the generated static site.
 2. **Content Submodule**: use [Obsidian notes](https://obsidian.md/) for managing content (`obsidian-notes-repo`).
@@ -43,7 +43,7 @@ In addition to the [prerequisites describe on Hugo's own site](https://gohugo.io
 3. **Theme Submodule:** there are many [Hugo themes](https://themes.gohugo.io/) to select from take your pick.
    - I will be using Hugo theme "[Stack](https://github.com/CaiJimmy/hugo-theme-stack)" by [Jimmy Cai](https://jimmycai.com/)
 
-### 2. Initial Setup
+### Initial Setup
 
 1. **Content Repository**: Set up an Obsidian vault (i.e. a folder on your local file system where Obsidian stores your notes) and initialize a Git repository there.
 
@@ -121,7 +121,7 @@ This is because the directory is already populated with a `content` folder and a
 
 **NOTE** - if you're not using [Jimmy Cai](https://jimmycai.com/)'s [Hugo Stack theme](https://github.com/CaiJimmy/hugo-theme-stack) your `themes/` submodule will read differently than what I have listed
 
-### 3. Configure GitHub Actions
+### Configure GitHub Actions
 
 Hosting on GitHub Pages with continuous deployment is as easy as following the steps found here: <https://gohugo.io/hosting-and-deployment/hosting-on-github/>
 
@@ -409,6 +409,8 @@ adhere to what Hugo expects.
 
 [Configure Hugo modules `excludeFiles`](https://gohugo.io/hugo-modules/configuration/#module-config-mounts) - configuration options for a module
 
+#### YAML configuration
+
 To fix this possible issue consider adding the following to your Hugo project's YAML file; `C:\Users\username\projects\hugo-site\hugo.yaml`
 
 ```YAML
@@ -418,6 +420,8 @@ module:
       source: content
       target: content
 ```
+
+#### TOML configuration
 
 If you're using TOML as your configuration file add the following:
 

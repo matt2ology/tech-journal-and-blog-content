@@ -24,6 +24,7 @@
   "sync": false,
   "tag-pane": true,
   "templates": true,
+  "webviewer": false,
   "word-count": true,
   "workspaces": false,
   "zk-prefixer": false

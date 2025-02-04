@@ -7,10 +7,10 @@ categories:
 date: 2025-02-02T22:12:48-08:00
 draft: false
 notes: blog
-related-notes:
+related-notes: 
 tags:
   - advent-of-code-2024
-title: advent-of-code-2024
+title: Advent of Code 2024
 ---
 
 ## Advent of Code 2024

@@ -41,11 +41,11 @@ To avoid the trap of self-doubt and the spiral of frustration, I will set a smal
 
 1. Practice problem-solving with Python, without relying on GitHub Copilot.
 2. Embrace Test-Driven Development (TDD):
-    1. Write the test first - watch it fail.
-    2. Implement a passing solution.
-    3. Refactor the code (restructure without changing its functionality):
-        1. Convert if-statements into functions.
-        2. Group similar functions or modify shared variables into a class.
+   1. Write the test first - watch it fail.
+   2. Implement a passing solution.
+   3. Refactor the code (restructure without changing its functionality):
+      1. Convert if-statements into functions.
+      2. Group similar functions or modify shared variables into a class.
 3. Learn and apply [`pytest`](https://docs.pytest.org/en/stable/) as my testing framework.
 
 If at any point I feel a sense of understanding, I’m under no obligation to continue - my goal is to practice, reflect, and document my progress.

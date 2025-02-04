@@ -63,8 +63,8 @@ is to come out of this knowing more than I did before.
 These goals are ideally more attune to "someday-maybes" and no promise
 to anyone or anybody else that I'll have them completed.
 
-- Do the same practice in [Golang](https://go.dev/) and it's environment
-- Do the same practice in [Rust](https://www.rust-lang.org/) and it's environment
+- Do the same practice in [Golang](https://go.dev/) and its environment
+- Do the same practice in [Rust](https://www.rust-lang.org/) and its environment
 - Do the same, but practice using Python's own, built-in, `unittest`
 - Do the same, but implement a Graphical User Interface (GUI)
 

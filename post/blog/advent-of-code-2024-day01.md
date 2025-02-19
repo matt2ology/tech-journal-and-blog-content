@@ -16,12 +16,12 @@ title: Advent of Code 2024 Day 01
 
 ## Day 1: Historian Hysteria
 
- [Advent of Code 2024]({{< ref "advent-of-code-2024.md" >}})
+[Advent of Code 2024]({{< ref "advent-of-code-2024.md" >}})
 
 ### The problem
 
 > By holding the two lists up side by side, it quickly becomes clear that the lists aren't very similar. Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the smallest number in the left list with the smallest number in the right list, then the second-smallest left number with the second-smallest right number, and so on.
-> 
+>
 > For example, if you pair up a `3` from the left list with a `7` from the right list, the distance apart is `4`; if you pair up a `9` with a `3`, the distance apart is `6`.
 
 ### Decomposition of Problem: Divide-and-conquer / Stepwise Refinement

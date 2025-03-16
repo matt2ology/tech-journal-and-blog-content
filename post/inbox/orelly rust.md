@@ -49,7 +49,7 @@ takes care the download, and links everything together.
 
 ## **Introduction:** A Tour of Rust
 
-The authors recommend to follow the instructions described here <https://rustup.rs/> 
+The authors recommend to follow the instructions described here <https://rustup.rs/>
 to install Rust; however, one can also install Rust via the prebuilt packages shared
 on the Rust website.
 
@@ -79,7 +79,7 @@ rustdoc --version
 - **`rustdoc`**: much like `rustc` sometimes we just want to build documentation from our formatted comments in code without compiling source code. `rustdoc` will take our comments from code and build out an HTML documentation page.
 
 Cargo is a great general purpose tool that does various typical/routine tasks;
-like, cleaning-up (removing) the previous compiled build of your program stored in 
+like, cleaning-up (removing) the previous compiled build of your program stored in
 (`../target/debug/projectName`).
 
 ```sh
@@ -90,10 +90,10 @@ cargo clean
 
 Rust adopts/follows the C-like family syntax
 
-Rust makes you declaratively define if your integers are signed or not, and their bit-size 
-(e.g. `i64` for signed 64 bit size integers; `u32` for unsigned 32 bit integers; and for byte 
-values `u8` is used for that). Both `isize` (signed integers) and `usize` (unsigned integers) 
-hold pointer-sized signed and unsigned integers that are of 32 or 64 bit long respective to 
+Rust makes you declaratively define if your integers are signed or not, and their bit-size
+(e.g. `i64` for signed 64 bit size integers; `u32` for unsigned 32 bit integers; and for byte
+values `u8` is used for that). Both `isize` (signed integers) and `usize` (unsigned integers)
+hold pointer-sized signed and unsigned integers that are of 32 or 64 bit long respective to
 it's targeted bit-size platform.
 
 Rust's floating-point types, `f32` and `f64`, follows the IEEE standard for single- and double-
@@ -143,13 +143,13 @@ fn main() {
 }
 ```
 
-However, if you'd like to be declarative and verbose as to what that type your `let`, local, variable is you can do so in the following fashion: 
+However, if you'd like to be declarative and verbose as to what that type your `let`, local, variable is you can do so in the following fashion:
 
 ```rust
 let varableName: u64 = foobard
 ```
 
-Rust has a `return` statement, but by convention any function body or block of code with curly braces that has an expression that doesn't have a semicolon (i.e. `;`)  is the function or block of code's return value
+Rust has a `return` statement, but by convention any function body or block of code with curly braces that has an expression that doesn't have a semicolon (i.e. `;`) is the function or block of code's return value
 
 ```rust
 {
@@ -176,6 +176,7 @@ fn test_myfunction(){
 ```
 
 Attributes in Rust controls
+
 - Compiler warnings
 - Code style checks
 - Conditional code inclusion (like in C/CPP's `#ifdef`): dictate how Rust interacts with code written in other languages

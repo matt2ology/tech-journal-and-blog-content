@@ -8,8 +8,8 @@ categories:
 date: 2025-02-23T21:08:39-08:00
 draft: false
 notes: blog
-related-notes: 
-tags: 
+related-notes:
+tags:
 title: How to setup a USB thermal printer using ESC/POS commands with a Raspberry Pi
 ---
 
@@ -19,7 +19,7 @@ title: How to setup a USB thermal printer using ESC/POS commands with a Raspberr
 
 Inspired from [IEEE Spectrum short video: Here's how to build the perfect cryptographic machine](https://youtube.com/shorts/Nyf0d2rZQV0?si=GaLDK8N-HZI4nOhX), and full guide by [IEEE Spectrum's Director of Special Projects - Stephen Cass](https://spectrum.ieee.org/diy-one-time-pad-machine), compelled me to buy on Amazon a [Rongta RP332 POS Printer, 80mm Direct Thermal Receipt Printer with Auto Cutter, USB Serial Ethernet Interface](https://a.co/d/1DgqVRx).
 
-This "how-to" details the commands and steps I've executed to get started and have text 
+This "how-to" details the commands and steps I've executed to get started and have text
 printed to the thermal printer.
 
 ### Setup the Raspberry Pi & Printer
@@ -46,14 +46,14 @@ when connected via USB populated as:
 
 > `Bus 001 Device 003: ID 0fe6:811e ICS Advent Parallel Adapter`
 
-Without any options, it provides a concise list of connected USB devices basic output 
+Without any options, it provides a concise list of connected USB devices basic output
 typically shows:
 
 - **Bus Number:** \[`001`\] The USB bus the device is connected to.  
 - **Device Number:** \[`003`\] The device's unique number on that bus.  
 - **ID:** \[`0fe6:811e`\] The vendor and product IDs (in hexadecimal format).
-    - **Vender ID:** `0fe6`: This is the vendor ID, identifying ICS Advent.
-    - **Product ID:** `811e`: This is the product ID, specifically for their parallel adapter.
+  - **Vender ID:** `0fe6`: This is the vendor ID, identifying ICS Advent.
+  - **Product ID:** `811e`: This is the product ID, specifically for their parallel adapter.
 - **Device Description:** \[`ICS Advent Parallel Adapter`\] A brief description of the device.
 
 I can find out more detailed information by using the following command format
@@ -114,34 +114,34 @@ TEST_TEXT = (
     ESC_DOUBLE_WIDTH + ESC_DOUBLE_HEIGHT + ESC_BOLD_ON + b"TEST PRINT - FORMATTING\n" +
     ESC_NORMAL + ESC_BOLD_OFF +
     b"---------------------------------------\n\n" +
-    
+
     # Bold Text
     ESC_BOLD_ON + b"Bold Text Example\n" + ESC_BOLD_OFF +
-    
+
     # Underlined Text
     ESC_UNDERLINE_ON + b"Underlined Text Example\n" + ESC_UNDERLINE_OFF +
-    
+
     # Reversed (Inverted) Text
     ESC_REVERSE_ON + b"Reversed (Inverted) Text Example\n" + ESC_REVERSE_OFF +
-    
+
     # Double Width Text
     ESC_DOUBLE_WIDTH + b"Double Width Text Example\n" + ESC_NORMAL +
-    
+
     # Double Height Text
     ESC_DOUBLE_HEIGHT + b"Double Height Text Example\n" + ESC_NORMAL +
-    
+
     # Mixed Formatting
     b"Mixing Styles: " +
     ESC_BOLD_ON + b"Bold " + ESC_BOLD_OFF +
     ESC_UNDERLINE_ON + b"Underlined " + ESC_UNDERLINE_OFF +
     ESC_DOUBLE_WIDTH + b"Double Width " + ESC_NORMAL +
     ESC_DOUBLE_HEIGHT + b"Double Height" + ESC_NORMAL + b"\n\n" +
-    
+
     # Normal text with Lorem Ipsum sample
     b"Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
     b"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n" +
     b"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n" +
-    
+
     ESC_FEED_LINES +
     ESC_CUT_PAPER
 )
@@ -162,4 +162,3 @@ except Exception as e:
 <!-- ## Related blogs -->
 
 <!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}}) -->
-

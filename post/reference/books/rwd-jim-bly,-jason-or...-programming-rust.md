@@ -11,6 +11,7 @@ notes: reference
 tags: readwise, reference/books
 title: Reference - Jim Blandy, Jason Orendorff, and Leonora F. S. Tindall - Programming Rust
 ---
+
 ## Programming Rust (Highlights)
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/91syf9W6vpS._SY160.jpg)
@@ -18,6 +19,7 @@ title: Reference - Jim Blandy, Jason Orendorff, and Leonora F. S. Tindall - Prog
 Source published date: None
 
 ## Highlights
+
 ### Location 42
 
 > systems programming is resource-constrained programming. It is programming when every byte and every CPU cycle counts.
@@ -141,7 +143,7 @@ Just build the documation Rust documentation tool.
 > \- [(Location 304)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=304)
 
 **Initial thought or note on:** [(Location 304)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=304)
-The standard metadata is stored within the Cargo.toml file. It describes basic information on the Rust package and its dependencies. For example: ```toml [package] name = "hello" version = "0.1.0" edition = "2021" [dependencies] ```
+The standard metadata is stored within the Cargo.toml file. It describes basic information on the Rust package and its dependencies. For example: `toml [package] name = "hello" version = "0.1.0" edition = "2021" [dependencies] `
 
 ### Location 329
 
@@ -149,7 +151,7 @@ The standard metadata is stored within the Cargo.toml file. It describes basic i
 > \- [(Location 329)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=329)
 
 **Initial thought or note on:** [(Location 329)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=329)
-```sh cargo new <projectName> --vcs none ```
+`sh cargo new <projectName> --vcs none `
 
 ### Location 342
 
@@ -165,7 +167,7 @@ You don't need to be in the "projectName/src" folder. As long as you're in the p
 > \- [(Location 359)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=359)
 
 **Initial thought or note on:** [(Location 359)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=359)
-The command ```sh cargo clean ``` "Cleans" out the previous compiled build of your program stored in (../target/debug/projectName).
+The command `sh cargo clean ` "Cleans" out the previous compiled build of your program stored in (../target/debug/projectName).
 
 ### Location 362
 
@@ -242,7 +244,7 @@ Used only in functions. Rust infers the variable type given the surrounding cont
 > \- [(Location 428)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=428)
 
 **Initial thought or note on:** [(Location 428)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=428)
-```rust { println!("The value of x is: "); x } ```
+`rust { println!("The value of x is: "); x } `
 
 ### Location 435
 
@@ -275,4 +277,3 @@ Is this similar to a "decorator" in Python?
 
 **Initial thought or note on:** [(Location 527)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=527)
 Types as in varable types: `u8`, `u32`, `u64`, `i32`, `i64`, `f32`, `f64`
-

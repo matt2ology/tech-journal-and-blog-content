@@ -5,9 +5,9 @@ categories:
   - literature
 date: 2025-03-17T00:11:49-07:00
 draft: true
-media: 
+media:
 notes: literature
-related-notes: 
+related-notes:
 tags:
   - literature/book
 title: Literature - O'Reilly Programming Rust
@@ -1010,4 +1010,3 @@ Understanding traits and generics opens you to the rest of the book
 #### A Safe Interface to libgit2
 
 #### Conclusion
-

@@ -24,7 +24,7 @@ Source published date: None
 > \- [(Location 42)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=42)
 
 **Initial thought or note on:** [(Location 42)](https://readwise.io/to_kindle?action=open&asin=B0979PWD4Z&location=42)
-Think budget, edge, embedded, IOT devices; and, operating systems, device drivers of all kinds, filesystems, databases, cryptography, media codecs, media processing, memory management, text rendering, networking, virtualization and software conatainersm, video games, and the alike...
+Think budget, edge, embedded, IOT devices; and, operating systems, device drivers of all kinds, filesystems, databases, cryptography, media codecs, media processing, memory management, text rendering, networking, virtualization and software containers, video games, and the alike...
 
 ### Location 47
 

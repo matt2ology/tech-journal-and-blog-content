@@ -84,7 +84,7 @@ echo -e 'Hello, Thermal Printer!\n' | sudo tee /dev/usb/lp0
 
 ### Test Script
 
-This Python script is designed to send formatted text to a thermal receipt printer using 
+This Python script is designed to send formatted text to a thermal receipt printer using
 [ESC/POS (Escape Sequence for Point of Sale) commands](https://escpos.readthedocs.io/en/latest/index.html).
 
 ```python

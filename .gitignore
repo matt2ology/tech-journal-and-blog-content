@@ -6,6 +6,7 @@
 
 # Don't ignore the following plug-in configurations
 !.obsidian/plugins/quickadd/data.json
+!.obsidian/plugins/readwise-official/data.json
 
 # Exclude "bad" names
 null*

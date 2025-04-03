@@ -160,5 +160,3 @@ except Exception as e:
 ```
 
 <!-- ## Related blogs -->
-
-<!-- [Related blog post]({{< ref "/post/blog/path_to_file.md" >}}) -->

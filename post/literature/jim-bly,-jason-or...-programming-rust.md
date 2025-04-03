@@ -45,7 +45,7 @@ token, it argues and promotes to the developer to leverage parallelism, for it t
 as a last resort optimization on modern machines.
 
 As a result, Rust is a great language to learn and fully utilize the full feature set of modern
-mulit-core machines.
+multi-core machines.
 
 The Rust ecosystem not only has the usual concurrency privatives, for it also helps distribute
 work loads evenly across pools of processors via lock-free synchronization mechanisms like:

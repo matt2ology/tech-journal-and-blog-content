@@ -14,7 +14,7 @@ tags:
 title: Advent of Code 2024 Day 01
 ---
 
-## Day 1: Historian Hysteria
+## [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)
 
 [Advent of Code 2024]({{< ref "advent-of-code-2024.md" >}})
 
@@ -24,6 +24,29 @@ title: Advent of Code 2024 Day 01
 >
 > For example, if you pair up a `3` from the left list with a `7` from the right list, the distance apart is `4`; if you pair up a `9` with a `3`, the distance apart is `6`.
 
+Example input
+
+```text
+3   4
+4   3
+2   5
+1   3
+3   9
+3   3
+```
+
+Example input when processed
+
+```text
+1   3 delta of 2
+2   3 delta of 1
+3   3 delta of 0
+3   4 delta of 1
+3   5 delta of 2
+4   9 delta of 5
+=====
+sum of 11
+```
 ### Decomposition of Problem: Divide-and-conquer / Stepwise Refinement
 
 - **Sequence**: First, pair up numbers from the left and right list in order (smallest to smallest, second smallest to second smallest, etc.).
@@ -32,4 +55,4 @@ title: Advent of Code 2024 Day 01
 
 ## Research Log
 
-- [Get name of current script in Python](https://stackoverflow.com/questions/4152963/get-name-of-current-script-in-python)
+-  [python read from file](https://www.w3schools.com/python/python_file_open.asp)

@@ -47,6 +47,7 @@ Example input when processed
 =====
 sum of 11
 ```
+
 ### Decomposition of Problem: Divide-and-conquer / Stepwise Refinement
 
 - **Sequence**: First, pair up numbers from the left and right list in order (smallest to smallest, second smallest to second smallest, etc.).
@@ -55,4 +56,4 @@ sum of 11
 
 ## Research Log
 
--  [python read from file](https://www.w3schools.com/python/python_file_open.asp)
+- [python read from file](https://www.w3schools.com/python/python_file_open.asp)
